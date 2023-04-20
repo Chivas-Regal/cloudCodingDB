@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230418-0302-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="parallels-Parallels-Virtual-Platform"
+	OSRelease="5.15.0-40-generic"
+	OSVersion="#43-Ubuntu SMP Wed Jun 15 12:54:21 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="1970"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="1392"
+	>
+	<Testing>
+		<StartDateTime>Apr 18 07:05 +04</StartDateTime>
+		<StartTestTime>1681787126</StartTestTime>
+		<TestList>
+			<Test>./test_mempool</Test>
+			<Test>./test_thread</Test>
+			<Test>./test_sqlmanager</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_mempool</Name>
+			<Path>.</Path>
+			<FullName>./test_mempool</FullName>
+			<FullCommandLine>/projects/mem_socket/mem_socket_server/build/test_mempool</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0347585</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/projects/mem_socket/mem_socket_server/build/test_mempool</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_thread</Name>
+			<Path>.</Path>
+			<FullName>./test_thread</FullName>
+			<FullCommandLine>/projects/mem_socket/mem_socket_server/build/test_thread</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0387711</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/projects/mem_socket/mem_socket_server/build/test_thread</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>test_sqlmanager</Name>
+			<Path>.</Path>
+			<FullName>./test_sqlmanager</FullName>
+			<FullCommandLine>/projects/mem_socket/mem_socket_server/build/test_sqlmanager</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0991695</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/projects/mem_socket/mem_socket_server/build/test_sqlmanager</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 18 07:05 +04</EndDateTime>
+		<EndTestTime>1681787126</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

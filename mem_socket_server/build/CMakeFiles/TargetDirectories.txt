@@ -1,0 +1,8 @@
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/test_mempool.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/test_thread.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/mem_socket_server.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/memserverlib.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/test.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/edit_cache.dir
+/projects/mem_socket/mem_socket_server/build/CMakeFiles/rebuild_cache.dir

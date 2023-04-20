@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/projects/mem_socket/mem_socket_client/build",
+  "command": "/usr/bin/g++ -Dmem_socket_client_EXPORTS -I/projects/mem_socket/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o -c /projects/mem_socket/mem_socket_client/src/inet_address.cpp",
+  "file": "/projects/mem_socket/mem_socket_client/src/inet_address.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_client/build",
+  "command": "/usr/bin/g++ -Dmem_socket_client_EXPORTS -I/projects/mem_socket/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/socket.cpp.o -c /projects/mem_socket/mem_socket_client/src/socket.cpp",
+  "file": "/projects/mem_socket/mem_socket_client/src/socket.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_client/build",
+  "command": "/usr/bin/g++ -Dmem_socket_client_EXPORTS -I/projects/mem_socket/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/util.cpp.o -c /projects/mem_socket/mem_socket_client/src/util.cpp",
+  "file": "/projects/mem_socket/mem_socket_client/src/util.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_client/build",
+  "command": "/usr/bin/g++  -I/projects/mem_socket/mem_socket_client/include -g -pthread -std=gnu++20 -o CMakeFiles/memclientlib.dir/example/main.cpp.o -c /projects/mem_socket/mem_socket_client/example/main.cpp",
+  "file": "/projects/mem_socket/mem_socket_client/example/main.cpp"
+}
+]

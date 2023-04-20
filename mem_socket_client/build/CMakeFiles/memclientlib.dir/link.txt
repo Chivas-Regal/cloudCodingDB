@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/memclientlib.dir/example/main.cpp.o -o memclientlib  -Wl,-rpath,/projects/mem_socket/mem_socket_client/lib ../lib/libmem_socket_client.so 

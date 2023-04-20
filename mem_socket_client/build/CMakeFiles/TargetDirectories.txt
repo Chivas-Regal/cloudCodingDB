@@ -1,0 +1,4 @@
+/projects/mem_socket/mem_socket_client/build/CMakeFiles/mem_socket_client.dir
+/projects/mem_socket/mem_socket_client/build/CMakeFiles/memclientlib.dir
+/projects/mem_socket/mem_socket_client/build/CMakeFiles/edit_cache.dir
+/projects/mem_socket/mem_socket_client/build/CMakeFiles/rebuild_cache.dir

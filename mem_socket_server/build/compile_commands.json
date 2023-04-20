@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/channel.cpp.o -c /projects/mem_socket/mem_socket_server/src/channel.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/channel.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o -c /projects/mem_socket/mem_socket_server/src/epoll.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/epoll.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o -c /projects/mem_socket/mem_socket_server/src/eventloop.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/eventloop.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o -c /projects/mem_socket/mem_socket_server/src/inet_address.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/inet_address.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/server.cpp.o -c /projects/mem_socket/mem_socket_server/src/server.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/server.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/socket.cpp.o -c /projects/mem_socket/mem_socket_server/src/socket.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/socket.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/util.cpp.o -c /projects/mem_socket/mem_socket_server/src/util.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/util.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/memlist.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/memlist.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/memlist_bf.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/memlist_bf.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/memlist_ff.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/memlist_ff.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/memlist_wf.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/memlist_wf.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/memlistnode.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/memlistnode.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o -c /projects/mem_socket/mem_socket_server/src/memtools/mempool.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/memtools/mempool.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o -c /projects/mem_socket/mem_socket_server/src/usrinfo/sqlmanager.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/usrinfo/sqlmanager.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++ -Dmem_socket_server_EXPORTS -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -fPIC -std=gnu++20 -o CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o -c /projects/mem_socket/mem_socket_server/src/threads/threadpool.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/src/threads/threadpool.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++  -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -std=gnu++20 -o CMakeFiles/test_mempool.dir/test/mempool.cpp.o -c /projects/mem_socket/mem_socket_server/test/mempool.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/test/mempool.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++  -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -std=gnu++20 -o CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -c /projects/mem_socket/mem_socket_server/test/sqlmanager.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/test/sqlmanager.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++  -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -std=gnu++20 -o CMakeFiles/test_thread.dir/test/thread.cpp.o -c /projects/mem_socket/mem_socket_server/test/thread.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/test/thread.cpp"
+},
+{
+  "directory": "/projects/mem_socket/mem_socket_server/build",
+  "command": "/usr/bin/g++  -I/projects/mem_socket/mem_socket_server/include -I/projects/mem_socket/mem_socket_server/include/memtools -I/projects/mem_socket/mem_socket_server/include/usrinfo -I/projects/mem_socket/mem_socket_server/include/threads -I/usr/include/mysql -g -std=gnu++20 -o CMakeFiles/memserverlib.dir/example/main.cpp.o -c /projects/mem_socket/mem_socket_server/example/main.cpp",
+  "file": "/projects/mem_socket/mem_socket_server/example/main.cpp"
+}
+]

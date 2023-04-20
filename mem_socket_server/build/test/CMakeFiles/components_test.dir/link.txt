@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/components_test.dir/mempool.cpp.o CMakeFiles/components_test.dir/sqlmanager.cpp.o CMakeFiles/components_test.dir/thread.cpp.o -o components_test  -lmemserverlib 
