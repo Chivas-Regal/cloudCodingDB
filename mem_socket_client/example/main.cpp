@@ -23,6 +23,7 @@ mem_ask (int sockfd, const std::string& name, int n, T*) {
     // 传要获得的字节数
     buf = std::to_string(n * sizeof(T));
     sWrite(sockfd, buf);
+    std::string ack = sRead(sockfd);
 }
 
 template<class T> T
@@ -43,7 +44,7 @@ mem_read(int sockfd, const std::string& name, int beg) {
 
     // 获取字节序列
     uint8_t byteBuf[1024];
-    if (recv(sockfd, byteBuf, 1024, 0) == -1) {
+    if (recv(sockfd, &byteBuf, sizeof(byteBuf), 0) == -1) {
         std::cout << "recv error\n";
     }
     T *ret_pointer = new T();
@@ -62,6 +63,7 @@ mem_read(int sockfd, const std::string& name, int beg) {
     }
     T ret = *ret_pointer;
     delete ret_pointer;
+    std::string ack = sRead(sockfd);
     return ret;
 }
 template<class T> void
@@ -97,9 +99,10 @@ mem_write(int sockfd, const std::string& name, int beg, T value) {
             onemem --;
         }
     }
-    if (send(sockfd, byteBuf, 1024, 0) == -1) {
+    if (send(sockfd, &byteBuf, sizeof(byteBuf), 0) == -1) {
         std::cout << "send error\n";
     }
+    std::string ack = sRead(sockfd);
 }
 
 void mem_free (int sockfd, const std::string& name) {
@@ -110,6 +113,7 @@ void mem_free (int sockfd, const std::string& name) {
     // 传变量名
     buf = name;
     sWrite(sockfd, buf);
+    std::string ack = sRead(sockfd);
     
     // READ(sockfd, buf);
     // std::cout << buf << std::endl;
@@ -123,25 +127,22 @@ struct node {
 };
 
 int main () {
-    std::string s;
-    for (int i = 0; i < 100; i ++) s += '\0';
-    std::cout << s << " " << s.size() << std::endl;
-    return 0;
-    
     Socket *serv_sock = new Socket();
     InetAddress *serv_addr = new InetAddress("127.0.0.1", 7777);
     serv_sock->connect(serv_addr);
 
-    sWrite(serv_sock->getFd(), "123");
-    sWrite(serv_sock->getFd(), "123");
+    std::string ack = sRead(serv_sock->getFd());
 
+    sWrite(serv_sock->getFd(), "chivas-regal");
+    sWrite(serv_sock->getFd(), "@Zhangyize020110");
+    
     mem_ask(serv_sock->getFd(), "hello1", 100, (node*)nullptr);
     for (int i = 0; i < 100; i ++) {
         mem_write(serv_sock->getFd(), "hello1", i, node(i, i + 1));
     }
     for (int i = 0; i < 100; i ++) {
         node rd = mem_read<node>(serv_sock->getFd(), "hello1", i);
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        // std::this_thread::sleep_for(std::chrono::seconds(1));
         std::cout << rd.x << " " << rd.y << std::endl;
     }
     return 0;

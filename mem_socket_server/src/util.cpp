@@ -26,10 +26,13 @@ std::string sRead (int sockfd) {
         return std::string("e");
     }
     std::string ret;
+    int cnt = 0;
     for (int i = 0; buf[i] != '\n'; i ++) {
+        cnt ++;
         if (buf[i] != '\0') 
             ret += buf[i];
     }
+    std::cout << cnt << std::endl;
     return ret;
 }
 
