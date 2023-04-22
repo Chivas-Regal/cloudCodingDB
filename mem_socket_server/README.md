@@ -4,14 +4,17 @@
 
 ```
 .
+├── backup
+│   └── variable_info.txt
 ├── build
-... CMake 生成文件，不再放出来了
+... 生成文件，不再放出来了
 ├── CMakeLists.txt
-├── example                  
-│   └── main.cpp             
-├── include                  
-│   ├── channel.h            
-│   ├── epoll.h          
+├── example
+│   └── main.cpp
+├── include
+│   ├── channel.h
+│   ├── config.h
+│   ├── epoll.h
 │   ├── eventloop.h
 │   ├── inet_address.h
 │   ├── limits.h
@@ -24,26 +27,39 @@
 │   │   └── mempool.h
 │   ├── server.h
 │   ├── socket.h
+│   ├── threads
+│   │   └── threadpool.h
+│   ├── usrinfo
+│   │   └── sqlmanager.h
 │   └── util.h
 ├── lib
 │   ├── libmem_socket_server.dylib
-│   └── libmem_socket_server.so
+│   ├── libmem_socket_server.so
+│   └── libmysqlclient.so
 ├── README.md
-└── src
-    ├── channel.cpp
-    ├── epoll.cpp
-    ├── eventloop.cpp
-    ├── inet_address.cpp
-    ├── memtools
-    │   ├── memlist_bf.cpp
-    │   ├── memlist.cpp
-    │   ├── memlist_ff.cpp
-    │   ├── memlistnode.cpp
-    │   ├── memlist_wf.cpp
-    │   └── mempool.cpp
-    ├── server.cpp
-    ├── socket.cpp
-    └── util.cpp
+├── src
+│   ├── channel.cpp
+│   ├── epoll.cpp
+│   ├── eventloop.cpp
+│   ├── inet_address.cpp
+│   ├── memtools
+│   │   ├── memlist_bf.cpp
+│   │   ├── memlist.cpp
+│   │   ├── memlist_ff.cpp
+│   │   ├── memlistnode.cpp
+│   │   ├── memlist_wf.cpp
+│   │   └── mempool.cpp
+│   ├── server.cpp
+│   ├── socket.cpp
+│   ├── threads
+│   │   └── threadpool.cpp
+│   ├── usrinfo
+│   │   └── sqlmanager.cpp
+│   └── util.cpp
+└── test
+    ├── mempool.cpp
+    ├── sqlmanager.cpp
+    └── thread.cpp
 ```
 
 ## 使用说明
@@ -71,7 +87,7 @@ CREATE TABLE IF NOT EXISTS mem_socket_login_infos (
     username varchar(255) NOT NULL,
     password varchar(255) NOT NULL,
     PRIMARY KEY(username)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
 程序不存在注册功能，可登入用户信息需数据库管理员手动录入
@@ -105,7 +121,7 @@ make
 
 ## 客户端接入
 
-本服务端字符串均以 `read/write` 方式交互，`uint8_t` 类型的序列（字节序列）以 `send/recv` 方式交互
+本服务端客户端通信均以 `send/recv` 方式交互
 
 下面均是客户端应做的事情
 - 传入两个字符串代表登入用户的**账号**与**密码**
