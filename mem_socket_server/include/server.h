@@ -2,6 +2,8 @@
 
 #include "eventloop.h"
 #include "socket.h"
+#include "util.h"
+#include <cstring>
 
 class Server {
 public:

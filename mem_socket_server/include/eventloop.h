@@ -17,7 +17,7 @@ public:
     ~EventLoop ();
 
     void loop ();
-    void updateChannel(Channel* ch);
+    void updateChannel(Channel* ch, int ope = 1);
 
     void backup ();
     void restor ();

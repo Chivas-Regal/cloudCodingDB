@@ -1,4 +1,0 @@
-test_mempool 4 0.0495126
-test_sqlmanager 1 0.0991695
-test_thread 4 0.0417711
----

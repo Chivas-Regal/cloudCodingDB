@@ -52,10 +52,14 @@ void Epoll::addFd (int fd, uint32_t op) {
     );
 }
 
-void Epoll::updateChannel(Channel* ch) {
+void Epoll::updateChannel(Channel* ch, int ope) {
     epoll_event ev; bzero(&ev, sizeof(ev));
     ev.data.ptr = ch;
     ev.events = ch->getEvent();
+    if (ope == -1) {
+        epoll_ctl(epfd, EPOLL_CTL_DEL, ch->getFd(), &ev);
+        return;
+    }
     if (ch->isInEpoll()) {
         epoll_ctl(epfd, EPOLL_CTL_MOD, ch->getFd(), &ev);
     } else {

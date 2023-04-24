@@ -51,8 +51,8 @@ void EventLoop::loop() {
     }
 }
 
-void EventLoop::updateChannel(Channel* ch) {
-    ep->updateChannel(ch);
+void EventLoop::updateChannel(Channel* ch, int ope) {
+    ep->updateChannel(ch, ope);
 }
 
 void EventLoop::backup () {

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mem_socket_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mem_socket_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mem_socket_server-Debug-aa99495f010b446d7f3b.json",
+					"name" : "mem_socket_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "memserverlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-memserverlib-Debug-0dbc4289d78b49eab704.json",
+					"name" : "memserverlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mempool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mempool-Debug-5ab30092dbe0bab50d25.json",
+					"name" : "test_mempool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sqlmanager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sqlmanager-Debug-13599f213c979b5f754b.json",
+					"name" : "test_sqlmanager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_thread::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_thread-Debug-cdeda5f2e85c90c60e63.json",
+					"name" : "test_thread",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/projects/cloudCodingDB/mem_socket_server/build",
+		"source" : "/root/projects/cloudCodingDB/mem_socket_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

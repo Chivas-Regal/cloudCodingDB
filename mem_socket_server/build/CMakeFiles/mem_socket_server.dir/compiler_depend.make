@@ -8,17 +8,17 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   ../include/epoll.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/exception_defines.h \
@@ -45,42 +45,42 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/initializer_list \
@@ -89,7 +89,7 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/stl_construct.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_uninitialized.h \
@@ -101,16 +101,16 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/x86_64-linux-gnu/sys/epoll.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/aarch64-linux-gnu/sys/epoll.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/epoll.h \
   /usr/include/c++/11/cstdint \
   ../include/usrinfo/sqlmanager.h \
   /usr/include/mysql/mysql.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
   /usr/include/mysql/field_types.h \
   /usr/include/mysql/my_list.h \
   /usr/include/mysql/mysql_com.h \
@@ -118,7 +118,7 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/mysql/my_compress.h \
   /usr/include/mysql/udf_registration_types.h \
   /usr/include/mysql/client_plugin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/mysql/plugin_auth_common.h \
   /usr/include/mysql/mysql_version.h \
@@ -130,16 +130,16 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -149,23 +149,23 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/backward/binders.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/ranges_base.h \
   /usr/include/c++/11/bits/max_size_type.h \
@@ -174,19 +174,19 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/mutex \
@@ -207,7 +207,7 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -234,18 +234,20 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/climits \
   ../include/limits.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
-  /usr/include/x86_64-linux-gnu/sys/syscall.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
-  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/aarch64-linux-gnu/sys/syscall.h \
+  /usr/include/aarch64-linux-gnu/asm/unistd.h \
+  /usr/include/asm-generic/unistd.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/unique_ptr.h \
@@ -260,10 +262,10 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -271,9 +273,9 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/bits/semaphore_base.h \
   /usr/include/c++/11/bits/atomic_timed_wait.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
   /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -296,6 +298,23 @@ CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h
@@ -307,47 +326,47 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   ../include/eventloop.h \
   ../include/usrinfo/sqlmanager.h \
   /usr/include/mysql/mysql.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/mysql/field_types.h \
   /usr/include/mysql/my_list.h \
   /usr/include/mysql/mysql_com.h \
@@ -355,22 +374,22 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/mysql/my_compress.h \
   /usr/include/mysql/udf_registration_types.h \
   /usr/include/mysql/client_plugin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/cstdlib \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/mysql/plugin_auth_common.h \
   /usr/include/mysql/mysql_version.h \
@@ -406,20 +425,20 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -437,23 +456,23 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/string_view \
@@ -466,19 +485,19 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/vector \
@@ -504,7 +523,7 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -531,18 +550,20 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/climits \
   ../include/limits.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
-  /usr/include/x86_64-linux-gnu/sys/syscall.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
-  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/aarch64-linux-gnu/sys/syscall.h \
+  /usr/include/aarch64-linux-gnu/asm/unistd.h \
+  /usr/include/asm-generic/unistd.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/unique_ptr.h \
@@ -557,10 +578,10 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -568,9 +589,9 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/bits/semaphore_base.h \
   /usr/include/c++/11/bits/atomic_timed_wait.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
   /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -593,29 +614,26 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/sys/epoll.h \
-  /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/aarch64-linux-gnu/sys/epoll.h \
+  /usr/include/aarch64-linux-gnu/bits/epoll.h \
   ../include/util.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h
@@ -626,17 +644,17 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   ../include/epoll.h \
   ../include/channel.h \
   /usr/include/c++/11/functional \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/bits/move.h \
@@ -678,7 +696,7 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/ext/alloc_traits.h \
@@ -695,42 +713,42 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -741,27 +759,27 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -769,23 +787,23 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/ranges_base.h \
   /usr/include/c++/11/bits/max_size_type.h \
@@ -794,26 +812,26 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/x86_64-linux-gnu/sys/epoll.h \
-  /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/aarch64-linux-gnu/sys/epoll.h \
+  /usr/include/aarch64-linux-gnu/bits/epoll.h \
   ../include/usrinfo/sqlmanager.h \
   /usr/include/mysql/mysql.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
   /usr/include/mysql/field_types.h \
   /usr/include/mysql/my_list.h \
   /usr/include/mysql/mysql_com.h \
@@ -837,7 +855,7 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -861,18 +879,20 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/climits \
   ../include/limits.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
-  /usr/include/x86_64-linux-gnu/sys/syscall.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
-  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/aarch64-linux-gnu/sys/syscall.h \
+  /usr/include/aarch64-linux-gnu/asm/unistd.h \
+  /usr/include/asm-generic/unistd.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/ostream \
@@ -886,10 +906,10 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -897,9 +917,9 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/bits/semaphore_base.h \
   /usr/include/c++/11/bits/atomic_timed_wait.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
   /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -919,93 +939,89 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
   ../include/config.h
 
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp \
   /usr/include/stdc-predef.h \
   ../include/inet_address.h \
   /usr/include/c++/11/cstdint \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -1036,24 +1052,24 @@ CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -1064,10 +1080,10 @@ CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/initializer_list \
@@ -1078,23 +1094,23 @@ CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/string_view \
@@ -1107,19 +1123,19 @@ CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/cstring \
@@ -1131,41 +1147,41 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   ../include/memtools/memlist.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1192,7 +1208,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1213,49 +1229,49 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/locale_classes.h \
@@ -1266,17 +1282,17 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1293,17 +1309,17 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1314,17 +1330,17 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
   /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
@@ -1353,42 +1369,42 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: ../src/memtools/
   ../include/memtools/memlist_bf.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   ../include/memtools/memlist.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1415,7 +1431,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: ../src/memtools/
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1436,42 +1452,42 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: ../src/memtools/
   ../include/memtools/memlist_ff.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   ../include/memtools/memlist.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1498,7 +1514,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: ../src/memtools/
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1519,42 +1535,42 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o: ../src/memtools/
   ../include/memtools/memlist_wf.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   ../include/memtools/memlist.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1581,7 +1597,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o: ../src/memtools/
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1601,35 +1617,35 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o: ../src/memtools
   /usr/include/stdc-predef.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h
 
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mempool.cpp \
   /usr/include/stdc-predef.h \
@@ -1637,42 +1653,42 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   ../include/memtools/memlist_ff.h \
   ../include/memtools/memlistnode.h \
   /usr/include/c++/11/cstdio \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
   ../include/memtools/memlist.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -1699,7 +1715,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/stl_function.h \
@@ -1722,49 +1738,49 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1772,23 +1788,23 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/functional_hash.h \
   /usr/include/c++/11/bits/hash_bytes.h \
@@ -1799,12 +1815,12 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/mutex \
@@ -1825,7 +1841,7 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -1841,10 +1857,10 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -1853,8 +1869,8 @@ CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mem
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
@@ -1871,17 +1887,17 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   ../include/epoll.h \
   ../include/channel.h \
   /usr/include/c++/11/functional \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stl_function.h \
   /usr/include/c++/11/bits/move.h \
@@ -1923,7 +1939,7 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/ext/alloc_traits.h \
@@ -1940,42 +1956,42 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -1986,27 +2002,27 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -2014,23 +2030,23 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/cxxabi_forced.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/string_view \
   /usr/include/c++/11/bits/ranges_base.h \
   /usr/include/c++/11/bits/max_size_type.h \
@@ -2039,26 +2055,26 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/x86_64-linux-gnu/sys/epoll.h \
-  /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/aarch64-linux-gnu/sys/epoll.h \
+  /usr/include/aarch64-linux-gnu/bits/epoll.h \
   ../include/usrinfo/sqlmanager.h \
   /usr/include/mysql/mysql.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
   /usr/include/mysql/field_types.h \
   /usr/include/mysql/my_list.h \
   /usr/include/mysql/mysql_com.h \
@@ -2082,7 +2098,7 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
@@ -2106,18 +2122,20 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/climits \
   ../include/limits.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
-  /usr/include/x86_64-linux-gnu/sys/syscall.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
-  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/aarch64-linux-gnu/sys/syscall.h \
+  /usr/include/aarch64-linux-gnu/asm/unistd.h \
+  /usr/include/asm-generic/unistd.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/ostream \
@@ -2131,10 +2149,10 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -2142,9 +2160,9 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   /usr/include/c++/11/bits/semaphore_base.h \
   /usr/include/c++/11/bits/atomic_timed_wait.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
   /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_deque.h \
@@ -2164,102 +2182,98 @@ CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp \
   ../include/inet_address.h \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   ../include/util.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../include/config.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
-  /usr/include/strings.h
+  /usr/include/strings.h \
+  ../include/config.h
 
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/stdc-predef.h \
   ../include/socket.h \
   ../include/inet_address.h \
   /usr/include/c++/11/cstdint \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/aarch64-linux-gnu/bits/in.h \
   ../include/util.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -2270,16 +2284,16 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2288,9 +2302,9 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/move.h \
   /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -2311,35 +2325,35 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -2348,10 +2362,10 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/initializer_list \
@@ -2372,24 +2386,24 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
@@ -2397,31 +2411,31 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../include/limits.h \
-  /usr/include/x86_64-linux-gnu/sys/syslimits.h \
+  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
   /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h
 
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/threadpool.cpp \
   /usr/include/stdc-predef.h \
@@ -2429,17 +2443,17 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/mutex \
   /usr/include/c++/11/tuple \
   /usr/include/c++/11/utility \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stl_relops.h \
   /usr/include/c++/11/bits/stl_pair.h \
@@ -2473,33 +2487,33 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/chrono \
   /usr/include/c++/11/ratio \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/time.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2508,40 +2522,40 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ostream_insert.h \
@@ -2551,24 +2565,24 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -2577,18 +2591,18 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/string_view \
@@ -2600,11 +2614,11 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/std_mutex.h \
@@ -2618,18 +2632,20 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/climits \
   ../include/limits.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
-  /usr/include/x86_64-linux-gnu/sys/syscall.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd.h \
-  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
-  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/aarch64-linux-gnu/sys/syscall.h \
+  /usr/include/aarch64-linux-gnu/asm/unistd.h \
+  /usr/include/asm-generic/unistd.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/bits/syscall.h \
   /usr/include/c++/11/bits/std_thread.h \
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/unique_ptr.h \
@@ -2644,10 +2660,10 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -2655,9 +2671,9 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/th
   /usr/include/c++/11/bits/semaphore_base.h \
   /usr/include/c++/11/bits/atomic_timed_wait.h \
   /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/aarch64-linux-gnu/sys/time.h \
   /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   /usr/include/c++/11/queue \
   /usr/include/c++/11/deque \
   /usr/include/c++/11/bits/stl_uninitialized.h \
@@ -2693,47 +2709,47 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/stdc-predef.h \
   ../include/usrinfo/sqlmanager.h \
   /usr/include/mysql/mysql.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/mysql/field_types.h \
   /usr/include/mysql/my_list.h \
   /usr/include/mysql/mysql_com.h \
@@ -2741,22 +2757,22 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/mysql/my_compress.h \
   /usr/include/mysql/udf_registration_types.h \
   /usr/include/mysql/client_plugin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/c++/11/cstdlib \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/mysql/plugin_auth_common.h \
   /usr/include/mysql/mysql_version.h \
@@ -2792,20 +2808,20 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
@@ -2823,23 +2839,23 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/string_view \
@@ -2852,19 +2868,19 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/vector \
@@ -2890,7 +2906,7 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h
@@ -2898,17 +2914,17 @@ CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sq
 CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/iostream \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+  /usr/include/aarch64-linux-gnu/bits/timesize.h \
+  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+  /usr/include/aarch64-linux-gnu/bits/long-double.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -2918,19 +2934,19 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
   /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn.h \
+  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h \
+  /usr/include/aarch64-linux-gnu/bits/wchar.h \
+  /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2962,58 +2978,58 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/c++/11/debug/debug.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/aarch64-linux-gnu/bits/types.h \
+  /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+  /usr/include/aarch64-linux-gnu/bits/time64.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
   /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
   /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/aarch64-linux-gnu/bits/locale.h \
   /usr/include/c++/11/cctype \
   /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/aarch64-linux-gnu/bits/endian.h \
+  /usr/include/aarch64-linux-gnu/bits/endianness.h \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/aarch64-linux-gnu/bits/sched.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/aarch64-linux-gnu/bits/cpu-set.h \
   /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/aarch64-linux-gnu/bits/time.h \
+  /usr/include/aarch64-linux-gnu/bits/timex.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/c++/11/ext/new_allocator.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -3022,17 +3038,17 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+  /usr/include/aarch64-linux-gnu/sys/types.h \
   /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+  /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/aarch64-linux-gnu/sys/select.h \
+  /usr/include/aarch64-linux-gnu/bits/select.h \
+  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/initializer_list \
@@ -3053,24 +3069,24 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/aarch64-linux-gnu/bits/errno.h \
   /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/aarch64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
@@ -3078,10 +3094,10 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
@@ -3105,49 +3121,42 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/strings.h \
   ../include/util.h \
   /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+  /usr/include/aarch64-linux-gnu/bits/environments.h \
+  /usr/include/aarch64-linux-gnu/bits/confname.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/aarch64-linux-gnu/sys/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/aarch64-linux-gnu/bits/socket.h \
+  /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+  /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+  /usr/include/aarch64-linux-gnu/asm/socket.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/aarch64-linux-gnu/asm/posix_types.h \
   /usr/include/asm-generic/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
   /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/aarch64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h
+  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h
 
-
-../src/util.cpp:
 
 ../src/usrinfo/sqlmanager.cpp:
 
 ../src/threads/threadpool.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/usr/include/aarch64-linux-gnu/bits/struct_stat.h:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+/usr/include/aarch64-linux-gnu/bits/fcntl-linux.h:
 
 /usr/include/fcntl.h:
 
-/usr/include/x86_64-linux-gnu/sys/syslimits.h:
-
-../src/socket.cpp:
+/usr/include/aarch64-linux-gnu/sys/syslimits.h:
 
 ../include/server.h:
 
@@ -3155,21 +3164,13 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 ../src/memtools/memlist_wf.cpp:
 
-../src/memtools/memlist_bf.cpp:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/libintl.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
 /usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/aarch64-linux-gnu/bits/in.h:
 
 /usr/include/netinet/in.h:
 
@@ -3181,27 +3182,23 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 ../include/config.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
+../src/epoll.cpp:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h:
 
 /usr/include/asm-generic/sockios.h:
 
 /usr/include/asm-generic/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
 /usr/include/linux/posix_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+/usr/include/aarch64-linux-gnu/bits/sockaddr.h:
 
-/usr/include/x86_64-linux-gnu/bits/socket.h:
+/usr/include/aarch64-linux-gnu/bits/socket.h:
 
-/usr/include/c++/11/bits/istream.tcc:
-
-../src/epoll.cpp:
-
-/usr/include/strings.h:
-
-/usr/include/c++/11/bits/stl_multimap.h:
+/usr/include/aarch64-linux-gnu/sys/socket.h:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -3219,15 +3216,19 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
+/usr/include/aarch64-linux-gnu/bits/fcntl.h:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/deque:
 
 /usr/include/c++/11/queue:
 
-/usr/include/x86_64-linux-gnu/sys/time.h:
+/usr/include/aarch64-linux-gnu/bits/semaphore.h:
 
 /usr/include/c++/11/bits/atomic_timed_wait.h:
 
@@ -3239,27 +3240,31 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/ostream.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/semaphore.h:
-
-/usr/include/c++/11/cwctype:
-
 /usr/include/c++/11/bits/char_traits.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+../src/channel.cpp:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/mysql/plugin_auth_common.h:
+/usr/include/mysql/mysql_time.h:
 
-/usr/include/c++/11/stdlib.h:
+/usr/include/aarch64-linux-gnu/asm/socket.h:
 
-/usr/include/c++/11/bits/std_mutex.h:
+/usr/include/c++/11/functional:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -3269,141 +3274,131 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/mysql/udf_registration_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
 /usr/include/mysql/my_compress.h:
 
 /usr/include/mysql/my_command.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /usr/include/mysql/field_types.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h:
 
-/usr/include/c++/11/pstl/pstl_config.h:
+/usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
 
-/usr/include/mysql/client_plugin.h:
+/usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/c++/11/bits/allocator.h:
+/usr/include/c++/11/cstdio:
 
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h:
 
-../include/usrinfo/sqlmanager.h:
+/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/11/numbers:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-../include/memtools/memlist_ff.h:
+/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/semaphore.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:
 
 /usr/include/c++/11/bits/std_function.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
+/usr/include/c++/11/bits/algorithmfwd.h:
 
-/usr/include/c++/11/cstring:
+/usr/include/aarch64-linux-gnu/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+../src/util.cpp:
+
+/usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/aarch64-linux-gnu/bits/time.h:
+
+/usr/include/c++/11/streambuf:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+/usr/include/aarch64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/c++/11/bits/allocator.h:
 
-../include/util.h:
+/usr/include/mysql/client_plugin.h:
 
-/usr/include/c++/11/ext/new_allocator.h:
+/usr/include/aarch64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
+../src/socket.cpp:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/aarch64-linux-gnu/bits/types.h:
 
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+/usr/include/aarch64-linux-gnu/asm/posix_types.h:
 
-/usr/include/c++/11/backward/binders.h:
+/usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/11/system_error:
+/usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/c++/11/bits/stl_bvector.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/c++/11/sstream:
 
-/usr/include/c++/11/bits/stl_deque.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+../src/memtools/memlist_bf.cpp:
 
-/usr/include/c++/11/bits/shared_ptr_base.h:
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/c++/11/bits/basic_string.h:
+/usr/include/aarch64-linux-gnu/bits/epoll.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/mysql/mysql_com.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/usr/include/c++/11/bits/basic_string.tcc:
 
-../src/server.cpp:
+/usr/include/c++/11/pstl/pstl_config.h:
 
-/usr/include/c++/11/compare:
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+/usr/include/aarch64-linux-gnu/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/sys/socket.h:
+/usr/include/c++/11/future:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/aarch64-linux-gnu/asm/unistd.h:
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
-../src/memtools/memlist.cpp:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-../src/channel.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/stdc-predef.h:
+/usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
+/usr/include/pthread.h:
+
 /usr/include/mysql/errmsg.h:
+
+../include/memtools/memlistnode.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/c++/11/atomic:
 
@@ -3413,135 +3408,119 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/11/bits/vector.tcc:
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/c++/11/bits/hash_bytes.h:
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
 
-/usr/include/c++/11/bits/move.h:
+../src/memtools/memlist.cpp:
 
-/usr/include/c++/11/sstream:
+/usr/include/c++/11/ext/atomicity.h:
 
-/usr/include/x86_64-linux-gnu/asm/unistd_64.h:
+/usr/include/c++/11/bits/alloc_traits.h:
 
-/usr/include/c++/11/bits/cxxabi_forced.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/c++/11/bits/stl_pair.h:
+/usr/include/c++/11/stdlib.h:
 
-/usr/include/c++/11/concepts:
+/usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/aarch64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/unistd.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/type_traits:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/linux/falloc.h:
-
-/usr/include/x86_64-linux-gnu/bits/in.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/c++/11/stop_token:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/mysql/mysql_com.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/bits/ranges_cmp.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/include/linux/close_range.h:
+/usr/include/c++/11/exception:
 
 /usr/include/c++/11/istream:
 
 ../include/epoll.h:
 
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
 /usr/include/wchar.h:
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/stdlib.h:
+/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
-../include/memtools/memlistnode.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/c++/11/limits:
 
-/usr/include/c++/11/cstdint:
+/usr/include/c++/11/bits/allocated_ptr.h:
 
-/usr/include/mysql/mysql_time.h:
+/usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/features-time64.h:
+/usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/c++/11/bits/atomic_wait.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
 
-/usr/include/c++/11/bits/stl_queue.h:
+/usr/include/c++/11/locale:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/c++/11/type_traits:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/aarch64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h:
+
+../src/server.cpp:
+
+/usr/include/c++/11/compare:
+
+/usr/include/aarch64-linux-gnu/bits/errno.h:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/c++/11/system_error:
+
+../include/channel.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/11/cstdint:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/string:
+
+/usr/include/aarch64-linux-gnu/sys/types.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/c++/11/stop_token:
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
@@ -3553,21 +3532,45 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/iterator_concepts.h:
 
+/usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/bits/ranges_cmp.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/linux/close_range.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/aarch64-linux-gnu/bits/socket_type.h:
+
+/usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
 ../include/memtools/memlist_wf.h:
 
+../include/util.h:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/stdint.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/chrono:
+
+../include/eventloop.h:
+
 /usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -3575,121 +3578,143 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/std_abs.h:
 
+/usr/include/aarch64-linux-gnu/bits/long-double.h:
+
 /usr/include/c++/11/bits/ranges_base.h:
 
-/usr/include/mysql/my_list.h:
+/usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/aarch64-linux-gnu/sys/epoll.h:
 
-../include/channel.h:
+/usr/include/c++/11/bits/exception.h:
 
-/usr/include/c++/11/vector:
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
 
-/usr/include/c++/11/future:
+/usr/include/c++/11/backward/binders.h:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
+/usr/include/c++/11/bits/locale_conv.h:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/c++/11/string:
+../include/usrinfo/sqlmanager.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:
 
-/usr/include/locale.h:
+/usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/epoll.h:
+/usr/include/aarch64-linux-gnu/bits/syscall.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/c++/11/bits/stl_algo.h:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/c++/11/bits/predefined_ops.h:
+/usr/include/c++/11/bits/move.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/c++/11/bits/hash_bytes.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/c++/11/numbers:
 
-/usr/include/c++/11/iostream:
+/usr/include/c++/11/bits/string_view.tcc:
 
-/usr/include/mysql/mysql.h:
+../include/memtools/memlist_ff.h:
 
-/usr/include/c++/11/bits/node_handle.h:
+/usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/stat.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/concepts:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/c++/11/clocale:
+/usr/include/c++/11/cerrno:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/locale.h:
+
+/usr/include/aarch64-linux-gnu/bits/locale.h:
 
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/iosfwd:
 
-/usr/include/c++/11/locale:
+/usr/include/c++/11/iomanip:
 
-/usr/include/ctype.h:
+/usr/include/c++/11/cctype:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/aarch64-linux-gnu/sys/syscall.h:
+
+/usr/include/aarch64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
 
-/usr/include/c++/11/ext/alloc_traits.h:
+/usr/include/c++/11/bits/istream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/aarch64-linux-gnu/bits/sched.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/aarch64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/mysql/plugin_auth_common.h:
 
-/usr/include/asm-generic/socket.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/c++/11/bits/invoke.h:
+/usr/include/semaphore.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/c++/11/cwctype:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/c++/11/mutex:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/aarch64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/string_view:
 
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+/usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/11/bits/stl_set.h:
-
-/usr/include/c++/11/iomanip:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/x86_64-linux-gnu/asm/unistd.h:
 
 /usr/include/c++/11/bits/max_size_type.h:
 
@@ -3699,35 +3724,43 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
-/usr/include/c++/11/cstdio:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-../include/eventloop.h:
-
-/usr/include/c++/11/chrono:
-
 /usr/include/stdio.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/c++/11/condition_variable:
 
-/usr/include/c++/11/cerrno:
+/usr/include/c++/11/ratio:
+
+/usr/include/c++/11/thread:
+
+/usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/string.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/errno.h:
 
 /usr/include/mysql/mysql_version.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
 /usr/include/asm-generic/errno.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/syscall.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+/usr/include/c++/11/mutex:
 
-/usr/include/c++/11/bits/charconv.h:
+/usr/include/aarch64-linux-gnu/sys/time.h:
 
 ../include/memtools/memlist_bf.h:
 
@@ -3739,37 +3772,29 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/new:
 
-/usr/include/x86_64-linux-gnu/sys/epoll.h:
-
 /usr/include/c++/11/climits:
 
-/usr/include/c++/11/condition_variable:
+/usr/include/asm-generic/socket.h:
 
-/usr/include/c++/11/thread:
+/usr/include/c++/11/bits/invoke.h:
 
-/usr/include/c++/11/ratio:
-
-/usr/include/c++/11/limits:
-
-/usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/typeinfo:
+/usr/include/c++/11/ctime:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/stdexcept:
+
+/usr/include/asm-generic/unistd.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
 
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/aarch64-linux-gnu/bits/timex.h:
 
 ../include/memtools/mempool.h:
 
@@ -3777,57 +3802,49 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 ../include/memtools/memlist.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
 /usr/include/c++/11/set:
 
 /usr/include/c++/11/bits/ios_base.h:
 
+/usr/include/c++/11/iostream:
+
+/usr/include/mysql/mysql.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
+
 /usr/include/c++/11/bits/stl_multiset.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
 
 ../include/threads/threadpool.h:
 
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
 ../include/limits.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/c++/11/bits/stl_algobase.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+/usr/include/unistd.h:
 
-/usr/include/c++/11/bits/exception_defines.h:
+/usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/aarch64-linux-gnu/bits/environments.h:
 
-/usr/include/time.h:
+/usr/include/aarch64-linux-gnu/bits/confname.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+/usr/include/c++/11/bits/concept_check.h:
 
-/usr/include/x86_64-linux-gnu/bits/syscall.h:
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/aarch64-linux-gnu/asm/sockios.h:
 
 /usr/include/linux/stddef.h:
 
@@ -3837,14 +3854,10 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/ostream:
 
+/usr/include/c++/11/utility:
+
+/usr/include/c++/11/ios:
+
 /usr/include/c++/11/bits/locale_classes.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/locale_facets.h:

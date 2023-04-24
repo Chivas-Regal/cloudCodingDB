@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -o test_sqlmanager  -Wl,-rpath,/projects/mem_socket/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 
+/usr/bin/c++ -g CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -o test_sqlmanager  -Wl,-rpath,/root/projects/cloudCodingDB/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 

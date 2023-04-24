@@ -13,34 +13,15 @@
 
 template<class T> void
 mem_ask (int sockfd, const std::string& name, int n, T*) {
-    std::string buf;
-    // 传操作序号
-    buf = "1";
-    sWrite(sockfd, buf);
-    // 传变量名
-    buf = name;
-    sWrite(sockfd, buf);
-    // 传要获得的字节数
-    buf = std::to_string(n * sizeof(T));
-    sWrite(sockfd, buf);
+    sWrite(sockfd, "1");
+    sWrite(sockfd, name + " " + std::to_string(n * sizeof(T)));
     std::string ack = sRead(sockfd);
 }
 
 template<class T> T
 mem_read(int sockfd, const std::string& name, int beg) {
-    std::string buf;
-    // 传操作号
-    buf = "2";
-    sWrite(sockfd, buf);
-    // 传变量名
-    buf = name;
-    sWrite(sockfd, buf);
-    // 传开始位置偏移的字节数
-    buf = std::to_string(beg * sizeof(T));
-    sWrite(sockfd, buf);
-    // 传结束位置偏移的字节数
-    buf = std::to_string((beg + 1) * sizeof(T) - 1);
-    sWrite(sockfd, buf);
+    sWrite(sockfd, "2");
+    sWrite(sockfd, name + " " + std::to_string(beg * sizeof(T)) + " " + std::to_string((beg + 1) * sizeof(T) - 1));
 
     // 获取字节序列
     uint8_t byteBuf[1024];
@@ -68,19 +49,8 @@ mem_read(int sockfd, const std::string& name, int beg) {
 }
 template<class T> void
 mem_write(int sockfd, const std::string& name, int beg, T value) {
-    std::string buf;
-    // 传操作号
-    buf = "3";
-    sWrite(sockfd, buf);
-    // 传变量名
-    buf = name;
-    sWrite(sockfd, buf);
-    // 传开始位置偏移的字节数
-    buf = std::to_string(beg * sizeof(T));
-    sWrite(sockfd, buf);
-    // 传结束位置偏移的字节数
-    buf = std::to_string((beg + 1) * sizeof(T) - 1);
-    sWrite(sockfd, buf);
+    sWrite(sockfd, "3");
+    sWrite(sockfd, name + " " + std::to_string(beg * sizeof(T)) + " " + std::to_string((beg + 1) * sizeof(T) - 1));
 
     // 打造字节序列
     uint8_t byteBuf[1024];
@@ -106,13 +76,8 @@ mem_write(int sockfd, const std::string& name, int beg, T value) {
 }
 
 void mem_free (int sockfd, const std::string& name) {
-   std::string buf;
-    // 传操作号
-    buf = "4";
-    sWrite(sockfd, buf);
-    // 传变量名
-    buf = name;
-    sWrite(sockfd, buf);
+    sWrite(sockfd, "4");
+    sWrite(sockfd, name);
     std::string ack = sRead(sockfd);
     
     // READ(sockfd, buf);
@@ -126,46 +91,31 @@ struct node {
         y(_y) {}
 };
 
-int main () {
+void sonWork (int id) {
     Socket *serv_sock = new Socket();
-    InetAddress *serv_addr = new InetAddress("127.0.0.1", 7777);
+    InetAddress *serv_addr = new InetAddress("127.0.0.1", 33);
     serv_sock->connect(serv_addr);
-
     std::string ack = sRead(serv_sock->getFd());
+    std::cout << ack.size() << std::endl;
 
-    sWrite(serv_sock->getFd(), "chivas-regal");
-    sWrite(serv_sock->getFd(), "@Zhangyize020110");
-    
-    mem_ask(serv_sock->getFd(), "hello1", 100, (node*)nullptr);
+    sWrite(serv_sock->getFd(), "test" + std::to_string(id) + " " + "test" + std::to_string(id));
+    ack = sRead(serv_sock->getFd());
+     
+    mem_ask(serv_sock->getFd(), "hello" + std::to_string(id), 100, (node*)nullptr);
     for (int i = 0; i < 100; i ++) {
-        mem_write(serv_sock->getFd(), "hello1", i, node(i, i + 1));
+        mem_write(serv_sock->getFd(), "hello" + std::to_string(id), i, node(i, i + 1));
     }
     for (int i = 0; i < 100; i ++) {
-        node rd = mem_read<node>(serv_sock->getFd(), "hello1", i);
+        node rd = mem_read<node>(serv_sock->getFd(), "hello" + std::to_string(id), i);
         // std::this_thread::sleep_for(std::chrono::seconds(1));
-        std::cout << rd.x << " " << rd.y << std::endl;
+        std::cout << id << "->>: " << rd.x << " " << rd.y << std::endl;
     }
+
+    sWrite(serv_sock->getFd(), "5");
+    exit(0);
+}
+
+int main (int argc, char* argv[]) {
+    sonWork(1);
     return 0;
 }
-
-/*
-int main () {
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
-
-    sockaddr_in serv_addr; bzero(&serv_addr, sizeof(serv_addr));
-    serv_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
-    serv_addr.sin_family = AF_INET;
-    serv_addr.sin_port = htons(7777);
-
-    connect(sockfd, (sockaddr*)&serv_addr, sizeof(serv_addr));
-
-    mem_ask("hello", 10, (int*)nullptr);
-    for (int i = 0; i < 10; i ++) {
-        mem_write("hello", i, i);
-    }
-    for (int i = 0; i < 10; i ++) {
-        std::cout << mem_read<int>("hello", i) << std::endl;
-    }
-}
-
-*/

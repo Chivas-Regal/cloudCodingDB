@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/memclientlib.dir/example/main.cpp.o -o memclientlib  -Wl,-rpath,/root/projects/cloudCodingDB/mem_socket_client1/lib ../lib/libmem_socket_client.so 

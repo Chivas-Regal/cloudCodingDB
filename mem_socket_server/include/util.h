@@ -10,6 +10,3 @@
 int BitHighLow ();
 
 void errif (bool, const char*);
-
-std::string sRead (int sockfd);
-void sWrite (int sockfd, const std::string &s);

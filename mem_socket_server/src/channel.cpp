@@ -2,6 +2,8 @@
 #include "../include/threads/threadpool.h"
 #include <sys/epoll.h>
 #include <unistd.h>
+#include <iostream>
+#include <sys/socket.h>
 #include <cstring>
 
 Channel::Channel () :
@@ -29,8 +31,8 @@ Channel::~Channel() {
 }
 
 void Channel::handleEvent() {
-    // loop->threadpool->commit(callback);
-    callback();
+    loop->threadpool->commit(callback);
+    // callback();
 }
 
 void Channel::setCallback (std::function<void()> _cb) {
@@ -40,6 +42,10 @@ void Channel::setCallback (std::function<void()> _cb) {
 void Channel::enableReading() {
     event = EPOLLIN | EPOLLET;
     loop->updateChannel(this);
+}
+
+void Channel::disableReading() {
+    loop->updateChannel(this, -1);
 }
 
 int Channel::getFd() {
@@ -78,4 +84,31 @@ void Channel::setRevent(uint32_t _revent) {
 
 void Channel::setInEpoll() {
     inEpoll = true;
+}
+
+void Channel::sWrite(const std::string& s) {
+    char buf[1024]; bzero(buf, sizeof(buf));
+    for (int i = 0; i < s.size(); i ++) {
+        buf[i] = s[i];
+    }
+    buf[s.size()] = '\n';
+    if (send(fd, &buf, sizeof(buf), 0) == -1) {
+        std::cout << "error: send\n";
+    }
+}
+
+std::string Channel::nextOrder() {
+    std::string ret;
+    for (; buf[word_id] != '\n' && buf[word_id] != ' '; word_id ++) {
+        if (buf[word_id] != '\0') 
+            ret += buf[word_id];
+    }
+    word_id ++;
+    return ret;
+}
+
+void Channel::sRead() {
+    word_id = 0;
+    bzero(buf, sizeof(buf));
+    recv(fd, &buf, sizeof(buf), 0);
 }

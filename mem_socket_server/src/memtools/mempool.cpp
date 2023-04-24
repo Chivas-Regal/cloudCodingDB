@@ -45,6 +45,8 @@ MemPool::~MemPool() {
 // @parma size	  回归大小
 // @parma address 回归首地址
 void MemPool::deallocate(uint8_t *address, ssize_t _size) {
+	// 修改内存池，加锁
+	mutex.lock();
 	int l = 0, r = (int)this->sizeLists - 1, res = 0;
 	while (l < r) {
 		int mid = (l + r) >> 1;
@@ -60,8 +62,6 @@ void MemPool::deallocate(uint8_t *address, ssize_t _size) {
 	if (address >= reinterpret_cast<uint8_t*>(lists[r]->beginPos)) {
 		res = r;
 	}
-	// 修改内存池，加锁
-	mutex.lock();
 	lists[res]->deallocate(address, _size);
 	mutex.unlock();
 }

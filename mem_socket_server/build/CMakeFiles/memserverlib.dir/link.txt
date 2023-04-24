@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/memserverlib.dir/example/main.cpp.o -o memserverlib  -Wl,-rpath,/projects/mem_socket/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 
+/usr/bin/c++ -g CMakeFiles/memserverlib.dir/example/main.cpp.o -o memserverlib  -Wl,-rpath,/root/projects/cloudCodingDB/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 

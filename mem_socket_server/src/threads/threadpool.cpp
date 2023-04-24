@@ -6,7 +6,8 @@
 ThreadsPool::ThreadsPool (): running(true) {
     sem_init(&semTask, false, 0);
     int cpuNumber = sysconf(_SC_NPROCESSORS_CONF);
-    for (int i = 0; i < cpuNumber; i ++) {
+    std::cout << cpuNumber << std::endl;
+    for (int i = 0; i < 1; i ++) {
         tpool.push_back(std::thread(&ThreadsPool::threadWork, this));
     }
 }
@@ -32,7 +33,6 @@ void ThreadsPool::threadWork() {
             std::lock_guard<std::mutex> lock(mutexTask);
             task = tasks.front();
             tasks.pop();
-
         }
         task();
     }

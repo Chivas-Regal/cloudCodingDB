@@ -7,7 +7,7 @@
 #include <iostream>
 
 Server::Server(EventLoop *_loop) :
-    loop(_loop) 
+    loop(_loop)
 {
     Socket *serv_sock = new Socket();
     InetAddress *serv_addr = new InetAddress(SERVER_IP, SERVER_PORT);
@@ -28,33 +28,36 @@ void Server::handleConnectionEvent(Socket *serv_sock) {
     Socket *clnt_sock = new Socket(serv_sock->accept(clnt_addr));
     std::cout << "new client fd " << clnt_sock->getFd() << std::endl;
     Channel *clnt_channel = new Channel(loop, clnt_sock->getFd());
-    sWrite(clnt_channel->getFd(), "OK");
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleLoginEvent, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
 }
 
 void Server::handleLoginEvent (Channel* clnt_channel) {
-    std::string username = sRead(clnt_channel->getFd());
-    std::string password = sRead(clnt_channel->getFd());
-    // std::cout << username << " " << password << std::endl;
+    clnt_channel->sRead();
+    std::string username = clnt_channel->nextOrder();
+    std::string password = clnt_channel->nextOrder();
+
+    std::cout << username << " " << password << std::endl;
     if (loop->sqm->QueryGetRes("SELECT * FROM mem_socket_login_infos WHERE username = '" + username + "' and password = '" + password + "';").empty()) { // ERROR: username or password not found
-        close(clnt_channel->getFd()); 
+        clnt_channel->disableReading();
+        clnt_channel->~Channel();
         std::cout << "error login\n";
         return;
     } else {
         std::cout << "successfully login\n";
     }
     clnt_channel->setName(username);
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
 }
 
 void Server::handleTaskChoose(Channel* clnt_channel) {
-    // std::cout << "handlleTaskChoose: ";
-    std::string taskId = sRead(clnt_channel->getFd());
-    // std::cout << taskId << "\n";
+    clnt_channel->sRead();
+    std::string taskId = clnt_channel->nextOrder();
     std::function<void()> _cb;
     if (taskId == "1") {
         _cb = std::bind(&Server::handleNewMemplace, this, clnt_channel);
@@ -65,7 +68,8 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
     } else if (taskId == "4") {
         _cb = std::bind(&Server::handleFreeMemplace, this, clnt_channel);
     } else { // ERROR: taskid not found
-        close(clnt_channel->getFd());
+        clnt_channel->disableReading();
+        clnt_channel->~Channel();
         return;
     }
     // E: 任务分发多了个ack发送
@@ -74,8 +78,9 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
 }
 
 void Server::handleNewMemplace(Channel* clnt_channel) {
-    std::string name = sRead(clnt_channel->getFd());
-    std::string nBytes = sRead(clnt_channel->getFd());
+    clnt_channel->sRead();
+    std::string name = clnt_channel->nextOrder();
+    std::string nBytes = clnt_channel->nextOrder();
     
     loop->opeMemKV(
         [&](){
@@ -86,17 +91,17 @@ void Server::handleNewMemplace(Channel* clnt_channel) {
         }
     );
 
-    sWrite(clnt_channel->getFd(), "OK");
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
 }
 
 void Server::handleInputValue(Channel* clnt_channel) {
-    std::string name = sRead(clnt_channel->getFd());
-    std::string _sstart = sRead(clnt_channel->getFd());
-    std::string _send = sRead(clnt_channel->getFd());
-    // std::cout << name << " " << _sstart << " " << _send << std::endl;
+    clnt_channel->sRead();
+    std::string name = clnt_channel->nextOrder();
+    std::string _sstart = clnt_channel->nextOrder();
+    std::string _send = clnt_channel->nextOrder();
     uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
     uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
     uint8_t byteBuf[1024]; bzero(byteBuf, sizeof(byteBuf));
@@ -118,16 +123,17 @@ void Server::handleInputValue(Channel* clnt_channel) {
     if (send(clnt_channel->getFd(), &byteBuf, sizeof(byteBuf), 0) == -1) {
         std::cout << "send error\n";
     }
-    sWrite(clnt_channel->getFd(), "OK");
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
 }
 
 void Server::handleOutputValue(Channel* clnt_channel) {
-    std::string name = sRead(clnt_channel->getFd());
-    std::string _sstart = sRead(clnt_channel->getFd());
-    std::string _send = sRead(clnt_channel->getFd());
+    clnt_channel->sRead();
+    std::string name = clnt_channel->nextOrder();
+    std::string _sstart = clnt_channel->nextOrder();
+    std::string _send = clnt_channel->nextOrder();
     // std::cout << name << " " << _sstart << " " << _send << std::endl;
     uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
     uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
@@ -151,14 +157,15 @@ void Server::handleOutputValue(Channel* clnt_channel) {
             onemem --;
         }
     }
-    sWrite(clnt_channel->getFd(), "OK");
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
 }
 
 void Server::handleFreeMemplace(Channel* clnt_channel) {
-    std::string name = sRead(clnt_channel->getFd());
+    clnt_channel->sRead();
+    std::string name = clnt_channel->nextOrder();
     loop->mempool->deallocate(
         loop->memKV[clnt_channel->getName()][name].first, 
         loop->memKV[clnt_channel->getName()][name].second
@@ -168,7 +175,7 @@ void Server::handleFreeMemplace(Channel* clnt_channel) {
             loop->memKV[clnt_channel->getName()].erase(name);
         }
     );
-    sWrite(clnt_channel->getFd(), "OK");
+    clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();

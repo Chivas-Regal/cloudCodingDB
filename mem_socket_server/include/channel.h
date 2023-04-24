@@ -17,6 +17,7 @@ public:
     void handleEvent ();
     void setCallback (std::function<void()> _cb);
     void enableReading ();
+    void disableReading ();
 
     int getFd ();
     uint32_t getEvent ();
@@ -29,6 +30,10 @@ public:
     void setEvent (uint32_t _event);
     void setRevent (uint32_t _revent);
     void setInEpoll ();
+
+    void sWrite (const std::string& s);
+    void sRead ();
+    std::string nextOrder ();
 private:
     int fd;
     std::string name;
@@ -36,5 +41,8 @@ private:
     uint32_t event;
     uint32_t revent;
     bool inEpoll;
+    int word_id;
     std::function<void()> callback;
+
+    char buf[1024];
 };

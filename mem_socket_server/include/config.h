@@ -15,7 +15,7 @@
  * @brief Network Manage
 */
 #define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 7777
+#define SERVER_PORT 33
 
 /**
  * @brief Userinfo db Manage

@@ -1,0 +1,4 @@
+/root/projects/cloudCodingDB/mem_socket_client1/build/CMakeFiles/mem_socket_client.dir
+/root/projects/cloudCodingDB/mem_socket_client1/build/CMakeFiles/memclientlib.dir
+/root/projects/cloudCodingDB/mem_socket_client1/build/CMakeFiles/edit_cache.dir
+/root/projects/cloudCodingDB/mem_socket_client1/build/CMakeFiles/rebuild_cache.dir
