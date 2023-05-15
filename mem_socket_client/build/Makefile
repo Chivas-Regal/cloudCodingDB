@@ -166,6 +166,30 @@ example/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/main.cpp.s
 .PHONY : example/main.cpp.s
 
+src/connector.o: src/connector.cpp.o
+.PHONY : src/connector.o
+
+# target to build an object file
+src/connector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/src/connector.cpp.o
+.PHONY : src/connector.cpp.o
+
+src/connector.i: src/connector.cpp.i
+.PHONY : src/connector.i
+
+# target to preprocess a source file
+src/connector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/src/connector.cpp.i
+.PHONY : src/connector.cpp.i
+
+src/connector.s: src/connector.cpp.s
+.PHONY : src/connector.s
+
+# target to generate assembly for a file
+src/connector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/src/connector.cpp.s
+.PHONY : src/connector.cpp.s
+
 src/inet_address.o: src/inet_address.cpp.o
 .PHONY : src/inet_address.o
 
@@ -251,6 +275,9 @@ help:
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"
+	@echo "... src/connector.o"
+	@echo "... src/connector.i"
+	@echo "... src/connector.s"
 	@echo "... src/inet_address.o"
 	@echo "... src/inet_address.i"
 	@echo "... src/inet_address.s"

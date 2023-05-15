@@ -83,12 +83,12 @@ clean: CMakeFiles/memclientlib.dir/clean
 CMakeFiles/mem_socket_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=1,2,3,4 "Built target mem_socket_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mem_socket_client"
 .PHONY : CMakeFiles/mem_socket_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mem_socket_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mem_socket_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
 .PHONY : CMakeFiles/mem_socket_client.dir/rule
@@ -109,12 +109,12 @@ CMakeFiles/mem_socket_client.dir/clean:
 CMakeFiles/memclientlib.dir/all: CMakeFiles/mem_socket_client.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=5,6 "Built target memclientlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=6,7 "Built target memclientlib"
 .PHONY : CMakeFiles/memclientlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/memclientlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/memclientlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
 .PHONY : CMakeFiles/memclientlib.dir/rule

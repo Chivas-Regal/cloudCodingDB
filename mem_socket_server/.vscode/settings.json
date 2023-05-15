@@ -58,5 +58,6 @@
         "thread": "cpp",
         "typeinfo": "cpp",
         "future": "cpp"
-    }
+    },
+    "editor.fontSize": 17
 }

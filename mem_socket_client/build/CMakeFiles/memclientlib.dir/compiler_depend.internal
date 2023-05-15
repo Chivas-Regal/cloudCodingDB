@@ -269,4 +269,5 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o
  /root/projects/cloudCodingDB/mem_socket_client/include/util.h
  /root/projects/cloudCodingDB/mem_socket_client/include/socket.h
  /root/projects/cloudCodingDB/mem_socket_client/include/inet_address.h
+ /root/projects/cloudCodingDB/mem_socket_client/include/connector.h
 

@@ -211,6 +211,7 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/aarch64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
- /root/projects/cloudCodingDB/mem_socket_client/example/../include/util.h \
- /root/projects/cloudCodingDB/mem_socket_client/example/../include/socket.h \
- /root/projects/cloudCodingDB/mem_socket_client/example/../include/inet_address.h
+ /root/projects/cloudCodingDB/mem_socket_client/include/util.h \
+ /root/projects/cloudCodingDB/mem_socket_client/include/socket.h \
+ /root/projects/cloudCodingDB/mem_socket_client/include/inet_address.h \
+ /root/projects/cloudCodingDB/mem_socket_client/include/connector.h

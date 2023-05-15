@@ -1,6 +1,11 @@
 [
 {
   "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
+  "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/connector.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/connector.cpp",
+  "file": "/root/projects/cloudCodingDB/mem_socket_client/src/connector.cpp"
+},
+{
+  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
   "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/inet_address.cpp",
   "file": "/root/projects/cloudCodingDB/mem_socket_client/src/inet_address.cpp"
 },

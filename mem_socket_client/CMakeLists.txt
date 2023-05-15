@@ -11,7 +11,7 @@ include_directories(
 )
 
 aux_source_directory(./src SRC_FILES)
-add_library(${PROJECT_NAME} SHARED ${SRC_FILES} include/socket.h include/inet_address.h src/socket.cpp src/inet_address.cpp include/limits.h)
+add_library(${PROJECT_NAME} SHARED ${SRC_FILES} include/socket.h include/inet_address.h src/socket.cpp src/inet_address.cpp include/limits.h include/connector.h src/connector.cpp)
 
 add_executable(memclientlib example/main.cpp)
 target_link_libraries(memclientlib

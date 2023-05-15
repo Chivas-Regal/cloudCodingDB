@@ -51,6 +51,9 @@
         "stop_token": "cpp",
         "streambuf": "cpp",
         "thread": "cpp",
-        "typeinfo": "cpp"
-    }
+        "typeinfo": "cpp",
+        "set": "cpp"
+    },
+    "editor.lineHeight": 24,
+    "editor.renderLineHighlight": "line"
 }

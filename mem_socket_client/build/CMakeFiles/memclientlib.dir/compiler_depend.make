@@ -267,8 +267,11 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o: ../example/main.cpp \
   /usr/include/aarch64-linux-gnu/bits/semaphore.h \
   ../include/util.h \
   ../include/socket.h \
-  ../include/inet_address.h
+  ../include/inet_address.h \
+  ../include/connector.h
 
+
+../include/connector.h:
 
 ../include/inet_address.h:
 

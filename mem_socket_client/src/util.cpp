@@ -22,18 +22,18 @@ void errif (bool flag, const char* msg) {
 }
 
 void sWrite (int sockfd, const std::string &s) {
-    char buf[1024]; 
+    char buf[128]; 
     bzero(buf, sizeof(buf));
     for (int i = 0; i < s.size(); i ++) {
         buf[i] = s[i];
     }
     buf[s.size()] = '\n';
-    send(sockfd, &buf, sizeof(buf), 0);
+    send(sockfd, buf, sizeof(buf), 0);
 }
 
 std::string sRead (int sockfd) {
-    char buf[1024]; bzero(buf, sizeof(buf));
-    if (recv(sockfd, &buf, sizeof(buf), 0) == -1) {
+    char buf[128]; bzero(buf, sizeof(buf));
+    if (recv(sockfd, buf, sizeof(buf), 0) == -1) {
         std::cout << "error: recv\n";
         return std::string("e");
     }

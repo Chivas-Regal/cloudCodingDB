@@ -44,5 +44,5 @@ private:
     int word_id;
     std::function<void()> callback;
 
-    char buf[1024];
+    char buf[128];
 };

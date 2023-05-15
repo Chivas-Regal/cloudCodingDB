@@ -87,12 +87,12 @@ void Channel::setInEpoll() {
 }
 
 void Channel::sWrite(const std::string& s) {
-    char buf[1024]; bzero(buf, sizeof(buf));
+    char buf[128]; bzero(buf, sizeof(buf));
     for (int i = 0; i < s.size(); i ++) {
         buf[i] = s[i];
     }
     buf[s.size()] = '\n';
-    if (send(fd, &buf, sizeof(buf), 0) == -1) {
+    if (send(fd, buf, sizeof(buf), 0) == -1) {
         std::cout << "error: send\n";
     }
 }
@@ -110,5 +110,5 @@ std::string Channel::nextOrder() {
 void Channel::sRead() {
     word_id = 0;
     bzero(buf, sizeof(buf));
-    recv(fd, &buf, sizeof(buf), 0);
+    recv(fd, buf, sizeof(buf), 0);
 }
