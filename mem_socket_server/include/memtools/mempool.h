@@ -17,15 +17,29 @@
 class MemPool {
 public:
     MemPool () = delete;
+
+    /* 内存池初始化(空闲链表数量，单个空闲区大小，分区分配算法) */
     MemPool (ssize_t nLists, ssize_t oneSize, int alloc_algorithm);
+
+    /* 清空 beginPos, list[0~sizeLists], list */
     ~MemPool ();
 
+    /* 打印所有的空闲链表信息 */
     void    print() const;
+
+    /* 打印第 i 个空闲链表信息 */
 	void  	print(int i) const;
+
+    /* 回收一个首地址是 address， _size 个字节的空间 */
     void    deallocate (uint8_t *address, ssize_t _size);
+
+    /* 分配一个大小为 _size 个字节的内存 */
     void*   allocate (ssize_t _size);
 
+    /* 获取空闲链表数量 */
     [[nodiscard]] ssize_t getSizeLists() const;
+
+    /* 获取每个空闲链表管理的分区大小 */
     [[nodiscard]] ssize_t getOneListSize () const;
 public:
     ssize_t       sizeLists;   ///< 空闲链表的数量

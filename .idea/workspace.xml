@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a97db4cb-a004-4467-9fcb-9bcaf1a63dc6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/mem_socket_client/example/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_client/example/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_client/include/connector.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_client/include/connector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_client/src/connector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_client/src/connector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/backup/variable_info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/backup/variable_info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/cache-v2" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/cache-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/cmakeFiles-v1" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/cmakeFiles-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/codemodel-v2" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-integration-vscode/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-vscode/query.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/query/client-vscode/query.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/cache-v2-f7aa49aab50c4dfd1578.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/cache-v2-f7aa49aab50c4dfd1578.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/cmakeFiles-v1-6e709861fe7ff21cae41.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/cmakeFiles-v1-6e709861fe7ff21cae41.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/codemodel-v2-da7cb60c6e65671091a5.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/codemodel-v2-da7cb60c6e65671091a5.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/index-2023-05-15T10-16-52-0336.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-mem_socket_server-Debug-aa99495f010b446d7f3b.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-mem_socket_server-Debug-aa99495f010b446d7f3b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-memserverlib-Debug-0dbc4289d78b49eab704.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-memserverlib-Debug-0dbc4289d78b49eab704.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_mempool-Debug-5ab30092dbe0bab50d25.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_mempool-Debug-5ab30092dbe0bab50d25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_sqlmanager-Debug-13599f213c979b5f754b.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_sqlmanager-Debug-13599f213c979b5f754b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_thread-Debug-cdeda5f2e85c90c60e63.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/target-test_thread-Debug-cdeda5f2e85c90c60e63.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/toolchains-v1-4090ed6e82ad65951c46.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/.cmake/api/v1/reply/toolchains-v1-4090ed6e82ad65951c46.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/channel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/channel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/server.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/server.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/server.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/server.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/socket.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/socket.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/socket.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/socket.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/util.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/util.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/util.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/mem_socket_server.dir/src/util.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/example/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/example/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/example/main.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/example/main.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/memserverlib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/test/mempool.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/test/mempool.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/test/mempool.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_mempool.dir/test/mempool.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/test/thread.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/test/thread.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/test/thread.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CMakeFiles/test_thread.dir/test/thread.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/memserverlib" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/memserverlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/test_mempool" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/test_mempool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/test_sqlmanager" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/test_sqlmanager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/build/test_thread" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/build/test_thread" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/example/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/example/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/channel.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/channel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/epoll.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/epoll.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/eventloop.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/eventloop.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/inet_address.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/inet_address.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/limits.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/limits.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_bf.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_bf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_ff.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_ff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_wf.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlist_wf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlistnode.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/memlistnode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/memtools/mempool.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/memtools/mempool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/server.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/server.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/socket.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/socket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/threads/threadpool.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/threads/threadpool.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/usrinfo/sqlmanager.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/usrinfo/sqlmanager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/include/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/include/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/lib/libmem_socket_server.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/lib/libmem_socket_server.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/lib/libmem_socket_server.so" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/lib/libmem_socket_server.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/lib/libmysqlclient.so" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/lib/libmysqlclient.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/channel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/channel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/epoll.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/epoll.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/eventloop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/eventloop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/inet_address.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/inet_address.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_bf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_bf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_ff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_ff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_wf.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlist_wf.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlistnode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/memlistnode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/memtools/mempool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/memtools/mempool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/socket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/socket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/threads/threadpool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/threads/threadpool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/usrinfo/sqlmanager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/usrinfo/sqlmanager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/src/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/src/util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/test/mempool.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/test/mempool.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/test/sqlmanager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/test/sqlmanager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mem_socket_server/test/thread.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mem_socket_server/test/thread.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PxmN4E91LsDe2vlHeBnDeRHNny" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/snopzyz/Documents/GitHub/cloudCodingDB",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a97db4cb-a004-4467-9fcb-9bcaf1a63dc6" name="Changes" comment="" />
+      <created>1684407063676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684407063676</updated>
+      <workItem from="1684407065025" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

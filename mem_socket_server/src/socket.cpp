@@ -1,6 +1,6 @@
-#include "../include/socket.h"
-#include "../include/util.h"
-#include "../include/limits.h"
+#include "socket.h"
+#include "util.h"
+#include "limits.h"
 #include <sys/socket.h>
 #include <sys/syslimits.h>
 #include <unistd.h>
@@ -18,7 +18,7 @@ Socket::Socket() :
 }
 
 /**
- * @brief 套接字构造函数
+ * @brief 显式套接字构造函数
  * 
  * @param _fd 已有套接字
  */
@@ -82,9 +82,11 @@ void Socket::connect(InetAddress *addr) {
 /**
  * @brief 服务端开启监听
  * 
+ * @param size 半连接队列长度
+ * 
  * @details 半连接队列默认 1024
  */
-void Socket::listen() const {
+void Socket::listen(int size) const {
 	errif (
 		::listen(fd, MAX_CANON) == -1,
 		"error socket listen"

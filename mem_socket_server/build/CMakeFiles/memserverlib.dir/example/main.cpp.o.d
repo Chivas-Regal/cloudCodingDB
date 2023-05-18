@@ -192,12 +192,13 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/util.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/socket.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/inet_address.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/eventloop.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/epoll.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/channel.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/util.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/socket.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/inet_address.h \
+ /usr/include/aarch64-linux-gnu/sys/syslimits.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/eventloop.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/epoll.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/channel.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
@@ -226,15 +227,15 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/mempool.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/memlist_ff.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/memlistnode.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/memlist.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/mempool.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_ff.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/memlist_bf.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/memtools/memlist_wf.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/threads/threadpool.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_bf.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_wf.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/threads/threadpool.h \
  /usr/include/c++/11/thread /usr/include/c++/11/stop_token \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
@@ -260,4 +261,5 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/atomic_futex.h \
- /root/projects/cloudCodingDB/mem_socket_server/example/../include/server.h
+ /root/projects/cloudCodingDB/mem_socket_server/include/server.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/config.h

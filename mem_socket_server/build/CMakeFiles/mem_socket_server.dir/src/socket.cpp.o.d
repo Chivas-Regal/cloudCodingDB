@@ -1,8 +1,8 @@
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: \
  /root/projects/cloudCodingDB/mem_socket_server/src/socket.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/socket.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/inet_address.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/socket.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/inet_address.h \
  /usr/include/c++/11/cstdint \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -62,7 +62,8 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/aarch64-linux-gnu/bits/in.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/util.h \
+ /usr/include/aarch64-linux-gnu/sys/syslimits.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/util.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
@@ -187,9 +188,8 @@ CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/limits.h \
- /usr/include/aarch64-linux-gnu/sys/syslimits.h /usr/include/fcntl.h \
- /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/limits.h \
+ /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/aarch64-linux-gnu/bits/stat.h \
  /usr/include/aarch64-linux-gnu/bits/struct_stat.h

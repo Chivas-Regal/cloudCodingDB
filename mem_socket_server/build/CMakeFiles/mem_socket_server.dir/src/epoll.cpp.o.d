@@ -1,9 +1,9 @@
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: \
  /root/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/epoll.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/channel.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/eventloop.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/epoll.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/channel.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/eventloop.h \
  /root/projects/cloudCodingDB/mem_socket_server/include/usrinfo/sqlmanager.h \
  /usr/include/mysql/mysql.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
@@ -168,19 +168,19 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: \
  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/mempool.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/memlist_ff.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/memlistnode.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/memlist.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/mempool.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_ff.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/erase_if.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/memlist_bf.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/memtools/memlist_wf.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/threads/threadpool.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_bf.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_wf.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/threads/threadpool.h \
  /usr/include/c++/11/thread /usr/include/c++/11/stop_token \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
@@ -237,7 +237,7 @@ CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/aarch64-linux-gnu/sys/epoll.h \
  /usr/include/aarch64-linux-gnu/bits/epoll.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/util.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/util.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/aarch64-linux-gnu/sys/socket.h \

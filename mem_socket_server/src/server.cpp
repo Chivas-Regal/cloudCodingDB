@@ -1,6 +1,6 @@
-#include "../include/server.h"
-#include "../include/util.h"
-#include "../include/config.h"
+#include "server.h"
+#include "util.h"
+#include "config.h"
 
 #include <string>
 #include <cstring>

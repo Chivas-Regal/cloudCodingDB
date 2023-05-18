@@ -1,13 +1,23 @@
-#include "../../include/memtools/mempool.h"
+#include "mempool.h"
 
 #include <iostream>
 #include <iomanip>
 
-// @brief 内存池初始化
-// @parma _nLists 空闲链表数量
-//    新建 _nLists 个空闲链表, 每个空闲链表可用空间大小为 _oneSize
-//    - _nLists*_oneSize is too big: failure
-//    - else:						 successful
+
+/**
+ * @brief 内存池初始化
+ * 
+ * @param _nLists           空闲链表数量
+ * @param _oneSize          单个链表管理空闲区大小
+ * @param alloc_algorithm   使用的分区算法
+ *                              - FIRST_FIT
+ *                              - BEST_FIT 
+ *                              - WORST_FIT
+ * 
+ * @details 新建 _nLists 个空闲链表, 每个空闲链表可用空间大小为 _oneSize
+ *          - _nLists*_oneSize is too big: failure
+ *          - else:						   successful
+ */
 MemPool::MemPool(ssize_t _nLists, ssize_t _oneSize, int alloc_algorithm) :
 		lists(new MemList*[_nLists]),
 		sizeLists(_nLists),
@@ -29,8 +39,12 @@ MemPool::MemPool(ssize_t _nLists, ssize_t _oneSize, int alloc_algorithm) :
 	}
 }
 
-// @brief 内存池析构
-// 对size个空闲链表清空，再释放这个指针数组
+
+/** 
+ * @brief 内存池析构
+ * 
+ * @details 对size个空闲链表清空，再释放这个指针数组与所有空闲区
+ */ 
 MemPool::~MemPool() {
 	for (int i = 0; i < sizeLists; i ++) {
 		delete lists[i];
@@ -39,11 +53,13 @@ MemPool::~MemPool() {
 	delete[] lists;
 }
 
-// @brief 内存回归函数
-//     先二分查到 address 属于哪个空闲链表
-//     然后调用对应空闲链表的 deallocate 函数进行回收
-// @parma size	  回归大小
-// @parma address 回归首地址
+/** 
+ * @brief 内存回归函数
+ *     先二分查到 address 属于哪个空闲链表
+ *     然后调用对应空闲链表的 deallocate 函数进行回收
+ * @param size	  回归大小
+ * @param address 回归首地址
+ */ 
 void MemPool::deallocate(uint8_t *address, ssize_t _size) {
 	// 修改内存池，加锁
 	mutex.lock();
@@ -66,8 +82,10 @@ void MemPool::deallocate(uint8_t *address, ssize_t _size) {
 	mutex.unlock();
 }
 
-// @brief 内存池打印
-// 横向打印 sizeLists 张表，每张表都是表现了每个空闲链表的节点信息
+/** 
+ * @brief 内存池打印
+ * 横向打印 sizeLists 张表，每张表都是表现了每个空闲链表的节点信息
+ */ 
 void MemPool::print() const {
 	std::cout << std::endl;
 	std::cout.setf(std::ios::left);
@@ -119,19 +137,23 @@ void MemPool::print() const {
 	delete[] p;
 }
 
-// @brief 表打印
-// 打印内存池中第 i 张表
+/** 
+ * @brief 表打印
+ * 打印内存池中第 i 张表
+ */ 
 void MemPool::print(int i) const {
 	lists[i]->print();
 }
 
-// @brief 内存配置
-//     扫描所有链表头，根据记录的表内最大空闲块来判断该表是否能分配 _size 内存
-//     如果可以，调用对应链表的 allocate(_size) 函数
-// @parma _size 需求大小
-// @return
-//     - not nullptr: successfully
-//     - nullptr:     failure
+/** 
+ * @brief 内存配置
+ *     扫描所有链表头，根据记录的表内最大空闲块来判断该表是否能分配 _size 内存
+ *     如果可以，调用对应链表的 allocate(_size) 函数
+ * @param _size 需求大小
+ * @return
+ *     - not nullptr: successfully
+ *     - nullptr:     failure
+ */ 
 void *MemPool::allocate(ssize_t _size) {
 	// 为防止幻读需加锁
 	mutex.lock();

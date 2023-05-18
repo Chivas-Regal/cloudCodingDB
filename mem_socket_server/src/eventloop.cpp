@@ -1,13 +1,14 @@
-#include "../include/eventloop.h"
-#include "../include/util.h"
-#include "../include/config.h"
+#include "eventloop.h"
+#include "util.h"
+#include "config.h"
 
 /**
- * 数据恢复与备份，一个数据的内容为：
- * userName, variableName, variableSize
- * variableByte[0], variableByte[1], ...
-*/
-
+ * @brief 构造
+ * 
+ * @details 初始化：epoll、内存池、类型键值对、mysql连接api、线程池
+ *          相关数据配置在 config.h 内
+ * 
+ */
 EventLoop::EventLoop() :
     ep(new Epoll()),
     mempool(new MemPool(MEM_NUM_LISTS, MEM_SIZE_LIST, MEM_POOL_ALGO)),
@@ -21,6 +22,13 @@ EventLoop::EventLoop() :
     restor();
 }
 
+
+/**
+ * @brief 析构
+ * 
+ * @details 释放所有的指针
+ * 
+ */
 EventLoop::~EventLoop () {
     backup();
     if (ep != nullptr) {
@@ -42,6 +50,12 @@ EventLoop::~EventLoop () {
     memKV.clear();
 }
 
+/**
+ * @brief Reactor 分发
+ * 
+ * @details 提出 epoll 树中的就绪事件，执行对应的回调函数
+ * 
+ */
 void EventLoop::loop() {
     while (!quit) {
         std::vector<Channel*> activityChannels = ep->poll();
@@ -51,10 +65,22 @@ void EventLoop::loop() {
     }
 }
 
+
+/**
+ * @brief 更新套接字集合在 epoll 树中的状态
+ * 
+ * @param ch  被更新套接字集合
+ * @param ope 更新指令（在 epoll::updateChannel 中存在）
+ */
 void EventLoop::updateChannel(Channel* ch, int ope) {
     ep->updateChannel(ch, ope);
 }
 
+/**
+ * @brief 备份
+ * 
+ * @details 在 /backup/variable_info.txt 里面做备份
+ */
 void EventLoop::backup () {
     freopen("../backup/variable_info.txt", "w", stdout);
     for (const auto& [userName, variableInfo] : memKV) {
@@ -70,6 +96,11 @@ void EventLoop::backup () {
     freopen("/dev/console", "w", stdout);
 }
 
+/**
+ * @brief 数据恢复与备份，一个数据的内容为：
+ * userName, variableName, variableSize
+ * variableByte[0], variableByte[1], ...
+*/
 void EventLoop::restor () {
     freopen("../backup/variable_info.txt", "r", stdin);
     std::string userName, variableName, size;
@@ -87,6 +118,11 @@ void EventLoop::restor () {
     freopen("/dev/console", "r", stdin);
 }
 
+/**
+ * @brief 操作变量与值的键值对，加锁执行函数 ope
+ * 
+ * @param ope 被执行函数
+ */
 void EventLoop::opeMemKV (std::function<void()> ope) {
     mutexMemKV.lock();
     ope();

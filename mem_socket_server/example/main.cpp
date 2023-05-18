@@ -1,16 +1,17 @@
-# include <sys/socket.h>
-# include <arpa/inet.h>
-# include <string>
-# include <unistd.h>
-# include <iostream>
-# include <map>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <string>
+#include <unistd.h>
+#include <iostream>
+#include <map>
 #include <cstring>
 
-#include "../include/util.h"
-#include "../include/socket.h"
-#include "../include/eventloop.h"
-#include "../include/server.h"
-#include "../include/usrinfo/sqlmanager.h"
+#include "util.h"
+#include "socket.h"
+#include "eventloop.h"
+#include "server.h"
+#include "usrinfo/sqlmanager.h"
+#include "config.h"
 // server
 
 int main () {

@@ -4,9 +4,8 @@
 #include <unistd.h>
 #include <sys/socket.h>
 
-// @return
-//  - 1: big
-//  - 2: small
+/* 判断本机字节序 */
 int BitHighLow ();
 
+/* 报错封装 */
 void errif (bool, const char*);

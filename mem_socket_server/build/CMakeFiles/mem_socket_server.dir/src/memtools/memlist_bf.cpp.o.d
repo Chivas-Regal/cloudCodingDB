@@ -1,8 +1,9 @@
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: \
  /root/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/memtools/../../include/memtools/memlist_bf.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/memtools/../../include/memtools/memlistnode.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_bf.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist.h \
+ /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/cstdio \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -31,7 +32,6 @@ CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
  /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/memtools/../../include/memtools/memlist.h \
  /usr/include/c++/11/cstdint \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
