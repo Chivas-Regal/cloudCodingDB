@@ -37,3 +37,7 @@
 - 变量获取 `memRead()`，模板参数为对应变量类型，函数参数 (string)变量名，(int)变量位置（非数组0）
 - 内存释放 `memFree()`，函数参数 (string)变量名
 - 关闭连接 `Exit()`
+
+配置信息在 "/include/config.h" 中，内部只有两个
+    - `SERVER_IP` 服务端 ip 地址
+    - `SERVER_PORT` 服务端端口号

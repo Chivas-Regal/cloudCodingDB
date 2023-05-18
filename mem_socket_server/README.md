@@ -71,8 +71,8 @@
   - `FIRST_FIT` 首次使用算法
   - `BEST_FIT` 最佳适应算法
   - `WORST_FIT` 最坏适应算法
-- `SERVER_IP` 服务端地址
-- `SERVER_PORT` 服务端端口号
+- `SERVER_IP` 服务端监听ip地址
+- `SERVER_PORT` 服务端监听端口号
 - `SQL_IP` 用户信息数据库连接的ip地址
 - `SQL_PORT` 用户信息数据库连接的端口号
 - `SQL_USERNAME` 用户信息数据库连接的用户名
