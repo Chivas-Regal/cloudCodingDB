@@ -6,6 +6,11 @@
 #include <string>
 #include <cstring>
 
+/**
+ * @brief 连接服务端的类
+ * 
+ * @details 完成一些向服务端提交请求事件的操作
+ */
 class Connector {
 public:
     /* 默认构造：连接上服务端（ip:port 在配置文件 config.h 内） */
