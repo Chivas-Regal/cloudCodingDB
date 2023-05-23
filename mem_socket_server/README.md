@@ -14,6 +14,8 @@
 ├── include
 │   ├── channel.h
 │   ├── config.h
+│   ├── containers
+│   │   └── trie.h
 │   ├── epoll.h
 │   ├── eventloop.h
 │   ├── inet_address.h
@@ -38,6 +40,8 @@
 │   └── libmysqlclient.so
 ├── src
 │   ├── channel.cpp
+│   ├── containers
+│   │   └── trie.cpp
 │   ├── epoll.cpp
 │   ├── eventloop.cpp
 │   ├── inet_address.cpp
@@ -91,7 +95,8 @@ CREATE TABLE IF NOT EXISTS mem_socket_login_infos (
 
 程序不存在注册功能，可登入用户信息需数据库管理员手动录入
 
-具体客户端如何与服务端进行联络请参考本仓库另一部分（客户端部分）
+具体客户端如何与服务端进行联络请参考本仓库另一部分（客户端部分）  
+在客户端连接并登录上之后，通过指令向服务端提交变量操作  
 
 ## 运行
 
@@ -104,7 +109,7 @@ make
 ./memserverlib
 ```
 
-## 功能
+## 功能 与 技术支持
 
 - 以内存利用率为主的内存池设计（连续分区存储管理），支持
     - 空闲节点的切割与合并
@@ -116,6 +121,9 @@ make
     - 通过字符串通信模拟报头，完成前置指令
     - 通过 `uint8_t` 传输完成字节信息传递（两个主机之间以大端字节序传输）
 - `mysql` 连接下的用户登入信息判断
+- 手写容器模板-字典树用于存放 “[用户名][变量名] - 值”
+    - 支持 string 与任意类型组成的键值对的存储
+    - 支持部分 map<string, 任意类型> 的操作
 - 主动下的数据写入主存与读出
 
 ## 客户端接入

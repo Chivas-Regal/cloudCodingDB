@@ -1,5 +1,5 @@
 CMakeFiles/mem_socket_server.dir/src/util.cpp.o: \
- /root/projects/cloudCodingDB/mem_socket_server/src/util.cpp \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/util.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -167,7 +167,7 @@ CMakeFiles/mem_socket_server.dir/src/util.cpp.o: \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /root/projects/cloudCodingDB/mem_socket_server/src/../include/util.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/../include/util.h \
  /usr/include/unistd.h /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \

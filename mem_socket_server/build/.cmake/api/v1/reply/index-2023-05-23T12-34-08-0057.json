@@ -26,7 +26,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-8c48599b09f33773a2a7.json",
+			"jsonFile" : "codemodel-v2-3c1afe9b9e582c2a0731.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-defeabefd966ab927ee0.json",
+			"jsonFile" : "cache-v2-cac99079b2d66f7fed03.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-7d6dd7c577817fed8306.json",
+			"jsonFile" : "cmakeFiles-v1-dc244cdfe68ec3c86e3b.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -53,7 +53,7 @@
 			}
 		},
 		{
-			"jsonFile" : "toolchains-v1-4090ed6e82ad65951c46.json",
+			"jsonFile" : "toolchains-v1-b67b58f4548a7f9f73da.json",
 			"kind" : "toolchains",
 			"version" : 
 			{
@@ -64,39 +64,6 @@
 	],
 	"reply" : 
 	{
-		"client-integration-vscode" : 
-		{
-			"cache-v2" : 
-			{
-				"jsonFile" : "cache-v2-defeabefd966ab927ee0.json",
-				"kind" : "cache",
-				"version" : 
-				{
-					"major" : 2,
-					"minor" : 0
-				}
-			},
-			"cmakeFiles-v1" : 
-			{
-				"jsonFile" : "cmakeFiles-v1-7d6dd7c577817fed8306.json",
-				"kind" : "cmakeFiles",
-				"version" : 
-				{
-					"major" : 1,
-					"minor" : 0
-				}
-			},
-			"codemodel-v2" : 
-			{
-				"jsonFile" : "codemodel-v2-8c48599b09f33773a2a7.json",
-				"kind" : "codemodel",
-				"version" : 
-				{
-					"major" : 2,
-					"minor" : 3
-				}
-			}
-		},
 		"client-vscode" : 
 		{
 			"query.json" : 
@@ -123,7 +90,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-defeabefd966ab927ee0.json",
+						"jsonFile" : "cache-v2-cac99079b2d66f7fed03.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -132,7 +99,7 @@
 						}
 					},
 					{
-						"jsonFile" : "codemodel-v2-8c48599b09f33773a2a7.json",
+						"jsonFile" : "codemodel-v2-3c1afe9b9e582c2a0731.json",
 						"kind" : "codemodel",
 						"version" : 
 						{
@@ -141,7 +108,7 @@
 						}
 					},
 					{
-						"jsonFile" : "toolchains-v1-4090ed6e82ad65951c46.json",
+						"jsonFile" : "toolchains-v1-b67b58f4548a7f9f73da.json",
 						"kind" : "toolchains",
 						"version" : 
 						{
@@ -150,7 +117,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-7d6dd7c577817fed8306.json",
+						"jsonFile" : "cmakeFiles-v1-dc244cdfe68ec3c86e3b.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

@@ -1,9 +1,9 @@
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: \
- /root/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/memtools/memlist_ff.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_ff.h \
- /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist.h \
- /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist_ff.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/cstdio \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
-  "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/connector.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/connector.cpp",
-  "file": "/root/projects/cloudCodingDB/mem_socket_client/src/connector.cpp"
+  "directory": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -Dmem_socket_client_EXPORTS -I\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include\" -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/connector.cpp.o -c \"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/connector.cpp\"",
+  "file": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/connector.cpp"
 },
 {
-  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
-  "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/inet_address.cpp",
-  "file": "/root/projects/cloudCodingDB/mem_socket_client/src/inet_address.cpp"
+  "directory": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -Dmem_socket_client_EXPORTS -I\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include\" -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o -c \"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/inet_address.cpp\"",
+  "file": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/inet_address.cpp"
 },
 {
-  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
-  "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/socket.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/socket.cpp",
-  "file": "/root/projects/cloudCodingDB/mem_socket_client/src/socket.cpp"
+  "directory": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -Dmem_socket_client_EXPORTS -I\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include\" -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/socket.cpp.o -c \"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/socket.cpp\"",
+  "file": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/socket.cpp"
 },
 {
-  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
-  "command": "/usr/bin/c++ -Dmem_socket_client_EXPORTS -I/root/projects/cloudCodingDB/mem_socket_client/include -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/util.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/src/util.cpp",
-  "file": "/root/projects/cloudCodingDB/mem_socket_client/src/util.cpp"
+  "directory": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -Dmem_socket_client_EXPORTS -I\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include\" -g -fPIC -pthread -std=gnu++20 -o CMakeFiles/mem_socket_client.dir/src/util.cpp.o -c \"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/util.cpp\"",
+  "file": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/src/util.cpp"
 },
 {
-  "directory": "/root/projects/cloudCodingDB/mem_socket_client/build",
-  "command": "/usr/bin/c++  -I/root/projects/cloudCodingDB/mem_socket_client/include -g -pthread -std=gnu++20 -o CMakeFiles/memclientlib.dir/example/main.cpp.o -c /root/projects/cloudCodingDB/mem_socket_client/example/main.cpp",
-  "file": "/root/projects/cloudCodingDB/mem_socket_client/example/main.cpp"
+  "directory": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include\" -g -pthread -std=gnu++20 -o CMakeFiles/memclientlib.dir/example/main.cpp.o -c \"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp\"",
+  "file": "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp"
 }
 ]

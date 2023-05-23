@@ -1,7 +1,7 @@
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o: \
- /root/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/memtools/memlistnode.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/cstdio \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/projects/cloudCodingDB/mem_socket_client/lib/libmem_socket_client.so"
+			"path" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/lib/libmem_socket_client.so"
 		}
 	],
 	"backtrace" : 1,
@@ -69,7 +69,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/root/projects/cloudCodingDB/mem_socket_client/include"
+					"path" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include"
 				}
 			],
 			"language" : "CXX",

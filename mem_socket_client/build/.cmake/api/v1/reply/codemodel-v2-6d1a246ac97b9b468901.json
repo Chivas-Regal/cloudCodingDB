@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mem_socket_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mem_socket_client-Debug-5cb636ae9263c4883859.json",
+					"jsonFile" : "target-mem_socket_client-Debug-a7c3bce2cb0829dd4c67.json",
 					"name" : "mem_socket_client",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "memclientlib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-memclientlib-Debug-6d57fc3d09a4a2588166.json",
+					"jsonFile" : "target-memclientlib-Debug-ce011c2ff62b7417d701.json",
 					"name" : "memclientlib",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/root/projects/cloudCodingDB/mem_socket_client/build",
-		"source" : "/root/projects/cloudCodingDB/mem_socket_client"
+		"build" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
+		"source" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
 	},
 	"version" : 
 	{

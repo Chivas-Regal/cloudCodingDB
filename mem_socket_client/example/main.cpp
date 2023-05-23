@@ -28,6 +28,8 @@ void sonWork (int id) {
     for (int i = 0; i < 100; i ++) 
         conn->memWrite<node>("hello" + std::to_string(id), node(i, i + 1), i);
 
+    std::cout << "YES\n";
+    
     for (int i = 0; i < 100; i ++) {
         node rd = conn->memRead<node>("hello" + std::to_string(id), i);
         std::cout << id << "->>: " << rd.x << " " << rd.y << std::endl;

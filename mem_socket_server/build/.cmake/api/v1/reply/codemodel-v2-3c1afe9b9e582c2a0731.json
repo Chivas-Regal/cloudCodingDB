@@ -47,35 +47,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "mem_socket_server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mem_socket_server-Debug-aa99495f010b446d7f3b.json",
+					"jsonFile" : "target-mem_socket_server-Debug-6f8b7fa0e38e6751e9c4.json",
 					"name" : "mem_socket_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "memserverlib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-memserverlib-Debug-0dbc4289d78b49eab704.json",
+					"jsonFile" : "target-memserverlib-Debug-f0256defdfcef812d698.json",
 					"name" : "memserverlib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_mempool::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_mempool-Debug-5ab30092dbe0bab50d25.json",
+					"jsonFile" : "target-test_mempool-Debug-7174a862117a8c8e958b.json",
 					"name" : "test_mempool",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_sqlmanager::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_sqlmanager-Debug-13599f213c979b5f754b.json",
+					"jsonFile" : "target-test_sqlmanager-Debug-5b66eec6a58315622fbc.json",
 					"name" : "test_sqlmanager",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_thread::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_thread-Debug-cdeda5f2e85c90c60e63.json",
+					"jsonFile" : "target-test_thread-Debug-cb9a42f0acf2ffe6ed6b.json",
 					"name" : "test_thread",
 					"projectIndex" : 0
 				}
@@ -85,8 +85,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/root/projects/cloudCodingDB/mem_socket_server/build",
-		"source" : "/root/projects/cloudCodingDB/mem_socket_server"
+		"build" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build",
+		"source" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server"
 	},
 	"version" : 
 	{

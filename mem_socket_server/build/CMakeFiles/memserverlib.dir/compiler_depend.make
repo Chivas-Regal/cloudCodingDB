@@ -325,6 +325,7 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: ../example/main.cpp \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/atomic_futex.h \
+  ../include/containers/trie.h \
   ../include/server.h \
   ../include/config.h
 
@@ -332,6 +333,8 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: ../example/main.cpp \
 ../include/config.h:
 
 ../include/server.h:
+
+../include/containers/trie.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 

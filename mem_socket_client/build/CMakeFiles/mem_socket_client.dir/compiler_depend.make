@@ -70,6 +70,7 @@ CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: ../src/connector.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/aarch64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
   ../include/util.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -224,6 +225,9 @@ CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: ../src/connector.cpp \
   /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
   /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
+  /usr/include/c++/11/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   ../include/config.h
 
 CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o: ../src/inet_address.cpp \
@@ -481,6 +485,7 @@ CMakeFiles/mem_socket_client.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/aarch64-linux-gnu/bits/in.h \
+  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
   ../include/util.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -636,7 +641,12 @@ CMakeFiles/mem_socket_client.dir/src/socket.cpp.o: ../src/socket.cpp \
   /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../include/limits.h \
-  /usr/include/aarch64-linux-gnu/sys/syslimits.h
+  /usr/include/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/aarch64-linux-gnu/bits/stat.h \
+  /usr/include/aarch64-linux-gnu/bits/struct_stat.h
 
 CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
   /usr/include/stdc-predef.h \
@@ -875,8 +885,6 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/c++/11/bits/invoke.h:
 
-/usr/include/c++/11/bits/uses_allocator.h:
-
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/bits/stl_relops.h:
@@ -887,15 +895,19 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 
 ../src/util.cpp:
 
-/usr/include/aarch64-linux-gnu/sys/syslimits.h:
+/usr/include/aarch64-linux-gnu/bits/stat.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/linux/falloc.h:
 
 ../include/limits.h:
-
-/usr/include/string.h:
 
 ../src/inet_address.cpp:
 
 ../include/config.h:
+
+/usr/include/string.h:
 
 /usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
@@ -938,6 +950,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/aarch64-linux-gnu/bits/fcntl-linux.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -999,6 +1013,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+/usr/include/fcntl.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/aarch64-linux-gnu/bits/timex.h:
@@ -1022,6 +1038,10 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/aarch64-linux-gnu/c++/11/bits/gthr-default.h:
 
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+../include/socket.h:
 
 /usr/include/c++/11/cwctype:
 
@@ -1237,6 +1257,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 
 /usr/include/linux/posix_types.h:
 
+/usr/include/aarch64-linux-gnu/sys/syslimits.h:
+
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/linux/stddef.h:
@@ -1246,6 +1268,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/aarch64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/c++/11/ios:
 
@@ -1260,6 +1284,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/aarch64-linux-gnu/bits/fcntl.h:
 
 /usr/include/aarch64-linux-gnu/bits/posix_opt.h:
 
@@ -1358,7 +1384,3 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/aarch64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/11/cctype:
-
-../include/socket.h:
-
-/usr/include/c++/11/bits/ios_base.h:

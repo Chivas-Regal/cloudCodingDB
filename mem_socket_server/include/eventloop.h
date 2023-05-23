@@ -4,6 +4,7 @@
 #include "sqlmanager.h"
 #include "memtools/mempool.h"
 #include "threads/threadpool.h"
+#include "containers/trie.h"
 #include <map>
 #include <string>
 #include <functional>
@@ -44,14 +45,9 @@ private:
     Epoll *ep;          ///< Reactor 监听的 Epoll 树
     bool quit;          ///< 是否退出监听
 
-    std::map<
-        std::string,  ///< username
-        std::map<
-            std::string,                ///< variable_name 
-            std::pair<uint8_t*, size_t> ///< {address, size}
-        >
-    > memKV; 
-    std::mutex mutexMemKV;
+    /* {username, {variable_name,  {address, size} }} */
+    Trie<Trie<std::pair<uint8_t*, size_t>>> memKV; ///< 字典树存放 [用户名][变量名] : 值
+    std::mutex mutexMemKV; ///< 修改字典树需上的锁
 
     SqlManager* sqm;    ///< 登录用的用户信息表 api
     MemPool* mempool;   ///< 分配变量内存的内存池

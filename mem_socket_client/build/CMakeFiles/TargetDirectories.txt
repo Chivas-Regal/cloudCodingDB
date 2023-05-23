@@ -1,4 +1,4 @@
-/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles/mem_socket_client.dir
-/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles/memclientlib.dir
-/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles/edit_cache.dir
-/root/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles/mem_socket_client.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles/memclientlib.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,7 @@
 CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o: \
- /root/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/sqlmanager.cpp \
  /usr/include/stdc-predef.h \
- /root/projects/cloudCodingDB/mem_socket_server/test/../include/usrinfo/sqlmanager.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/usrinfo/sqlmanager.h \
  /usr/include/mysql/mysql.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \
@@ -165,7 +165,7 @@ CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o: \
  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /root/projects/cloudCodingDB/mem_socket_server/test/../include/config.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/config.h \
  /usr/include/assert.h /usr/include/c++/11/iostream \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/ios_base.h \

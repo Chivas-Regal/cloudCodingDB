@@ -1,5 +1,5 @@
 CMakeFiles/memclientlib.dir/example/main.cpp.o: \
- /root/projects/cloudCodingDB/mem_socket_client/example/main.cpp \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp \
  /usr/include/stdc-predef.h /usr/include/aarch64-linux-gnu/sys/socket.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
@@ -196,7 +196,7 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \
- /root/projects/cloudCodingDB/mem_socket_client/include/limits.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/limits.h \
  /usr/include/syscall.h /usr/include/aarch64-linux-gnu/sys/syscall.h \
  /usr/include/aarch64-linux-gnu/asm/unistd.h \
  /usr/include/asm-generic/unistd.h \
@@ -211,7 +211,8 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/aarch64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
- /root/projects/cloudCodingDB/mem_socket_client/include/util.h \
- /root/projects/cloudCodingDB/mem_socket_client/include/socket.h \
- /root/projects/cloudCodingDB/mem_socket_client/include/inet_address.h \
- /root/projects/cloudCodingDB/mem_socket_client/include/connector.h
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/util.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/socket.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/inet_address.h \
+ /usr/include/aarch64-linux-gnu/sys/syslimits.h \
+ /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/connector.h

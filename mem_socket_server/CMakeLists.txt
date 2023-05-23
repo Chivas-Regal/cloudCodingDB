@@ -23,12 +23,14 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/include/memtools/
     ${PROJECT_SOURCE_DIR}/include/usrinfo/
     ${PROJECT_SOURCE_DIR}/include/threads/
+    ${PROJECT_SOURCE_DIR}/include/containers/
     /usr/include/mysql/
 )
 aux_source_directory(./src SRC_FILES)
 aux_source_directory(./src/memtools SRC_FILES)
 aux_source_directory(./src/usrinfo SRC_FILES)
 aux_source_directory(./src/threads SRC_FILES)
+aux_source_directory(./src/containers SRC_FILES)
 
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 

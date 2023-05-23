@@ -268,10 +268,13 @@ CMakeFiles/memclientlib.dir/example/main.cpp.o: ../example/main.cpp \
   ../include/util.h \
   ../include/socket.h \
   ../include/inet_address.h \
+  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
   ../include/connector.h
 
 
 ../include/connector.h:
+
+/usr/include/aarch64-linux-gnu/sys/syslimits.h:
 
 ../include/inet_address.h:
 

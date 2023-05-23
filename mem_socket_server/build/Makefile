@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/projects/cloudCodingDB/mem_socket_server
+CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/projects/cloudCodingDB/mem_socket_server/build
+CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles /root/projects/cloudCodingDB/mem_socket_server/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -238,6 +238,30 @@ src/channel.s: src/channel.cpp.s
 src/channel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/channel.cpp.s
 .PHONY : src/channel.cpp.s
+
+src/containers/trie.o: src/containers/trie.cpp.o
+.PHONY : src/containers/trie.o
+
+# target to build an object file
+src/containers/trie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o
+.PHONY : src/containers/trie.cpp.o
+
+src/containers/trie.i: src/containers/trie.cpp.i
+.PHONY : src/containers/trie.i
+
+# target to preprocess a source file
+src/containers/trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.i
+.PHONY : src/containers/trie.cpp.i
+
+src/containers/trie.s: src/containers/trie.cpp.s
+.PHONY : src/containers/trie.s
+
+# target to generate assembly for a file
+src/containers/trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s
+.PHONY : src/containers/trie.cpp.s
 
 src/epoll.o: src/epoll.cpp.o
 .PHONY : src/epoll.o
@@ -667,6 +691,9 @@ help:
 	@echo "... src/channel.o"
 	@echo "... src/channel.i"
 	@echo "... src/channel.s"
+	@echo "... src/containers/trie.o"
+	@echo "... src/containers/trie.i"
+	@echo "... src/containers/trie.s"
 	@echo "... src/epoll.o"
 	@echo "... src/epoll.i"
 	@echo "... src/epoll.s"

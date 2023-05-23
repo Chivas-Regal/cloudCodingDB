@@ -1,8 +1,8 @@
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/test_mempool.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/test_thread.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/mem_socket_server.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/memserverlib.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/test.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/edit_cache.dir
-/root/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles/rebuild_cache.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/test_mempool.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/test_sqlmanager.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/test_thread.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/mem_socket_server.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/memserverlib.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/test.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/edit_cache.dir
+/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/build/CMakeFiles/rebuild_cache.dir

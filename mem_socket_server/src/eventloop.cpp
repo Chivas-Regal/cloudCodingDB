@@ -47,7 +47,6 @@ EventLoop::~EventLoop () {
         delete threadpool;
         threadpool = nullptr;
     }
-    memKV.clear();
 }
 
 /**
@@ -83,8 +82,8 @@ void EventLoop::updateChannel(Channel* ch, int ope) {
  */
 void EventLoop::backup () {
     freopen("../backup/variable_info.txt", "w", stdout);
-    for (const auto& [userName, variableInfo] : memKV) {
-        for (const auto& [variableName, ad_sz] : variableInfo) {
+    for (const auto& [userName, variableInfo] : memKV.getKV()) {
+        for (const auto& [variableName, ad_sz] : variableInfo.getKV()) {
             std::cout << userName << " " << variableName << " " << ad_sz.second << std::endl;
             uint8_t *ptr = ad_sz.first;
             for (int i = 0; i < ad_sz.second; i ++) {
