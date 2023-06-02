@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+CMAKE_SOURCE_DIR = /home/projects/cloudCodingDB/mem_socket_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build"
+CMAKE_BINARY_DIR = /home/projects/cloudCodingDB/mem_socket_client/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/memclientlib.dir/depend.make
@@ -69,32 +69,32 @@ include CMakeFiles/memclientlib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/memclientlib.dir/flags.make
 
-CMakeFiles/memclientlib.dir/example/main.cpp.o: CMakeFiles/memclientlib.dir/flags.make
-CMakeFiles/memclientlib.dir/example/main.cpp.o: ../example/main.cpp
-CMakeFiles/memclientlib.dir/example/main.cpp.o: CMakeFiles/memclientlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memclientlib.dir/example/main.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memclientlib.dir/example/main.cpp.o -MF CMakeFiles/memclientlib.dir/example/main.cpp.o.d -o CMakeFiles/memclientlib.dir/example/main.cpp.o -c "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp"
+CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: CMakeFiles/memclientlib.dir/flags.make
+CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: ../example/memclientlib.cpp
+CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: CMakeFiles/memclientlib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -MF CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o.d -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -c /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp
 
-CMakeFiles/memclientlib.dir/example/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memclientlib.dir/example/main.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp" > CMakeFiles/memclientlib.dir/example/main.cpp.i
+CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp > CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i
 
-CMakeFiles/memclientlib.dir/example/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memclientlib.dir/example/main.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/example/main.cpp" -o CMakeFiles/memclientlib.dir/example/main.cpp.s
+CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s"
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s
 
 # Object files for target memclientlib
 memclientlib_OBJECTS = \
-"CMakeFiles/memclientlib.dir/example/main.cpp.o"
+"CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o"
 
 # External object files for target memclientlib
 memclientlib_EXTERNAL_OBJECTS =
 
-memclientlib: CMakeFiles/memclientlib.dir/example/main.cpp.o
+memclientlib: CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o
 memclientlib: CMakeFiles/memclientlib.dir/build.make
 memclientlib: ../lib/libmem_socket_client.so
 memclientlib: CMakeFiles/memclientlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable memclientlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable memclientlib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/memclientlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/memclientlib.dir/clean:
 .PHONY : CMakeFiles/memclientlib.dir/clean
 
 CMakeFiles/memclientlib.dir/depend:
-	cd "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles/memclientlib.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/projects/cloudCodingDB/mem_socket_client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/cloudCodingDB/mem_socket_client /home/projects/cloudCodingDB/mem_socket_client /home/projects/cloudCodingDB/mem_socket_client/build /home/projects/cloudCodingDB/mem_socket_client/build /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles/memclientlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/memclientlib.dir/depend
 

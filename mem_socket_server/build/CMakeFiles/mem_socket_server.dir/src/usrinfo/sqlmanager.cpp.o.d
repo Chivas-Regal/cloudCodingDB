@@ -1,7 +1,7 @@
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/usrinfo/sqlmanager.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/usrinfo/../../include/usrinfo/sqlmanager.h \
+ /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/../../include/usrinfo/sqlmanager.h \
  /usr/include/mysql/mysql.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h \

@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ CMakeFiles/example-use.dir/example/example-use.cpp.o -o example-use  -Wl,-rpath,/home/projects/cloudCodingDB/mem_socket_client/lib ../lib/libmem_socket_client.so 

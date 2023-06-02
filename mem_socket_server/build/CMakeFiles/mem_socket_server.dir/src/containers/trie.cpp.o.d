@@ -1,7 +1,7 @@
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/containers/trie.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/containers/trie.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/containers/trie.h \
  /usr/include/c++/11/string \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \

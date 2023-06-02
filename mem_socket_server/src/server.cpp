@@ -68,6 +68,7 @@ void Server::handleLoginEvent (Channel* clnt_channel) {
     std::string password = clnt_channel->nextOrder();
 
     std::cout << username << " " << password << std::endl;
+
     if (loop->sqm->QueryGetRes("SELECT * FROM mem_socket_login_infos WHERE username = '" + username + "' and password = '" + password + "';").empty()) { // ERROR: username or password not found
         clnt_channel->disableReading();
         clnt_channel->~Channel();
@@ -102,22 +103,20 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
     clnt_channel->sRead();
     std::string taskId = clnt_channel->nextOrder();
     std::function<void()> _cb;
-    if (taskId == "1") {
-        _cb = std::bind(&Server::handleNewMemplace, this, clnt_channel);
-    } else if (taskId == "2") {
-        _cb = std::bind(&Server::handleInputValue, this, clnt_channel);
-    } else if (taskId == "3") {
-        _cb = std::bind(&Server::handleOutputValue, this, clnt_channel);
-    } else if (taskId == "4") {
-        _cb = std::bind(&Server::handleFreeMemplace, this, clnt_channel);
+
+    if (taskId == "NEW") {
+        handleNewMemplace(clnt_channel);
+    } else if (taskId == "GET") {
+        handleInputValue(clnt_channel);
+    } else if (taskId == "SET") {
+        handleOutputValue(clnt_channel);
+    } else if (taskId == "DES") {
+        handleFreeMemplace(clnt_channel);
     } else { // ERROR: taskid not found
         clnt_channel->disableReading();
         clnt_channel->~Channel();
         return;
     }
-    // E: 任务分发多了个ack发送
-    clnt_channel->setCallback(_cb);
-    clnt_channel->enableReading();
 }
 
 /**
@@ -133,10 +132,9 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
  *          回调函数修改回处理任务指引事件 handleTaskChoose()
  */
 void Server::handleNewMemplace(Channel* clnt_channel) {
-    clnt_channel->sRead();
     std::string name = clnt_channel->nextOrder();
     std::string nBytes = clnt_channel->nextOrder();
-    
+
     loop->opeMemKV(
         [&](){
             loop->memKV[clnt_channel->getName()][name] = std::make_pair<uint8_t*, size_t>(
@@ -167,13 +165,13 @@ void Server::handleNewMemplace(Channel* clnt_channel) {
  *          回调函数修改回处理任务指引事件 handleTaskChoose()
  */
 void Server::handleInputValue(Channel* clnt_channel) {
-    clnt_channel->sRead();
     std::string name = clnt_channel->nextOrder();
     std::string _sstart = clnt_channel->nextOrder();
     std::string _send = clnt_channel->nextOrder();
+
     uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
     uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
-    uint8_t byteBuf[128]; bzero(byteBuf, sizeof(byteBuf));
+    uint8_t byteBuf[end - start + 1]; bzero(byteBuf, sizeof(byteBuf));
     if (BitHighLow()) {
         uint8_t* onemem = start;
         for (int i = 0; true; i ++) {
@@ -213,10 +211,10 @@ void Server::handleInputValue(Channel* clnt_channel) {
  *          回调函数修改回处理任务指引事件 handleTaskChoose()
  */
 void Server::handleOutputValue(Channel* clnt_channel) {
-    clnt_channel->sRead();
     std::string name = clnt_channel->nextOrder();
     std::string _sstart = clnt_channel->nextOrder();
     std::string _send = clnt_channel->nextOrder();
+
     uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
     uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
 
@@ -256,9 +254,8 @@ void Server::handleOutputValue(Channel* clnt_channel) {
  *          回调函数修改回处理任务指引事件 handleTaskChoose()
  */
 void Server::handleFreeMemplace(Channel* clnt_channel) {
-    // loop->mempool->print();
-    clnt_channel->sRead();
     std::string name = clnt_channel->nextOrder();
+
     loop->mempool->deallocate(
         loop->memKV[clnt_channel->getName()][name].first, 
         loop->memKV[clnt_channel->getName()][name].second

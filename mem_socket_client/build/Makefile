@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+CMAKE_SOURCE_DIR = /home/projects/cloudCodingDB/mem_socket_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build"
+CMAKE_BINARY_DIR = /home/projects/cloudCodingDB/mem_socket_client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles /home/projects/cloudCodingDB/mem_socket_client/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,29 +142,66 @@ memclientlib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/build
 .PHONY : memclientlib/fast
 
-example/main.o: example/main.cpp.o
-.PHONY : example/main.o
+#=============================================================================
+# Target rules for targets named localwork
+
+# Build rule for target.
+localwork: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 localwork
+.PHONY : localwork
+
+# fast build rule for target.
+localwork/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/build
+.PHONY : localwork/fast
+
+example/memclientlib.o: example/memclientlib.cpp.o
+.PHONY : example/memclientlib.o
 
 # target to build an object file
-example/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/main.cpp.o
-.PHONY : example/main.cpp.o
+example/memclientlib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o
+.PHONY : example/memclientlib.cpp.o
 
-example/main.i: example/main.cpp.i
-.PHONY : example/main.i
+example/memclientlib.i: example/memclientlib.cpp.i
+.PHONY : example/memclientlib.i
 
 # target to preprocess a source file
-example/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/main.cpp.i
-.PHONY : example/main.cpp.i
+example/memclientlib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i
+.PHONY : example/memclientlib.cpp.i
 
-example/main.s: example/main.cpp.s
-.PHONY : example/main.s
+example/memclientlib.s: example/memclientlib.cpp.s
+.PHONY : example/memclientlib.s
 
 # target to generate assembly for a file
-example/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/main.cpp.s
-.PHONY : example/main.cpp.s
+example/memclientlib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s
+.PHONY : example/memclientlib.cpp.s
+
+localwork.o: localwork.cpp.o
+.PHONY : localwork.o
+
+# target to build an object file
+localwork.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/localwork.cpp.o
+.PHONY : localwork.cpp.o
+
+localwork.i: localwork.cpp.i
+.PHONY : localwork.i
+
+# target to preprocess a source file
+localwork.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/localwork.cpp.i
+.PHONY : localwork.cpp.i
+
+localwork.s: localwork.cpp.s
+.PHONY : localwork.s
+
+# target to generate assembly for a file
+localwork.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/localwork.cpp.s
+.PHONY : localwork.cpp.s
 
 src/connector.o: src/connector.cpp.o
 .PHONY : src/connector.o
@@ -270,11 +307,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... localwork"
 	@echo "... mem_socket_client"
 	@echo "... memclientlib"
-	@echo "... example/main.o"
-	@echo "... example/main.i"
-	@echo "... example/main.s"
+	@echo "... example/memclientlib.o"
+	@echo "... example/memclientlib.i"
+	@echo "... example/memclientlib.s"
+	@echo "... localwork.o"
+	@echo "... localwork.i"
+	@echo "... localwork.s"
 	@echo "... src/connector.o"
 	@echo "... src/connector.i"
 	@echo "... src/connector.s"

@@ -1,9 +1,9 @@
 CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/src/connector.cpp \
+ /home/projects/cloudCodingDB/mem_socket_client/src/connector.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/connector.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/socket.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/inet_address.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/connector.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/socket.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/inet_address.h \
  /usr/include/c++/11/cstdint \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -64,7 +64,7 @@ CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/aarch64-linux-gnu/bits/in.h \
  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/util.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/util.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
@@ -190,4 +190,5 @@ CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/c++/11/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/config.h
+ /home/projects/cloudCodingDB/mem_socket_client/include/config.h \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc

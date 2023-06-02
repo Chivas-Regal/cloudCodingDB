@@ -67,10 +67,10 @@ public:
     /* 发送字符串 */
     void sWrite (const std::string& s);
 
-    /* 读字符串进 buf[] 中 */
+    /* 读指令进 buf[] 中，拆解词组放进 words 中 */
     void sRead ();
 
-    /* 在已读取到的缓冲区 buf[] 中获取下一条语句（不额外读） */
+    /* 在已读取到的缓冲区 words 中获取下一条语句（不额外读） */
     std::string nextOrder ();
 private:
     int fd;             ///< 被绑定套接字
@@ -82,6 +82,6 @@ private:
     /*! @brief 本套接字类在就绪时应执行的回调函数 */
     std::function<void()> callback;
 
-    int word_id;        ///< 在读取到的 buf[] 缓冲区中，要读取走到的位置
-    char buf[128];      ///< 一整条完整命令的缓冲区
+    std::vector<std::string> words; ///< 读取到的 buf[] 拆解为词组命令
+    int word_id;                    ///< 在拆解好的词组命令缓冲区中，要读取走到的位置
 };

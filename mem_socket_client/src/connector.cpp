@@ -1,6 +1,7 @@
 #include "connector.h"
 #include "config.h"
 #include "util.h"
+#include <sstream>
 
 /**
  * @brief 默认构造函数
@@ -60,7 +61,8 @@ Connector::~Connector() {
  *          根据收到的 ack 判断是否为 OK 来确定是否登录成功
  */
 bool Connector::Login (const std::string& username, const std::string& password) {
-    sWrite(serv_sock->getFd(), username + " " + password);
+    sWrite(serv_sock->getFd(), toDBsentense(username + " " + password));
+    std::cout << toDBsentense(username + " " + password);
     std::string ack = sRead(serv_sock->getFd());
     if (ack != "OK") {
         return false;
@@ -76,8 +78,7 @@ bool Connector::Login (const std::string& username, const std::string& password)
  * @details 发送 "4" 和 变量名，收取一个 ACK
  */
 void Connector::memFree (const std::string& varname) {
-    sWrite(serv_sock->getFd(), "4");
-    sWrite(serv_sock->getFd(), varname);
+    sWrite(serv_sock->getFd(), toDBsentense("DES " + varname));
     std::string ack = sRead(serv_sock->getFd());
 }
 
@@ -86,4 +87,24 @@ void Connector::memFree (const std::string& varname) {
  */
 void Connector::Exit () {
     sWrite(serv_sock->getFd(), "5");
+}
+
+/**
+ * @brief 获取格式化后的 db 语句
+ *      a abc dd
+ *   -> #3\r\n
+ *   -> $1 a\r\n 
+ *   -> $3 abc\r\n 
+ *   -> $2 dd\r\n 
+*/
+std::string Connector::toDBsentense(const std::string& s) {
+    std::stringstream sst;
+    sst << s;
+    int n = 0;
+    std::string word, words;
+    while (sst >> word) {
+        words += "$" + std::to_string(word.size()) + " " + word + "\r\n";
+        n ++;
+    }
+    return "#" + std::to_string(n) + "\r\n" + words;
 }

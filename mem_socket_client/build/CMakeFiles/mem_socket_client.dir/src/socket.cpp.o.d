@@ -1,8 +1,8 @@
 CMakeFiles/mem_socket_client.dir/src/socket.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/src/socket.cpp \
+ /home/projects/cloudCodingDB/mem_socket_client/src/socket.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/socket.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/inet_address.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/socket.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/inet_address.h \
  /usr/include/c++/11/cstdint \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -63,7 +63,7 @@ CMakeFiles/mem_socket_client.dir/src/socket.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/aarch64-linux-gnu/bits/in.h \
  /usr/include/aarch64-linux-gnu/sys/syslimits.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/util.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/util.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
@@ -188,7 +188,7 @@ CMakeFiles/mem_socket_client.dir/src/socket.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/include/limits.h \
+ /home/projects/cloudCodingDB/mem_socket_client/include/limits.h \
  /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
  /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/aarch64-linux-gnu/bits/stat.h \

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/lib/libmem_socket_client.so"
+			"path" : "/home/projects/cloudCodingDB/mem_socket_client/lib/libmem_socket_client.so"
 		}
 	],
 	"backtrace" : 1,
@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -69,7 +69,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include"
+					"path" : "/home/projects/cloudCodingDB/mem_socket_client/include"
 				}
 			],
 			"language" : "CXX",
@@ -120,16 +120,6 @@
 				2,
 				3
 			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				4,
-				5,
-				6,
-				7
-			]
 		}
 	],
 	"sources" : 
@@ -157,26 +147,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "src/util.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/socket.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/inet_address.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/limits.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/connector.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "SHARED_LIBRARY"

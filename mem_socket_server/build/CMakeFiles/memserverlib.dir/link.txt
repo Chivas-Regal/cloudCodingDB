@@ -1,1 +1,1 @@
-/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/memserverlib.dir/example/main.cpp.o -o memserverlib  -Wl,-rpath,"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_server/lib" ../lib/libmem_socket_server.so -lmysqlclient -lpthread 
+/usr/bin/aarch64-linux-gnu-g++ CMakeFiles/memserverlib.dir/example/main.cpp.o -o memserverlib  -Wl,-rpath,/home/projects/cloudCodingDB/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 

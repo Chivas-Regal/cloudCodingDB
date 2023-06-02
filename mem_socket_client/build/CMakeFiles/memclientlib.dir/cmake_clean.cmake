@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/memclientlib.dir/example/main.cpp.o"
-  "CMakeFiles/memclientlib.dir/example/main.cpp.o.d"
+  "CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o"
+  "CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o.d"
   "memclientlib"
   "memclientlib.pdb"
 )

@@ -713,8 +713,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build",
-		"source" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+		"build" : "/home/projects/cloudCodingDB/mem_socket_server/build",
+		"source" : "/home/projects/cloudCodingDB/mem_socket_server"
 	},
 	"version" : 
 	{

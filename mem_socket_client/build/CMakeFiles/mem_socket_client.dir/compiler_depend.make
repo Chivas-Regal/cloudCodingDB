@@ -228,7 +228,9 @@ CMakeFiles/mem_socket_client.dir/src/connector.cpp.o: ../src/connector.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
-  ../include/config.h
+  ../include/config.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc
 
 CMakeFiles/mem_socket_client.dir/src/inet_address.cpp.o: ../src/inet_address.cpp \
   /usr/include/stdc-predef.h \
@@ -905,6 +907,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 
 ../src/inet_address.cpp:
 
+/usr/include/c++/11/sstream:
+
 ../include/config.h:
 
 /usr/include/string.h:
@@ -1106,6 +1110,8 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: ../src/util.cpp \
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/strings.h:
 

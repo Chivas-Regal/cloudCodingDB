@@ -54,6 +54,6 @@
         "typeinfo": "cpp",
         "set": "cpp"
     },
-    "editor.lineHeight": 24,
+    "editor.lineHeight": 1.4,
     "editor.renderLineHighlight": "line"
 }

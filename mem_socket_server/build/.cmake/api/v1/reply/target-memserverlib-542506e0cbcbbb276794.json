@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "memclientlib"
+			"path" : "memserverlib"
 		}
 	],
 	"backtrace" : 1,
@@ -12,7 +12,6 @@
 		[
 			"add_executable",
 			"target_link_libraries",
-			"add_compile_options",
 			"include_directories"
 		],
 		"files" : 
@@ -27,25 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 7,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 0,
-				"line" : 9,
+				"line" : 21,
 				"parent" : 0
 			}
 		]
@@ -56,21 +49,34 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
-				{
-					"backtrace" : 3,
-					"fragment" : "-pthread"
-				},
-				{
 					"fragment" : "-std=gnu++20"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
-					"path" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include"
+					"backtrace" : 3,
+					"path" : "/home/projects/cloudCodingDB/mem_socket_server/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/projects/cloudCodingDB/mem_socket_server/include/memtools"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/projects/cloudCodingDB/mem_socket_server/include/usrinfo"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/projects/cloudCodingDB/mem_socket_server/include/threads"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/projects/cloudCodingDB/mem_socket_server/include/containers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/mysql"
 				}
 			],
 			"language" : "CXX",
@@ -92,36 +98,42 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "mem_socket_client::@6890427a1f51a3e7e1df"
+			"id" : "mem_socket_server::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "memclientlib::@6890427a1f51a3e7e1df",
+	"id" : "memserverlib::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
 				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,\"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/lib\"",
+				"fragment" : "-Wl,-rpath,/home/projects/cloudCodingDB/mem_socket_server/lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "../lib/libmem_socket_client.so",
+				"fragment" : "../lib/libmem_socket_server.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lmysqlclient",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "memclientlib",
-	"nameOnDisk" : "memclientlib",
+	"name" : "memserverlib",
+	"nameOnDisk" : "memserverlib",
 	"paths" : 
 	{
 		"build" : ".",

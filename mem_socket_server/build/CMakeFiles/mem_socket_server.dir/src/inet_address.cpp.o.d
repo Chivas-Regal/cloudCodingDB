@@ -1,7 +1,7 @@
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/inet_address.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/inet_address.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/inet_address.h \
  /usr/include/c++/11/cstdint \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \

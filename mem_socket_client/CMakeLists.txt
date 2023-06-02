@@ -6,15 +6,18 @@ set(CMAKE_CXX_STANDARD 20)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 add_compile_options(-pthread)
 
-include_directories(
-        ${PROJECT_SOURCE_DIR}/include/
-)
-
+include_directories(${PROJECT_SOURCE_DIR}/include/)
 aux_source_directory(./src SRC_FILES)
-add_library(${PROJECT_NAME} SHARED ${SRC_FILES} include/socket.h include/inet_address.h src/socket.cpp src/inet_address.cpp include/limits.h include/connector.h src/connector.cpp)
+add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
 
-add_executable(memclientlib example/main.cpp)
-target_link_libraries(memclientlib
-        ${OpenCV_LIBS}
-        ${PROJECT_NAME}
+
+file(
+    GLOB_RECURSE mains RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
+    "${CMAKE_CURRENT_SOURCE_DIR}/localwork.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/example/memclientlib.cpp"
 )
+foreach(mainfile IN LISTS mains)
+    get_filename_component(mainname ${mainfile} NAME_WE)
+    add_executable(${mainname} ${mainfile})
+    target_link_libraries(${mainname} ${PROJECT_NAME})
+endforeach()

@@ -1,7 +1,7 @@
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/threads/threadpool.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/threads/../../include/threads/threadpool.h \
+ /home/projects/cloudCodingDB/mem_socket_server/src/threads/../../include/threads/threadpool.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
@@ -156,7 +156,7 @@ CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/limits.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/limits.h \
  /usr/include/unistd.h /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \

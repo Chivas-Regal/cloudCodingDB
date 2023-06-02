@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/main.dir/example/main.cpp.o -o main  -Wl,-rpath,"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/lib" ../lib/libmem_socket_client.so 

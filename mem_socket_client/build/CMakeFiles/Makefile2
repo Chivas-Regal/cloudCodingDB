@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+CMAKE_SOURCE_DIR = /home/projects/cloudCodingDB/mem_socket_client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build"
+CMAKE_BINARY_DIR = /home/projects/cloudCodingDB/mem_socket_client/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = "/home/parallels/Desktop/Parallels Shared Folders/Home/Deskto
 # The main recursive "all" target.
 all: CMakeFiles/mem_socket_client.dir/all
 all: CMakeFiles/memclientlib.dir/all
+all: CMakeFiles/localwork.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/mem_socket_client.dir/clean
 clean: CMakeFiles/memclientlib.dir/clean
+clean: CMakeFiles/localwork.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -83,14 +85,14 @@ clean: CMakeFiles/memclientlib.dir/clean
 CMakeFiles/mem_socket_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_client.dir/build.make CMakeFiles/mem_socket_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target mem_socket_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=3,4,5,6,7 "Built target mem_socket_client"
 .PHONY : CMakeFiles/mem_socket_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mem_socket_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mem_socket_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
 .PHONY : CMakeFiles/mem_socket_client.dir/rule
 
 # Convenience name for target.
@@ -109,14 +111,14 @@ CMakeFiles/mem_socket_client.dir/clean:
 CMakeFiles/memclientlib.dir/all: CMakeFiles/mem_socket_client.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" --progress-num=6,7 "Built target memclientlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=8,9 "Built target memclientlib"
 .PHONY : CMakeFiles/memclientlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/memclientlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/memclientlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
 .PHONY : CMakeFiles/memclientlib.dir/rule
 
 # Convenience name for target.
@@ -127,6 +129,32 @@ memclientlib: CMakeFiles/memclientlib.dir/rule
 CMakeFiles/memclientlib.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memclientlib.dir/build.make CMakeFiles/memclientlib.dir/clean
 .PHONY : CMakeFiles/memclientlib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/localwork.dir
+
+# All Build rule for target.
+CMakeFiles/localwork.dir/all: CMakeFiles/mem_socket_client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=1,2 "Built target localwork"
+.PHONY : CMakeFiles/localwork.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/localwork.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/localwork.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles 0
+.PHONY : CMakeFiles/localwork.dir/rule
+
+# Convenience name for target.
+localwork: CMakeFiles/localwork.dir/rule
+.PHONY : localwork
+
+# clean rule for target.
+CMakeFiles/localwork.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localwork.dir/build.make CMakeFiles/localwork.dir/clean
+.PHONY : CMakeFiles/localwork.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

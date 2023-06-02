@@ -5,6 +5,7 @@
 #include <iostream>
 #include <sys/socket.h>
 #include <cstring>
+#include <string>
 
 /**
  * @brief 默认初始化，全部设置为空
@@ -158,27 +159,42 @@ void Channel::sWrite(const std::string& s) {
 }
 
 /**
- * @brief 在已读取到的缓冲区 buf[] 中获取下一条语句（不额外读）
+ * @brief 在已读取到的缓冲区 words 中获取下一条语句（不额外读）
  * 
  * @return std::string 返回下一条命令
  */
 std::string Channel::nextOrder() {
-    std::string ret;
-    for (; buf[word_id] != '\n' && buf[word_id] != ' '; word_id ++) {
-        if (buf[word_id] != '\0') 
-            ret += buf[word_id];
-    }
-    word_id ++;
-    return ret;
+    return words[word_id ++];
 }
 
 /**
- * @brief 读字符串
+ * @brief 读指令
  * 
- * @details 读进 buf[] 中
+ * @details 读进 buf[] 中，拆解词组放进 words 中
  */
 void Channel::sRead() {
-    word_id = 0;
-    bzero(buf, sizeof(buf));
+    word_id = 0; words.clear();
+    char buf[128]; bzero(buf, sizeof(buf));
     recv(fd, buf, sizeof(buf), 0);
+
+    std::string s;
+    int idx = 0;
+    
+    s.clear();
+    while (buf[idx] != '#') idx ++; idx ++;
+    while (buf[idx] != '\n' || buf[idx - 1] != '\r') s += buf[idx ++];
+    s.pop_back();
+    int n = std::stoi(s);
+
+    for (int i = 0; i < n; i ++) {
+        s.clear();
+        while (buf[idx] != '$') idx ++; idx ++;
+        while (buf[idx] != ' ') s += buf[idx ++];
+        int nn = std::stoi(s);
+        while (buf[idx] == ' ') idx ++;
+        s.clear();
+        while (buf[idx] != '\n' || buf[idx - 1] != '\r') s += buf[idx ++];
+        s.pop_back();
+        words.push_back(s);
+    }
 }

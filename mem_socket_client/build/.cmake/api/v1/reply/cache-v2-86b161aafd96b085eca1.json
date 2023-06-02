@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build"
+			"value" : "/home/projects/cloudCodingDB/mem_socket_client/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/aarch64-linux-gnu-g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
 		},
 		{
@@ -514,6 +514,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -591,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+			"value" : "/home/projects/cloudCodingDB/mem_socket_client"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1127,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/build"
+			"value" : "/home/projects/cloudCodingDB/mem_socket_client/build"
 		},
 		{
 			"name" : "mem_socket_client_IS_TOP_LEVEL",
@@ -1151,7 +1155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client"
+			"value" : "/home/projects/cloudCodingDB/mem_socket_client"
 		}
 	],
 	"kind" : "cache",

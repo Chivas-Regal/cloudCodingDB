@@ -40,16 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "mem_socket_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-mem_socket_client-Debug-a7c3bce2cb0829dd4c67.json",
-					"name" : "mem_socket_client",
+					"id" : "localwork::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-localwork-Debug-faf0ec90337c5678d097.json",
+					"name" : "localwork",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "memclientlib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-memclientlib-Debug-ce011c2ff62b7417d701.json",
-					"name" : "memclientlib",
+					"id" : "mem_socket_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mem_socket_client-Debug-07591e8138a81e79cbd0.json",
+					"name" : "mem_socket_client",
 					"projectIndex" : 0
 				}
 			]

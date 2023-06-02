@@ -1,5 +1,5 @@
 CMakeFiles/mem_socket_client.dir/src/util.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/src/util.cpp \
+ /home/projects/cloudCodingDB/mem_socket_client/src/util.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -189,4 +189,4 @@ CMakeFiles/mem_socket_client.dir/src/util.cpp.o: \
  /usr/include/aarch64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_client/src/../include/util.h
+ /home/projects/cloudCodingDB/mem_socket_client/src/../include/util.h

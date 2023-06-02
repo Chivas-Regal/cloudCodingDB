@@ -29,10 +29,10 @@ public:
     bool Login (const std::string& username, const std::string& password);
 
     /* 变量申请(变量名, 变量个数（默认是1，代表单变量）) */
-    template<typename T> void memAsk (const std::string& varname, int size = 1);
+    template<typename T> bool memAsk (const std::string& varname, int size = 1);
 
     /* 变量值修改(变量名, 修改后的值, 该变量是数组的第几个（默认为0，代表单变量）) */
-    template<typename T> void memWrite (const std::string& varname, const T& v, int id = 0);
+    template<typename T> bool memWrite (const std::string& varname, const T& v, int id = 0);
 
     /* 变量值获取(变量名, 该变量是数组的第几个（默认为0，代表单变量）)  return 获取到的值; */
     template<typename T> T memRead (const std::string& varname, int id = 0);
@@ -45,6 +45,9 @@ public:
 
 private:
     Socket* serv_sock;  ///< 连接服务端的套接字
+
+    /* 格式化后的 db 语句 */
+    std::string toDBsentense (const std::string& s);
 };
 
 
@@ -55,11 +58,13 @@ private:
  * @param varname 变量名
  * @param size    变量个数（默认是1，代表单变量）
  */
-template<typename T> void 
+template<typename T> bool 
 Connector::memAsk (const std::string& varname, int size) {
-    sWrite(serv_sock->getFd(), "1");
-    sWrite(serv_sock->getFd(), varname + " " + std::to_string(size * sizeof(T)));
+    sWrite(serv_sock->getFd(), toDBsentense(
+        "NEW " + varname + " " + std::to_string(size * sizeof(T))
+    ));
     std::string ack = sRead(serv_sock->getFd());
+    return ack == "OK";
 }
 
 /**
@@ -70,13 +75,14 @@ Connector::memAsk (const std::string& varname, int size) {
  * @param value   修改后的值
  * @param id      该变量是数组的第几个（默认为0，代表单变量）
  */
-template<typename T> void 
+template<typename T> bool 
 Connector::memWrite (const std::string& varname, const T& value, int id) {
-    sWrite(serv_sock->getFd(), "3");
-    sWrite(serv_sock->getFd(), varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1));
+    sWrite(serv_sock->getFd(), toDBsentense(
+        "SET " + varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1)
+    ));
 
     // 打造字节序列
-    uint8_t byteBuf[128];
+    uint8_t byteBuf[sizeof(T)];
     bzero(&byteBuf, sizeof(byteBuf));
     T* ptr = new T(value);
     if (BitHighLow()) {
@@ -96,6 +102,7 @@ Connector::memWrite (const std::string& varname, const T& value, int id) {
         std::cout << "send error\n";
     }
     std::string ack = sRead(serv_sock->getFd());
+    return ack == "OK";
 }
 
 /**
@@ -108,11 +115,12 @@ Connector::memWrite (const std::string& varname, const T& value, int id) {
  */
 template<typename T> T 
 Connector::memRead (const std::string& varname, int id) {
-    sWrite(serv_sock->getFd(), "2");
-    sWrite(serv_sock->getFd(), varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1));
+    sWrite(serv_sock->getFd(), toDBsentense(
+        "GET " + varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1)
+    ));
 
     // 获取字节序列
-    uint8_t byteBuf[128];
+    uint8_t byteBuf[sizeof(T)];
     if (recv(serv_sock->getFd(), byteBuf, sizeof(byteBuf), 0) == -1) {
         std::cout << "recv error\n";
     }

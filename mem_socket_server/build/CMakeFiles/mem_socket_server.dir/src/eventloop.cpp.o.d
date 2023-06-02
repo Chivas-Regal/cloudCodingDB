@@ -1,9 +1,9 @@
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/src/eventloop.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/eventloop.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/epoll.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/channel.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/eventloop.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/epoll.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/channel.h \
  /usr/include/c++/11/functional \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -159,7 +159,7 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: \
  /usr/include/c++/11/bits/basic_string.tcc \
  /usr/include/aarch64-linux-gnu/sys/epoll.h \
  /usr/include/aarch64-linux-gnu/bits/epoll.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/usrinfo/sqlmanager.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/usrinfo/sqlmanager.h \
  /usr/include/mysql/mysql.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
@@ -180,21 +180,21 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: \
  /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/mempool.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist_ff.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlistnode.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/mempool.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_ff.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/memlistnode.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist_bf.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/memtools/memlist_wf.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/threads/threadpool.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_bf.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/memtools/memlist_wf.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/threads/threadpool.h \
  /usr/include/c++/11/thread /usr/include/c++/11/stop_token \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/limits.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/limits.h \
  /usr/include/unistd.h /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \
@@ -237,12 +237,12 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/atomic_futex.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/containers/trie.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/containers/trie.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/util.h \
+ /home/projects/cloudCodingDB/mem_socket_server/include/util.h \
  /usr/include/aarch64-linux-gnu/sys/socket.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/aarch64-linux-gnu/bits/socket.h \
@@ -256,4 +256,4 @@ CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: \
  /usr/include/aarch64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/include/config.h
+ /home/projects/cloudCodingDB/mem_socket_server/include/config.h

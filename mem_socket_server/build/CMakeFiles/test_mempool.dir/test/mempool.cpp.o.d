@@ -1,10 +1,10 @@
 CMakeFiles/test_mempool.dir/test/mempool.cpp.o: \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/mempool.cpp \
+ /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp \
  /usr/include/stdc-predef.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/mempool.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/memlist_ff.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/memlist.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/memlistnode.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/mempool.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/memlist_ff.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/memlist.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/memlistnode.h \
  /usr/include/c++/11/cstdio \
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
@@ -73,8 +73,8 @@ CMakeFiles/test_mempool.dir/test/mempool.cpp.o: \
  /usr/include/c++/11/bits/stl_multiset.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/memlist_bf.h \
- /home/parallels/Desktop/Parallels\ Shared\ Folders/Home/Desktop/memsocket/mem_socket_server/test/../include/memtools/memlist_wf.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/memlist_bf.h \
+ /home/projects/cloudCodingDB/mem_socket_server/test/../include/memtools/memlist_wf.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \

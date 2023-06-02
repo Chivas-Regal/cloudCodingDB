@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/aarch64-linux-gnu-g++
 CXX_DEFINES = -Dmem_socket_client_EXPORTS
 
-CXX_INCLUDES = -I"/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/memsocket/mem_socket_client/include"
+CXX_INCLUDES = -I/home/projects/cloudCodingDB/mem_socket_client/include
 
 CXX_FLAGS = -g -fPIC -pthread -std=gnu++20
 
