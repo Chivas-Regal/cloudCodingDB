@@ -25,14 +25,15 @@ void sonWork (int id) {
     conn->Login("test" + std::to_string(id), "test" + std::to_string(id));
     conn->memAsk<node>("hello" + std::to_string(id), 100);
 
-    for (int i = 0; i < 100; i ++) 
+    for (int i = 0; i < 10; i ++) {
         conn->memWrite<node>("hello" + std::to_string(id), node(i, i + 1), i);
-
-    std::cout << "YES\n";
+        std::cout << "client> SET hello1[" << i << "] = {" << i << ", " << i + 1 << "}\n";
+    }
     
-    for (int i = 0; i < 100; i ++) {
+    for (int i = 0; i < 10; i ++) {
         node rd = conn->memRead<node>("hello" + std::to_string(id), i);
-        std::cout << id << "->>: " << rd.x << " " << rd.y << std::endl;
+        std::cout << "client> GET hello1[" << i << "]\n";
+        std::cout << "server> {" << rd.x << ", " << rd.y << "}\n";
     }
 
     conn->memFree("hello" + std::to_string(id));

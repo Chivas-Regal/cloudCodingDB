@@ -62,7 +62,6 @@ Connector::~Connector() {
  */
 bool Connector::Login (const std::string& username, const std::string& password) {
     sWrite(serv_sock->getFd(), toDBsentense(username + " " + password));
-    std::cout << toDBsentense(username + " " + password);
     std::string ack = sRead(serv_sock->getFd());
     if (ack != "OK") {
         return false;

@@ -19,7 +19,7 @@ EventLoop::EventLoop() :
 {
     sqm->connect(SQL_IP, SQL_PORT, SQL_USERNAME, SQL_PASSWORD);
     sqm->selectDB(SQL_DBNAME);
-    restor();
+    // restor();
 }
 
 
@@ -30,7 +30,7 @@ EventLoop::EventLoop() :
  * 
  */
 EventLoop::~EventLoop () {
-    backup();
+    // backup();
     if (ep != nullptr) {
         delete ep;
         ep = nullptr;

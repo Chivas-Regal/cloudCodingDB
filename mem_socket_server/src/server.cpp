@@ -269,5 +269,4 @@ void Server::handleFreeMemplace(Channel* clnt_channel) {
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
     clnt_channel->enableReading();
-    loop->mempool->print();
 }
