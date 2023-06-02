@@ -8,7 +8,7 @@
 ├── build
 ... 生成文件，不再放出来了
 ├── example
-│   └── main.cpp
+│   └── memclientlib.cpp
 ├── include
 │   ├── config.h
 │   ├── connector.h
@@ -18,6 +18,7 @@
 │   └── util.h
 ├── lib
 │   └── libmem_socket_client.so
+├── localwork.cpp
 └── src
     ├── connector.cpp
     ├── inet_address.cpp
