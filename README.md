@@ -8,7 +8,7 @@
 
 ## code-api 使用演示
 
-![codeCloudDB-code-api-show](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/codeCloudDB-code-api-show.gif)
+[![GitHub开源项目云端KV数据库codeCloudDB —— code-api演示](https://i.ytimg.com/vi/v2NlTyJhSbg/maxresdefault.jpg)](https://www.youtube.com/watch?v=v2NlTyJhSbg "GitHub开源项目云端KV数据库codeCloudDB —— code-api演示")
 
 类似在 mem_socket_client 端写的：
 
@@ -51,7 +51,7 @@ exit(0);
 
 这里就是我们本地运行时直接使用命令完成 KV 操作  
 
-![codeCloudDB-localcmd-show](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/codeCloudDB-localcmd-show.gif)
+[![GitHub开源项目云端KV数据库codeCloudDB —— localcmd演示](https://i.ytimg.com/vi/75XNo3CZS4k/maxresdefault.jpg)](https://www.youtube.com/watch?v=75XNo3CZS4k "GitHub开源项目云端KV数据库codeCloudDB —— localcmd演示")
 
 这里我们写好的数值都可以在后面利用到来完成编程向数据库  
 **注意这里数据的申请是不费我们自己的内存的**
