@@ -8,6 +8,8 @@
 
 ## code-api 使用演示
 
+[前往YouTube观看](https://www.youtube.com/watch?v=v2NlTyJhSbg)  
+
 [![GitHub开源项目云端KV数据库codeCloudDB —— code-api演示](https://i.ytimg.com/vi/v2NlTyJhSbg/maxresdefault.jpg)](https://www.youtube.com/watch?v=v2NlTyJhSbg "GitHub开源项目云端KV数据库codeCloudDB —— code-api演示")
 
 类似在 mem_socket_client 端写的：
@@ -50,6 +52,8 @@ exit(0);
 ## local-cmd 
 
 这里就是我们本地运行时直接使用命令完成 KV 操作  
+
+[前往YouTube观看](https://www.youtube.com/watch?v=75XNo3CZS4k)  
 
 [![GitHub开源项目云端KV数据库codeCloudDB —— localcmd演示](https://i.ytimg.com/vi/75XNo3CZS4k/maxresdefault.jpg)](https://www.youtube.com/watch?v=75XNo3CZS4k "GitHub开源项目云端KV数据库codeCloudDB —— localcmd演示")
 
