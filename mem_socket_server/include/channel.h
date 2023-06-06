@@ -13,7 +13,7 @@ class Epoll;
  * @brief socket套接字管理类
  * 
  * @details 基本是一个信息存储类
- *          通过 Reactor主分发器Eventloop 管理修改自己在 Epoll 内的状态
+ *          通过监听自己的 subReactor 管理修改自己在 Epoll 内的状态
  *          可设置就绪状态时执行的回调和执行回调
  *          可做通信简化 this::sRead(), this::nextOrder()
  */
@@ -22,13 +22,13 @@ public:
     /* 默认初始化，全部设置为空 */
     Channel ();
 
-    /* 带参构造，绑定Reactor分发器和socket套接字 */
+    /* 带参构造，绑定监听自己的Reactor分发器和socket套接字 */
     Channel (EventLoop *_loop, int _fd);
 
     /* 关闭套接字 */
     ~Channel ();
 
-    /* 执行事件，将回调函数填入线程池任务队列 */
+    /* 在本 subReactor 线程内执行事件-回调函数 */
     void handleEvent ();
 
     /* 设置回调函数 */
@@ -48,6 +48,9 @@ public:
 
     /* 获取客户端对应的用户名 */
     std::string getName ();
+
+    /* 获取监听本套接字的 subReactor */
+    EventLoop* getLoop ();
 
     /* 获取是否在 epoll 树中 */
     bool isInEpoll ();
@@ -75,7 +78,7 @@ public:
 private:
     int fd;             ///< 被绑定套接字
     std::string name;   ///< 套接字对应的客户端的“账号名”
-    EventLoop *loop;    ///< 监听本绑定类的 Reactor 主分发器
+    EventLoop *loop;    ///< 监听本绑定类的 subReactor
     uint32_t event;     ///< 本套接字类的发生事件属性（可读、可写）
     bool inEpoll;       ///< 本套接字类是否在 epoll 树中
 

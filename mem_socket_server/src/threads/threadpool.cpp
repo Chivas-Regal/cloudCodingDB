@@ -13,7 +13,7 @@ ThreadsPool::ThreadsPool (): running(true) {
     sem_init(&semTask, false, 0);
     int cpuNumber = sysconf(_SC_NPROCESSORS_CONF);
     std::cout << "Threads number: " << cpuNumber << std::endl;
-    for (int i = 0; i < 1; i ++) {
+    for (int i = 0; i < cpuNumber; i ++) {
         tpool.push_back(std::thread([&]() {
             while (true) {
                 sem_wait(&semTask);

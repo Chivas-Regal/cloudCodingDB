@@ -44,11 +44,10 @@ Channel::~Channel() {
 /**
  * @brief 执行事件
  * 
- * @details 将回调函数填入线程池任务队列
+ * @details 执行回调函数（已经在subReactor线程池内部了）
  */
 void Channel::handleEvent() {
-    loop->threadpool->commit(callback);
-    // callback();
+    callback();
 }
 
 /**
@@ -106,6 +105,13 @@ bool Channel::isInEpoll() {
  */
 std::string Channel::getName () {
     return name;
+}
+
+/**
+ * @brief 获取监听本套接字的 subReactor
+*/
+EventLoop* Channel::getLoop() {
+    return loop;
 }
 
 /**
@@ -197,4 +203,6 @@ void Channel::sRead() {
         s.pop_back();
         words.push_back(s);
     }
+
+    for (auto it : words) std::cout << it << " "; std::cout << "\n";
 }

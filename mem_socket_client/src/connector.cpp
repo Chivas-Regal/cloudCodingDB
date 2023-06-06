@@ -85,7 +85,7 @@ void Connector::memFree (const std::string& varname) {
  * @brief 退出连接
  */
 void Connector::Exit () {
-    sWrite(serv_sock->getFd(), "5");
+    sWrite(serv_sock->getFd(), toDBsentense("QUIT"));
 }
 
 /**

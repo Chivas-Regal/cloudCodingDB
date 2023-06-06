@@ -5,21 +5,18 @@
 /**
  * @brief 构造
  * 
- * @details 初始化：epoll、内存池、类型键值对、mysql连接api、线程池
+ * @details 初始化：epoll、类型键值对、mysql连接api
  *          相关数据配置在 config.h 内
  * 
  */
 EventLoop::EventLoop() :
     ep(new Epoll()),
-    mempool(new MemPool(MEM_NUM_LISTS, MEM_SIZE_LIST, MEM_POOL_ALGO)),
     memKV({}),
     sqm(new SqlManager()),
-    quit(false),
-    threadpool(new ThreadsPool())
+    quit(false)
 {
     sqm->connect(SQL_IP, SQL_PORT, SQL_USERNAME, SQL_PASSWORD);
     sqm->selectDB(SQL_DBNAME);
-    // restor();
 }
 
 
@@ -30,7 +27,6 @@ EventLoop::EventLoop() :
  * 
  */
 EventLoop::~EventLoop () {
-    // backup();
     if (ep != nullptr) {
         delete ep;
         ep = nullptr;
@@ -38,14 +34,6 @@ EventLoop::~EventLoop () {
     if (sqm != nullptr) {
         delete sqm;
         sqm = nullptr;
-    }
-    if (mempool != nullptr) {
-        delete mempool;
-        mempool = nullptr;
-    }
-    if (threadpool != nullptr) {
-        delete threadpool;
-        threadpool = nullptr;
     }
 }
 
@@ -73,48 +61,6 @@ void EventLoop::loop() {
  */
 void EventLoop::updateChannel(Channel* ch, int ope) {
     ep->updateChannel(ch, ope);
-}
-
-/**
- * @brief 备份
- * 
- * @details 在 /backup/variable_info.txt 里面做备份
- */
-void EventLoop::backup () {
-    freopen("../backup/variable_info.txt", "w", stdout);
-    for (const auto& [userName, variableInfo] : memKV.getKV()) {
-        for (const auto& [variableName, ad_sz] : variableInfo.getKV()) {
-            std::cout << userName << " " << variableName << " " << ad_sz.second << std::endl;
-            uint8_t *ptr = ad_sz.first;
-            for (int i = 0; i < ad_sz.second; i ++) {
-                std::cout << *ptr << " ";
-                ptr ++;
-            }
-        }
-    }
-    freopen("/dev/console", "w", stdout);
-}
-
-/**
- * @brief 数据恢复与备份，一个数据的内容为：
- * userName, variableName, variableSize
- * variableByte[0], variableByte[1], ...
-*/
-void EventLoop::restor () {
-    freopen("../backup/variable_info.txt", "r", stdin);
-    std::string userName, variableName, size;
-    while (std::cin >> userName >> variableName >> size) {
-        memKV[userName][variableName].first = (uint8_t*)mempool->allocate(std::stoi(size));
-        memKV[userName][variableName].second = std::stoi(size);
-        uint8_t* ptr = memKV[userName][variableName].first;
-        int siz = std::stoi(size);
-        for (int i = 0; i < siz; i ++) {
-            int num; std::cin >> num;
-            *ptr = num;
-            ptr ++;
-        }
-    }
-    freopen("/dev/console", "r", stdin);
 }
 
 /**

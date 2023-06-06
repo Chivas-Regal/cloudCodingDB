@@ -52,7 +52,8 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "typeinfo": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "sstream": "cpp"
     },
     "editor.lineHeight": 1.4,
     "editor.renderLineHighlight": "line"

@@ -6,5 +6,5 @@ CXX_DEFINES = -Dmem_socket_server_EXPORTS
 
 CXX_INCLUDES = -I/home/projects/cloudCodingDB/mem_socket_server/include -I/home/projects/cloudCodingDB/mem_socket_server/include/memtools -I/home/projects/cloudCodingDB/mem_socket_server/include/usrinfo -I/home/projects/cloudCodingDB/mem_socket_server/include/threads -I/home/projects/cloudCodingDB/mem_socket_server/include/containers -I/usr/include/mysql
 
-CXX_FLAGS = -fPIC -std=gnu++20
+CXX_FLAGS = -g -fPIC -std=gnu++20
 

@@ -13,14 +13,16 @@ class Epoll;
 class Channel;
 
 /**
- * @brief Reactor 主分发器
+ * @brief Reactor 分发器
  * 
  * @details 用于获取到 this->ep 监听到的就绪事件
- *          然后执行这些就绪事件的回调函数（分发进线程池）
+ *          然后执行这些就绪事件的回调函数
+ *          在整体中存在于一个主分发器以及多个从分发器
+ *          每个从分发器位于一个线程池内
  */
 class EventLoop {
 public:
-    /* 初始化：epoll、内存池、类型键值对、mysql连接api、线程池 */
+    /* 初始化：epoll、类型键值对、mysql连接api */
     EventLoop ();
 
     /* 释放所有的指针 */
@@ -33,12 +35,6 @@ public:
        指令在 Epoll:updataChannel 中存在说明                 */
     void updateChannel(Channel* ch, int ope = 1);
 
-    /* 备份 */
-    void backup ();
-
-    /* 恢复 */
-    void restor ();
-
     /* 按 ope 操作读写 this::memKV */
     void opeMemKV (std::function<void()> ope);
 private:
@@ -50,8 +46,6 @@ private:
     std::mutex mutexMemKV; ///< 修改字典树需上的锁
 
     SqlManager* sqm;    ///< 登录用的用户信息表 api
-    MemPool* mempool;   ///< 分配变量内存的内存池
-    ThreadsPool* threadpool; ///< 并行处理事件的线程池
 friend class Server;
 friend class Channel;
 };

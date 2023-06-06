@@ -18,10 +18,10 @@
  */
 class Server {
 public:
-    /* 默认构造，需绑定主 Reactor 分发器 */
+    /* 默认构造，需绑定主 Reactor 分发器，内部构建出多个 subReactor 并放入线程池 */
     Server (EventLoop *_loop);
 
-    /* 析构，和 loop 一起释放 */
+    /* 析构，和 mainloop、subloops、threadpool、mempool 一起释放 */
     ~Server ();
 
     /* 处理客户端连接事件(监听套接字) */
@@ -46,5 +46,8 @@ public:
     void handleFreeMemplace (Channel* clnt_channel);
 private:
 
-    EventLoop *loop; ///< 主监听 Reactor 分发器
+    EventLoop *mainloop;                ///< 主监听 Reactor 分发器
+    std::vector<EventLoop*> subloops;   ///< 从服务 Reactor 分发器
+    ThreadsPool* threadpool;            ///< 并行处理事件的线程池
+    MemPool* mempool;                   ///< 分配变量内存的内存池
 };
