@@ -73,15 +73,15 @@ CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o: CMakeFiles/test_sqlmanager
 CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o: ../test/sqlmanager.cpp
 CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o: CMakeFiles/test_sqlmanager.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -MF CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o.d -o CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -MF CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o.d -o CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp
 
 CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp > CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp > CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.i
 
 CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp -o CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/sqlmanager.cpp -o CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.s
 
 # Object files for target test_sqlmanager
 test_sqlmanager_OBJECTS = \

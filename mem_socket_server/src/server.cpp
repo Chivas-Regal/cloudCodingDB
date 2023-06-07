@@ -11,24 +11,20 @@
  * 
  * @param _loop 主 Reactor 事件分发器件
  * 
- * @details 完成 bind() 与 listen() ，并将监听套接字放入 epoll 
- *          回调函数设置为连接事件 handleConnectionEvent
+ * @details 设置已经建好的主 Reactor 并建立连接提取器 acceptor，将两者搭配起来
+ *          将 acceptor 的回调函数设置为连接事件 handleConnectionEvent，这样在 acceptor 内的监听 channel
+ *              响应回调的时候会执行 Acceptor::acceptConnection 也就是 acceptor 的回调函数
  *          开 cpunumber 个线程与 cpunumber 个 subReactor ，每个 subReactor 放进一个线程
  */
 Server::Server(EventLoop *_loop) :
     mainloop(_loop),
     threadpool(new ThreadsPool()),
-    mempool(new MemPool(MEM_NUM_LISTS, MEM_SIZE_LIST, MEM_POOL_ALGO))
+    mempool(new MemPool(MEM_NUM_LISTS, MEM_SIZE_LIST, MEM_POOL_ALGO)),
+    acceptor(nullptr)
 {
-    Socket *serv_sock = new Socket();
-    InetAddress *serv_addr = new InetAddress(SERVER_IP, SERVER_PORT);
-    serv_sock->bind(serv_addr);
-    serv_sock->listen();
-
-    Channel *serv_channel = new Channel(mainloop, serv_sock->getFd());
-    std::function<void()> _cb = std::bind(&Server::handleConnectionEvent, this, serv_sock);
-    serv_channel->setCallback(_cb);
-    serv_channel->enableReading();
+    acceptor = new Acceptor(mainloop);
+    std::function<void(Socket*)> _cb = std::bind(&Server::handleConnectionEvent, this, std::placeholders::_1);
+    acceptor->setNewConnectionCallback(_cb);
 
     int cpuNumber = sysconf(_SC_NPROCESSORS_CONF);
     for (int i = 0; i < cpuNumber; i ++) {
@@ -37,6 +33,11 @@ Server::Server(EventLoop *_loop) :
     }
 }
 
+/**
+ * @brief 析构函数
+ * 
+ * @details 释放 mainloop、subloops、acceptor、threadpool、mempool
+*/
 Server::~Server () {
     if (mainloop) {
         delete mainloop;
@@ -46,6 +47,10 @@ Server::~Server () {
         delete subloops[i];
     }
     subloops.clear();
+    if (acceptor) {
+        delete acceptor;
+        acceptor = nullptr;
+    }
     if (threadpool) {
         delete threadpool;
         threadpool = nullptr;

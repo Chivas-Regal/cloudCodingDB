@@ -69,232 +69,247 @@ include CMakeFiles/mem_socket_server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/mem_socket_server.dir/flags.make
 
+CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
+CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o: ../src/acceptor.cpp
+CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/acceptor.cpp
+
+CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/acceptor.cpp > CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.i
+
+CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/acceptor.cpp -o CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.s
+
 CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: ../src/channel.cpp
 CMakeFiles/mem_socket_server.dir/src/channel.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mem_socket_server.dir/src/channel.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/channel.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/channel.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mem_socket_server.dir/src/channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/channel.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/channel.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp
 
 CMakeFiles/mem_socket_server.dir/src/channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/channel.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp > CMakeFiles/mem_socket_server.dir/src/channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp > CMakeFiles/mem_socket_server.dir/src/channel.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/channel.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp -o CMakeFiles/mem_socket_server.dir/src/channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp -o CMakeFiles/mem_socket_server.dir/src/channel.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: ../src/epoll.cpp
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp
 
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/epoll.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp > CMakeFiles/mem_socket_server.dir/src/epoll.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp > CMakeFiles/mem_socket_server.dir/src/epoll.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/epoll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/epoll.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp -o CMakeFiles/mem_socket_server.dir/src/epoll.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp -o CMakeFiles/mem_socket_server.dir/src/epoll.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: ../src/eventloop.cpp
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp
 
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp > CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp > CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp -o CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/eventloop.cpp -o CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: ../src/inet_address.cpp
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp
 
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp > CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp > CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp -o CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/inet_address.cpp -o CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/server.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/server.cpp.o: ../src/server.cpp
 CMakeFiles/mem_socket_server.dir/src/server.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mem_socket_server.dir/src/server.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/server.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/server.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/server.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mem_socket_server.dir/src/server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/server.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/server.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/server.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp
 
 CMakeFiles/mem_socket_server.dir/src/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/server.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp > CMakeFiles/mem_socket_server.dir/src/server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp > CMakeFiles/mem_socket_server.dir/src/server.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/server.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp -o CMakeFiles/mem_socket_server.dir/src/server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/server.cpp -o CMakeFiles/mem_socket_server.dir/src/server.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: ../src/socket.cpp
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mem_socket_server.dir/src/socket.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/socket.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/socket.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/socket.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mem_socket_server.dir/src/socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/socket.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/socket.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/socket.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp
 
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/socket.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp > CMakeFiles/mem_socket_server.dir/src/socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp > CMakeFiles/mem_socket_server.dir/src/socket.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/socket.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp -o CMakeFiles/mem_socket_server.dir/src/socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/socket.cpp -o CMakeFiles/mem_socket_server.dir/src/socket.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/util.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/util.cpp.o: ../src/util.cpp
 CMakeFiles/mem_socket_server.dir/src/util.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mem_socket_server.dir/src/util.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/util.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/util.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/util.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mem_socket_server.dir/src/util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/util.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/util.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/util.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp
 
 CMakeFiles/mem_socket_server.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/util.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp > CMakeFiles/mem_socket_server.dir/src/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp > CMakeFiles/mem_socket_server.dir/src/util.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/util.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp -o CMakeFiles/mem_socket_server.dir/src/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/util.cpp -o CMakeFiles/mem_socket_server.dir/src/util.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: ../src/memtools/memlist.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: ../src/memtools/memlist_bf.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_bf.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_bf.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: ../src/memtools/memlist_ff.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_ff.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_ff.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o: ../src/memtools/memlist_wf.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlist_wf.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlist_wf.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o: ../src/memtools/memlistnode.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/memlistnode.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/memlistnode.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: ../src/memtools/mempool.cpp
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp
 
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp > CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/memtools/mempool.cpp -o CMakeFiles/mem_socket_server.dir/src/memtools/mempool.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: ../src/usrinfo/sqlmanager.cpp
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp
 
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp > CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp > CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp -o CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/usrinfo/sqlmanager.cpp -o CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: ../src/threads/threadpool.cpp
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp
 
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp > CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp > CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp -o CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/threads/threadpool.cpp -o CMakeFiles/mem_socket_server.dir/src/threads/threadpool.cpp.s
 
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o: CMakeFiles/mem_socket_server.dir/flags.make
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o: ../src/containers/trie.cpp
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o: CMakeFiles/mem_socket_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o -MF CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o.d -o CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp
 
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp > CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp > CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.i
 
 CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp -o CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp -o CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s
 
 # Object files for target mem_socket_server
 mem_socket_server_OBJECTS = \
+"CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o" \
 "CMakeFiles/mem_socket_server.dir/src/channel.cpp.o" \
 "CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o" \
 "CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o" \
@@ -315,6 +330,7 @@ mem_socket_server_OBJECTS = \
 # External object files for target mem_socket_server
 mem_socket_server_EXTERNAL_OBJECTS =
 
+../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/src/channel.cpp.o
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/src/eventloop.cpp.o
@@ -333,7 +349,7 @@ mem_socket_server_EXTERNAL_OBJECTS =
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/build.make
 ../lib/libmem_socket_server.so: CMakeFiles/mem_socket_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library ../lib/libmem_socket_server.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../lib/libmem_socket_server.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mem_socket_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

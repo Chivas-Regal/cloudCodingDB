@@ -215,6 +215,30 @@ example/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memserverlib.dir/build.make CMakeFiles/memserverlib.dir/example/main.cpp.s
 .PHONY : example/main.cpp.s
 
+src/acceptor.o: src/acceptor.cpp.o
+.PHONY : src/acceptor.o
+
+# target to build an object file
+src/acceptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o
+.PHONY : src/acceptor.cpp.o
+
+src/acceptor.i: src/acceptor.cpp.i
+.PHONY : src/acceptor.i
+
+# target to preprocess a source file
+src/acceptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.i
+.PHONY : src/acceptor.cpp.i
+
+src/acceptor.s: src/acceptor.cpp.s
+.PHONY : src/acceptor.s
+
+# target to generate assembly for a file
+src/acceptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.s
+.PHONY : src/acceptor.cpp.s
+
 src/channel.o: src/channel.cpp.o
 .PHONY : src/channel.o
 
@@ -688,6 +712,9 @@ help:
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"
+	@echo "... src/acceptor.o"
+	@echo "... src/acceptor.i"
+	@echo "... src/acceptor.s"
 	@echo "... src/channel.o"
 	@echo "... src/channel.i"
 	@echo "... src/channel.s"

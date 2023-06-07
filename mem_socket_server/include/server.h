@@ -3,6 +3,7 @@
 #include "eventloop.h"
 #include "socket.h"
 #include "util.h"
+#include "acceptor.h"
 #include <cstring>
 
 /**
@@ -21,7 +22,7 @@ public:
     /* 默认构造，需绑定主 Reactor 分发器，内部构建出多个 subReactor 并放入线程池 */
     Server (EventLoop *_loop);
 
-    /* 析构，和 mainloop、subloops、threadpool、mempool 一起释放 */
+    /* 析构，和 mainloop、subloops、acceptor、threadpool、mempool 一起释放 */
     ~Server ();
 
     /* 处理客户端连接事件(监听套接字) */
@@ -45,7 +46,7 @@ public:
     /* 处理客户端请求回收某个变量空间(用户套接字绑定类)*/
     void handleFreeMemplace (Channel* clnt_channel);
 private:
-
+    Acceptor* acceptor;                 ///< 主 Reactor 搭配的连接提取器
     EventLoop *mainloop;                ///< 主监听 Reactor 分发器
     std::vector<EventLoop*> subloops;   ///< 从服务 Reactor 分发器
     ThreadsPool* threadpool;            ///< 并行处理事件的线程池

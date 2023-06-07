@@ -73,15 +73,15 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: CMakeFiles/memserverlib.dir/flag
 CMakeFiles/memserverlib.dir/example/main.cpp.o: ../example/main.cpp
 CMakeFiles/memserverlib.dir/example/main.cpp.o: CMakeFiles/memserverlib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memserverlib.dir/example/main.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memserverlib.dir/example/main.cpp.o -MF CMakeFiles/memserverlib.dir/example/main.cpp.o.d -o CMakeFiles/memserverlib.dir/example/main.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memserverlib.dir/example/main.cpp.o -MF CMakeFiles/memserverlib.dir/example/main.cpp.o.d -o CMakeFiles/memserverlib.dir/example/main.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp
 
 CMakeFiles/memserverlib.dir/example/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memserverlib.dir/example/main.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp > CMakeFiles/memserverlib.dir/example/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp > CMakeFiles/memserverlib.dir/example/main.cpp.i
 
 CMakeFiles/memserverlib.dir/example/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memserverlib.dir/example/main.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp -o CMakeFiles/memserverlib.dir/example/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/example/main.cpp -o CMakeFiles/memserverlib.dir/example/main.cpp.s
 
 # Object files for target memserverlib
 memserverlib_OBJECTS = \

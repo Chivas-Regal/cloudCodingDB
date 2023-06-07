@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../lib/libmem_socket_server.pdb"
   "../lib/libmem_socket_server.so"
+  "CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o"
+  "CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o.d"
   "CMakeFiles/mem_socket_server.dir/src/channel.cpp.o"
   "CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d"
   "CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o"

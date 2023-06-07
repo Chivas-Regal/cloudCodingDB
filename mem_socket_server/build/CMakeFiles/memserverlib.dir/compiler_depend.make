@@ -327,10 +327,13 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o: ../example/main.cpp \
   /usr/include/c++/11/bits/atomic_futex.h \
   ../include/containers/trie.h \
   ../include/server.h \
+  ../include/acceptor.h \
   ../include/config.h
 
 
 ../include/config.h:
+
+../include/acceptor.h:
 
 ../include/server.h:
 

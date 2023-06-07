@@ -73,15 +73,15 @@ CMakeFiles/test_mempool.dir/test/mempool.cpp.o: CMakeFiles/test_mempool.dir/flag
 CMakeFiles/test_mempool.dir/test/mempool.cpp.o: ../test/mempool.cpp
 CMakeFiles/test_mempool.dir/test/mempool.cpp.o: CMakeFiles/test_mempool.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_mempool.dir/test/mempool.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_mempool.dir/test/mempool.cpp.o -MF CMakeFiles/test_mempool.dir/test/mempool.cpp.o.d -o CMakeFiles/test_mempool.dir/test/mempool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_mempool.dir/test/mempool.cpp.o -MF CMakeFiles/test_mempool.dir/test/mempool.cpp.o.d -o CMakeFiles/test_mempool.dir/test/mempool.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp
 
 CMakeFiles/test_mempool.dir/test/mempool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_mempool.dir/test/mempool.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp > CMakeFiles/test_mempool.dir/test/mempool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp > CMakeFiles/test_mempool.dir/test/mempool.cpp.i
 
 CMakeFiles/test_mempool.dir/test/mempool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_mempool.dir/test/mempool.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp -o CMakeFiles/test_mempool.dir/test/mempool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/mempool.cpp -o CMakeFiles/test_mempool.dir/test/mempool.cpp.s
 
 # Object files for target test_mempool
 test_mempool_OBJECTS = \

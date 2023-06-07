@@ -13,12 +13,12 @@ class Epoll;
 class Channel;
 
 /**
- * @brief Reactor 分发器
+ * @brief Reactor 监听器
  * 
  * @details 用于获取到 this->ep 监听到的就绪事件
  *          然后执行这些就绪事件的回调函数
- *          在整体中存在于一个主分发器以及多个从分发器
- *          每个从分发器位于一个线程池内
+ *          在整体中存在于一个主监听器以及多个从监听器
+ *          每个从监听器位于一个线程池内
  */
 class EventLoop {
 public:
@@ -28,7 +28,7 @@ public:
     /* 释放所有的指针 */
     ~EventLoop ();
 
-    /* while1: Reactor 分发 */
+    /* while1: Reactor 监听 */
     void loop ();
 
     /* 更新套接字集合在 epoll 树中的状态(被更新套接字，更新指令) 

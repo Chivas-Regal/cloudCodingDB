@@ -328,5 +328,6 @@ CMakeFiles/memserverlib.dir/example/main.cpp.o
  /usr/include/c++/11/bits/atomic_futex.h
  /home/projects/cloudCodingDB/mem_socket_server/include/containers/trie.h
  /home/projects/cloudCodingDB/mem_socket_server/include/server.h
+ /home/projects/cloudCodingDB/mem_socket_server/include/acceptor.h
  /home/projects/cloudCodingDB/mem_socket_server/include/config.h
 

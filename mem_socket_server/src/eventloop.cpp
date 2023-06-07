@@ -38,7 +38,7 @@ EventLoop::~EventLoop () {
 }
 
 /**
- * @brief Reactor 分发
+ * @brief Reactor 监听与响应
  * 
  * @details 提出 epoll 树中的就绪事件，执行对应的回调函数
  * 

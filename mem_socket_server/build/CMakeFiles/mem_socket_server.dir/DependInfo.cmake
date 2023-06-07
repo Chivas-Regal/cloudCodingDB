@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/projects/cloudCodingDB/mem_socket_server/src/acceptor.cpp" "CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o" "gcc" "CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.o.d"
   "/home/projects/cloudCodingDB/mem_socket_server/src/channel.cpp" "CMakeFiles/mem_socket_server.dir/src/channel.cpp.o" "gcc" "CMakeFiles/mem_socket_server.dir/src/channel.cpp.o.d"
   "/home/projects/cloudCodingDB/mem_socket_server/src/containers/trie.cpp" "CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o" "gcc" "CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.o.d"
   "/home/projects/cloudCodingDB/mem_socket_server/src/epoll.cpp" "CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o" "gcc" "CMakeFiles/mem_socket_server.dir/src/epoll.cpp.o.d"
