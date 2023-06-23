@@ -64,134 +64,28 @@ exit(0);
 
 <h1 align="center">服务端</h1>
 
-## 文件目录
-
-```
-├── CMakeLists.txt
-├── README.md
-├── backup
-│   └── variable_info.txt
-├── build
-... 生成文件，不再放出来了
-├── example
-│   └── main.cpp
-├── include
-│   ├── channel.h
-│   ├── config.h
-│   ├── containers
-│   │   └── trie.h
-│   ├── epoll.h
-│   ├── eventloop.h
-│   ├── inet_address.h
-│   ├── limits.h
-│   ├── memtools
-│   │   ├── memlist.h
-│   │   ├── memlist_bf.h
-│   │   ├── memlist_ff.h
-│   │   ├── memlist_wf.h
-│   │   ├── memlistnode.h
-│   │   └── mempool.h
-│   ├── server.h
-│   ├── socket.h
-│   ├── threads
-│   │   └── threadpool.h
-│   ├── usrinfo
-│   │   └── sqlmanager.h
-│   └── util.h
-├── lib
-│   ├── libmem_socket_server.dylib
-│   ├── libmem_socket_server.so
-│   └── libmysqlclient.so
-├── src
-│   ├── channel.cpp
-│   ├── containers
-│   │   └── trie.cpp
-│   ├── epoll.cpp
-│   ├── eventloop.cpp
-│   ├── inet_address.cpp
-│   ├── memtools
-│   │   ├── memlist.cpp
-│   │   ├── memlist_bf.cpp
-│   │   ├── memlist_ff.cpp
-│   │   ├── memlist_wf.cpp
-│   │   ├── memlistnode.cpp
-│   │   └── mempool.cpp
-│   ├── server.cpp
-│   ├── socket.cpp
-│   ├── threads
-│   │   └── threadpool.cpp
-│   ├── usrinfo
-│   │   └── sqlmanager.cpp
-│   └── util.cpp
-└── test
-    ├── mempool.cpp
-    ├── sqlmanager.cpp
-    └── thread.cpp
-```
-
-## 使用说明
-
-网络与内存的配置信息和与客户端的交互都在 `/include/config.h` 中，其中默认
-
-- `MEM_NUM_LISTS` 内存池空闲链表数量
-- `MEM_SIZE_LIST` 内存池一个空闲链表占用空间（单位：字节）
-- `MEM_POOL_ALGO` 内存池内存分配所使用的算法
-  - `FIRST_FIT` 首次使用算法
-  - `BEST_FIT` 最佳适应算法
-  - `WORST_FIT` 最坏适应算法
-- `SERVER_IP` 服务端监听ip地址
-- `SERVER_PORT` 服务端监听端口号
-- `SQL_IP` 用户信息数据库连接的ip地址
-- `SQL_PORT` 用户信息数据库连接的端口号
-- `SQL_USERNAME` 用户信息数据库连接的用户名
-- `SQL_PASSWORD` 用户信息数据库连接的密码
-- `SQL_DBNAME` 用户信息选择存放数据库名
-
-用户表在使用之前，应当在 `mysql` 对应的库内创建表：
-
-```sql
-CREATE TABLE IF NOT EXISTS mem_socket_login_infos (
-    username varchar(255) NOT NULL,
-    password varchar(255) NOT NULL,
-    PRIMARY KEY(username)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-```
-
-程序不存在注册功能，可登入用户信息需数据库管理员手动录入
-
-具体客户端如何与服务端进行联络请参考本仓库另一部分（客户端部分）  
-在客户端连接并登录上之后，通过指令向服务端提交变量操作  
-
-## 运行
-
-本工程使用 `cmake` ，终端输入
-
-```txt
-cmake -B build
-cd build
-make
-./memserverlib
-```
-
 ## 功能 与 技术支持
 
-- 以内存利用率为主的内存池设计（连续分区存储管理），支持
-    - 空闲节点的切割与合并
-    - 空闲链表动态插入节点
-- 任意类型数据传输
-    - 数据拆分成多个字节发送
-    - 收取多个字节后按类型需要的字节数进行合并
-- 主从 Reactor 分发模式下的 Epoll:ET 触发
-    - 每个客户端经主Reactor监听连接后平均分配进一个subReactor中响应事件
-    - 响应事件的方法为每个客户端只会在一个线程内进行 Epoll:ET 触发的 IO 多路复用
-- `socket` 进程通信
-    - 通过字符串通信模拟报头，完成前置指令
-    - 通过 `uint8_t` 传输完成字节信息传递（两个主机之间以大端字节序传输）
-- `mysql` 连接下的用户登入信息判断
-- 手写容器模板-字典树用于存放 “[用户名][变量名] - 值”
-    - 支持 string 与任意类型组成的键值对的存储
-    - 支持部分 map<string, 任意类型> 的操作
-- 主动下的数据写入主存与读出
+- 网络事件
+  - [x] socket+tcp 的网络连接 
+  - [x] 主从 Reactor 分发模式下的 Epoll:ET 触发，实现用户分流
+  - [x] 线程池收入从 Reactor 并行处理异用户事件
+  - 传输协议 
+    - [x] 字节传递在关口转化为网络字节序
+    - [x] 字节传递长度在传递前的指令中约定好，动态长度以 `uint8_t[]` 传输
+    - [x] 指令发送由“首选项”与几个操作项组成
+- 存储
+  - [x] 连续分区存储管理的内存池，首次适应算法动态合并切割空闲链表的空闲节点
+  - [x] 多空闲链表存放，可分块下分摊时间复杂度与负载 
+  - [x] 数据化为字节组，以键值对形式存入手写字典树模板 “[用户名][变量名] - 字节组” 
+  - [ ] 使用分布式缓存系统
+  - [ ] 主存磁盘LRU读取
+- 权限
+  - [x] 服务端管理员手动添加，用户登录查询 mysql 表
+  - [ ] 可登入用户分级管理
+- 应用层
+  - [x] 客户端利用封装好的 `Connector` 类与服务端通信支持任意类型的数据存储
+  - [x] 两端配置信息均写入 `include/config.h`，方便修改设置 
 
 ## 客户端接入
 
@@ -273,34 +167,6 @@ server> OK
 ```
 
 <h1 align="center">客户端</h1>
-
-## 文件目录
-
-```
-├── CMakeLists.txt
-├── README.md
-├── build
-... 生成文件，不再放出来了
-├── example
-│   └── memclientlib.cpp
-├── include
-│   ├── config.h
-│   ├── connector.h
-│   ├── inet_address.h
-│   ├── limits.h
-│   ├── socket.h
-│   └── util.h
-├── lib
-│   └── libmem_socket_client.so
-├── localwork.cpp
-└── src
-    ├── connector.cpp
-    ├── inet_address.cpp
-    ├── socket.cpp
-    └── util.cpp
-```
-
-## 使用说明
 
 核心逻辑与服务端内的类似，这里只说明类 `Connector` 的使用方法
 
