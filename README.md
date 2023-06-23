@@ -1,5 +1,7 @@
 <h1 align="center">云端存储型编程向KV数据库</h1>
 
+![](https://img.shields.io/badge/status-updating-green)
+
 ## 作用  
 
 网络云空间很多，主体为支持普通用户的类似于云盘、云点播这类存放固定内容的平台  
