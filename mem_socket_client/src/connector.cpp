@@ -77,8 +77,11 @@ bool Connector::Login (const std::string& username, const std::string& password)
  * @details 发送 "4" 和 变量名，收取一个 ACK
  */
 void Connector::memFree (const std::string& varname) {
-    sWrite(serv_sock->getFd(), toDBsentense("DES " + varname));
-    std::string ack = sRead(serv_sock->getFd());
+    for (int i = 0; i < var_size[varname]; i ++) {
+        sWrite(serv_sock->getFd(), toDBsentense("DES " + varname + std::to_string(i)));
+        std::string ack = sRead(serv_sock->getFd());
+    }
+    var_size.erase(varname);
 }
 
 /**

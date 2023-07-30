@@ -4,6 +4,7 @@
 #include "inet_address.h"
 #include "util.h"
 #include <string>
+#include <map>
 #include <cstring>
 
 /**
@@ -48,6 +49,9 @@ private:
 
     /* 格式化后的 db 语句 */
     std::string toDBsentense (const std::string& s);
+
+    /* 这个数组有多少个 */
+    std::map<std::string, int> var_size;
 };
 
 
@@ -60,11 +64,17 @@ private:
  */
 template<typename T> bool 
 Connector::memAsk (const std::string& varname, int size) {
-    sWrite(serv_sock->getFd(), toDBsentense(
-        "NEW " + varname + " " + std::to_string(size * sizeof(T))
-    ));
-    std::string ack = sRead(serv_sock->getFd());
-    return ack == "OK";
+    var_size[varname] = size;
+    for (int i = 0; i < size; i ++) {
+        sWrite(serv_sock->getFd(), toDBsentense(
+            "NEW " + varname + std::to_string(i)+ " " + std::to_string(sizeof(T))
+        ));
+        std::string ack = sRead(serv_sock->getFd());
+        if (ack != "OK") 
+            return false;
+        std::cout << ack << std::endl;
+    }
+    return true;
 }
 
 /**
@@ -78,7 +88,7 @@ Connector::memAsk (const std::string& varname, int size) {
 template<typename T> bool 
 Connector::memWrite (const std::string& varname, const T& value, int id) {
     sWrite(serv_sock->getFd(), toDBsentense(
-        "SET " + varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1)
+        "SET " + varname + std::to_string(id)
     ));
 
     // 打造字节序列
@@ -116,7 +126,7 @@ Connector::memWrite (const std::string& varname, const T& value, int id) {
 template<typename T> T 
 Connector::memRead (const std::string& varname, int id) {
     sWrite(serv_sock->getFd(), toDBsentense(
-        "GET " + varname + " " + std::to_string(id * sizeof(T)) + " " + std::to_string((id + 1) * sizeof(T) - 1)
+        "GET " + varname + std::to_string(id)
     ));
 
     // 获取字节序列

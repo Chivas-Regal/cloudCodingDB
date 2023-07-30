@@ -3,66 +3,142 @@
 ## 文件目录
 
 ```
+.
 ├── CMakeLists.txt
-├── README.md
-├── backup
-│   └── variable_info.txt
-├── build
-... 生成文件，不再放出来了
 ├── example
 │   └── main.cpp
 ├── include
+│   ├── acceptor.h
+│   ├── cache
+│   │   └── lru.h
 │   ├── channel.h
 │   ├── config.h
 │   ├── containers
+│   │   ├── skiplist.h
 │   │   └── trie.h
+│   ├── db
+│   │   ├── db.h
+│   │   └── db_impl.h
 │   ├── epoll.h
 │   ├── eventloop.h
 │   ├── inet_address.h
-│   ├── limits.h
+│   ├── lsmtree
+│   │   └── manifest.h
 │   ├── memtools
-│   │   ├── memlist.h
 │   │   ├── memlist_bf.h
 │   │   ├── memlist_ff.h
-│   │   ├── memlist_wf.h
+│   │   ├── memlist.h
 │   │   ├── memlistnode.h
+│   │   ├── memlist_wf.h
 │   │   └── mempool.h
 │   ├── server.h
 │   ├── socket.h
+│   ├── sst
+│   │   ├── block.h
+│   │   ├── entry.h
+│   │   ├── footer.h
+│   │   ├── option.h
+│   │   ├── slice.h
+│   │   └── table.h
 │   ├── threads
 │   │   └── threadpool.h
 │   ├── usrinfo
 │   │   └── sqlmanager.h
-│   └── util.h
+│   ├── utils
+│   │   ├── crc.h
+│   │   ├── file.h
+│   │   ├── limits.h
+│   │   ├── proj_info.h
+│   │   ├── proj_info.in.h
+│   │   └── utils.h
+│   └── wal
+│       └── wal.h
 ├── lib
 │   ├── libmem_socket_server.dylib
 │   ├── libmem_socket_server.so
 │   └── libmysqlclient.so
+├── README.md
 ├── src
+│   ├── acceptor.cpp
+│   ├── cache
+│   │   └── lru.cpp
 │   ├── channel.cpp
 │   ├── containers
 │   │   └── trie.cpp
+│   ├── db
+│   │   ├── db.cpp
+│   │   └── db_impl.cpp
 │   ├── epoll.cpp
 │   ├── eventloop.cpp
 │   ├── inet_address.cpp
+│   ├── lsmtree
+│   │   └── manifest.cpp
 │   ├── memtools
-│   │   ├── memlist.cpp
 │   │   ├── memlist_bf.cpp
+│   │   ├── memlist.cpp
 │   │   ├── memlist_ff.cpp
-│   │   ├── memlist_wf.cpp
 │   │   ├── memlistnode.cpp
+│   │   ├── memlist_wf.cpp
 │   │   └── mempool.cpp
 │   ├── server.cpp
 │   ├── socket.cpp
+│   ├── sst
+│   │   ├── block.cpp
+│   │   ├── entry.cpp
+│   │   ├── footer.cpp
+│   │   ├── slice.cpp
+│   │   └── table.cpp
 │   ├── threads
 │   │   └── threadpool.cpp
 │   ├── usrinfo
 │   │   └── sqlmanager.cpp
-│   └── util.cpp
-└── test
-    ├── mempool.cpp
-    ├── sqlmanager.cpp
-    └── thread.cpp
+│   ├── utils
+│   │   ├── crc.cpp
+│   │   ├── file.cpp
+│   │   └── utils.cpp
+│   └── wal
+│       └── wal.cpp
+├── test
+│   ├── mempool.cpp
+│   ├── sqlmanager.cpp
+│   ├── sst_write_read.cpp
+│   └── thread.cpp
+└── userdata (用户数据文件)
+    ├── chivasregal
+    │   ├── 0
+    │   │   ├── data2.sst
+    │   │   ├── data3.sst
+    │   │   ├── data4.sst
+    │   │   └── data5.sst
+    │   ├── 1
+    │   │   ├── data10.sst
+    │   │   ├── data11.sst
+    │   │   ├── data1.sst
+    │   │   ├── data2.sst
+    │   │   ├── data3.sst
+    │   │   ├── data4.sst
+    │   │   ├── data6.sst
+    │   │   ├── data7.sst
+    │   │   ├── data8.sst
+    │   │   └── data9.sst
+    │   ├── 2
+    │   │   ├── data1.sst
+    │   │   ├── data2.sst
+    │   │   ├── data3.sst
+    │   │   ├── data4.sst
+    │   │   ├── data5.sst
+    │   │   └── data6.sst
+    │   ├── manifest.log
+    │   ├── WAL_manifest.log
+    │   └── WAL_memtable.log
+    ├── test0
+    │   ├── 0
+    │   │   └── data1.sst
+    │   ├── manifest.log
+    │   ├── WAL_manifest.log
+    │   └── WAL_memtable.log
+    ├── test1
+    └── test2
 ```
 
 ## 使用说明
@@ -111,7 +187,13 @@ make
 
 ## 功能 与 技术支持
 
-- 以内存利用率为主的内存池设计（连续分区存储管理），支持
+- LSM-tree + SST 磁盘存储
+    - SST 文件的编码与解码以及刷盘
+    - LSM-tree 下对 SST 文件进行 level 分级，level 越大 SST 文件越多
+    - LSM-tree 下对每层溢出的 SST 文件向下合并
+- LRU 缓存来减少磁盘 SST 文件的读取与写入
+- MEM-Table(跳表) 作为 LRU 尾部节点弹出与刷盘之间的缓冲区
+- 对 LRU 的存放为以内存利用率为主的内存池（连续分区存储管理），支持
     - 空闲节点的切割与合并
     - 空闲链表动态插入节点
 - 任意类型数据传输

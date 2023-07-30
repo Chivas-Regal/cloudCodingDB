@@ -2,7 +2,7 @@
 
 #include "eventloop.h"
 #include "socket.h"
-#include "util.h"
+#include "utils.h"
 #include "acceptor.h"
 #include <cstring>
 
@@ -50,5 +50,4 @@ private:
     EventLoop *mainloop;                ///< 主监听 Reactor 分发器
     std::vector<EventLoop*> subloops;   ///< 从服务 Reactor 分发器
     ThreadsPool* threadpool;            ///< 并行处理事件的线程池
-    MemPool* mempool;                   ///< 分配变量内存的内存池
 };

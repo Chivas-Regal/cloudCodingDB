@@ -2,9 +2,10 @@
 
 #include "epoll.h"
 #include "sqlmanager.h"
-#include "memtools/mempool.h"
-#include "threads/threadpool.h"
-#include "containers/trie.h"
+#include "mempool.h"
+#include "threadpool.h"
+#include "db.h"
+#include "trie.h"
 #include <map>
 #include <string>
 #include <functional>
@@ -41,8 +42,8 @@ private:
     Epoll *ep;          ///< Reactor 监听的 Epoll 树
     bool quit;          ///< 是否退出监听
 
-    /* {username, {variable_name,  {address, size} }} */
-    Trie<Trie<std::pair<uint8_t*, size_t>>> memKV; ///< 字典树存放 [用户名][变量名] : 值
+    /* {username, database} */
+    Trie<DB*> memKV; ///< 字典树存放 [用户名] : 数据库
     std::mutex mutexMemKV; ///< 修改字典树需上的锁
 
     SqlManager* sqm;    ///< 登录用的用户信息表 api

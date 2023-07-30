@@ -204,5 +204,6 @@ void Channel::sRead() {
         words.push_back(s);
     }
 
+    std::cout << words.size() << std::endl;
     for (auto it : words) std::cout << it << " "; std::cout << "\n";
 }

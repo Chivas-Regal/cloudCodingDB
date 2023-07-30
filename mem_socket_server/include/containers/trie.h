@@ -56,8 +56,14 @@ public:
     /* 删除一个key=s的键值对 */
     void erase (const std::string& s);
 
+    /* 清空字典树 */
+    void clear ();
+
     /* 打印出所有的 key（不管是否存在 value） */
     void dfs ();
+
+    /* 获取字典树内键值对的数量 */
+    size_t size ();
 
     /* 做值为引用的键值对（遍历支持类似于 map 的结构化绑定） */
     std::vector<std::pair<std::string, T&>> getKV ();
@@ -81,8 +87,6 @@ private:
         /* 析构本节点与以本节点为根子树所有节点 */
         ~TrieNode ();
 	} *root; ///< 根节点
-
-
 };
 
 /**
@@ -119,10 +123,7 @@ Trie<T>::TrieNode::~TrieNode() {
         delete[] child;
         child = nullptr;
     }
-    if (value) {
-        delete value;
-        value = nullptr;
-    }
+    value = nullptr;
 }
 
 /**
@@ -263,7 +264,7 @@ Trie<T>::erase (const std::string& s) {
     }
     for (int i = 0; i < path.size(); i ++) 
         path[i]->size --;
-    delete p->value; p->value = nullptr;
+    p->value = nullptr;
     if (p->size) return;
     for (int i = path.size() - 1; i >= 0; i --) {
         if (path[i]->size) { // 找到第一个有别的儿子的
@@ -274,6 +275,17 @@ Trie<T>::erase (const std::string& s) {
     }
     delete path[0]->child[ctoi(s[0])]; // 都没有，根节点下面节点删了
     path[0]->child[ctoi(s[0])] = nullptr;
+}
+
+/**
+ * @brief 清空字典树
+ * 
+ * @tparam T 值类型
+ */
+template<typename T> void 
+Trie<T>::clear() {
+    delete root;
+    root = new TrieNode();
 }
 
 /**
@@ -295,6 +307,17 @@ Trie<T>::dfs() {
         }
     };
     dfs(root);
+}
+
+/**
+ * @brief 返回字典树中键值对数量
+ * 
+ * @tparam T 值类型
+ * @return size_t 字典树中键值对数量
+ */
+template<class T> size_t
+Trie<T>::size () {
+    return root->size;
 }
 
 /**

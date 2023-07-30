@@ -77,6 +77,7 @@ void MemList::deallocate(uint8_t *address, ssize_t size) {
     /* 回收作为头结点 */
     if (!head) { // 没有头结点
         head = new MemListNode(size, address, nullptr);
+        maxSize = std::max(maxSize, size);
         return;
     } else if (address < head->getAddress()) { 
         if (address + size == head->getAddress()) { // 可与后面的头结点合并，应该删掉原来的头结点
@@ -98,12 +99,13 @@ void MemList::deallocate(uint8_t *address, ssize_t size) {
                     p->size += p->next->size;
                     p->next = p->next->next;
                     delete beforeNext;
+                    maxSize = std::max(maxSize, p->size);
                 }
                 maxSize = std::max(maxSize, p->size);
             } else if (p->next && address + size == p->next->getAddress()) {// 情况3
-                p->true_add = address;
-                p->size = size + p->size;
-                maxSize = std::max(maxSize, p->size);
+                p->next->true_add = address;
+                p->next->size = size + p->next->size;
+                maxSize = std::max(maxSize, p->next->size);
             } else {                                                        // 情况4
                 p->next = new MemListNode(size, address, p->next);
                 maxSize = std::max(maxSize, size);

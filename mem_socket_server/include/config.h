@@ -14,7 +14,7 @@
  * @brief Memory Manage
 */
 #define MEM_NUM_LISTS 5
-#define MEM_SIZE_LIST 100000000
+#define MEM_SIZE_LIST 1000000
 #define MEM_POOL_ALGO FIRST_FIT
             // Extra tab:
             //     - FRIST_FIT (default)
@@ -25,7 +25,7 @@
  * @brief Network Manage
 */
 #define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 99
+#define SERVER_PORT 77
 
 /**
  * @brief Userinfo db Manage

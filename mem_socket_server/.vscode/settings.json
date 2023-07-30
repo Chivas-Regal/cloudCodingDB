@@ -57,7 +57,11 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "typeinfo": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "codecvt": "cpp",
+        "fstream": "cpp",
+        "shared_mutex": "cpp"
     },
-    "editor.fontSize": 17
+    "editor.fontSize": 17,
+    "editor.fontFamily": "operator mono"
 }

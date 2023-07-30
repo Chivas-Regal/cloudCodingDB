@@ -1,5 +1,5 @@
 #include "server.h"
-#include "util.h"
+#include "utils.h"
 #include "config.h"
 
 #include <string>
@@ -19,7 +19,6 @@
 Server::Server(EventLoop *_loop) :
     mainloop(_loop),
     threadpool(new ThreadsPool()),
-    mempool(new MemPool(MEM_NUM_LISTS, MEM_SIZE_LIST, MEM_POOL_ALGO)),
     acceptor(nullptr)
 {
     acceptor = new Acceptor(mainloop);
@@ -54,10 +53,6 @@ Server::~Server () {
     if (threadpool) {
         delete threadpool;
         threadpool = nullptr;
-    }
-    if (mempool) {
-        delete mempool;
-        mempool = nullptr;
     }
 }
 
@@ -108,6 +103,11 @@ void Server::handleLoginEvent (Channel* clnt_channel) {
     } else {
         std::cout << "successfully login\n";
     }
+    clnt_channel->getLoop()->opeMemKV(
+        [&](){
+            clnt_channel->getLoop()->memKV[username] = new DB(username);
+        }
+    );
     clnt_channel->setName(username);
     clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
@@ -145,6 +145,9 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
     } else if (taskId == "DES") {
         handleFreeMemplace(clnt_channel);
     } else  { // taskid = 'QUIT' or ERROR: taskid not found
+        auto* loop = subloops[clnt_channel->getFd() % subloops.size()];
+        loop->memKV[clnt_channel->getName()]->close();
+        loop->memKV.erase(clnt_channel->getName());
         clnt_channel->disableReading();
         clnt_channel->~Channel();
         return;
@@ -169,13 +172,9 @@ void Server::handleNewMemplace(Channel* clnt_channel) {
 
     clnt_channel->getLoop()->opeMemKV(
         [&](){
-            clnt_channel->getLoop()->memKV[clnt_channel->getName()][name] = std::make_pair<uint8_t*, size_t>(
-                static_cast<uint8_t*>(mempool->allocate(std::stoi(nBytes))),
-                static_cast<size_t>(std::stoi(nBytes))
-            );
+            clnt_channel->getLoop()->memKV[clnt_channel->getName()]->put(name, std::string(std::stoi(nBytes), '0'));
         }
     );
-
     clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
@@ -198,14 +197,12 @@ void Server::handleNewMemplace(Channel* clnt_channel) {
  */
 void Server::handleInputValue(Channel* clnt_channel) {
     std::string name = clnt_channel->nextOrder();
-    std::string _sstart = clnt_channel->nextOrder();
-    std::string _send = clnt_channel->nextOrder();
 
     auto* loop = subloops[clnt_channel->getFd() % subloops.size()];
 
-    uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
-    uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
-    uint8_t byteBuf[end - start + 1]; bzero(byteBuf, sizeof(byteBuf));
+    auto [start, len] = loop->memKV[clnt_channel->getName()]->get(name);
+    uint8_t byteBuf[len]; bzero(byteBuf, sizeof(byteBuf));
+    uint8_t* end = start + len - 1;
     if (BitHighLow()) {
         uint8_t* onemem = start;
         for (int i = 0; true; i ++) {
@@ -246,13 +243,11 @@ void Server::handleInputValue(Channel* clnt_channel) {
  */
 void Server::handleOutputValue(Channel* clnt_channel) {
     std::string name = clnt_channel->nextOrder();
-    std::string _sstart = clnt_channel->nextOrder();
-    std::string _send = clnt_channel->nextOrder();
 
     auto* loop = subloops[clnt_channel->getFd() % subloops.size()];
 
-    uint8_t* start = loop->memKV[clnt_channel->getName()][name].first + std::stoi(_sstart);
-    uint8_t* end =   loop->memKV[clnt_channel->getName()][name].first + std::stoi(_send);
+    auto [start, len] = loop->memKV[clnt_channel->getName()]->get(name);
+    uint8_t* end = start + len - 1;
 
     uint8_t byteBuf[end - start + 1];
     bzero(byteBuf, sizeof(byteBuf));
@@ -260,19 +255,29 @@ void Server::handleOutputValue(Channel* clnt_channel) {
         std::cout << "recv error\n";
     }
 
+    std::string newv(len, '0');
     if (BitHighLow()) {
-        uint8_t* onemem = start;
-        for (int i = 0; onemem - 1 != end; i ++) {
-            *onemem = byteBuf[i];
-            onemem ++;
+        // uint8_t* onemem = start;
+        // for (int i = 0; onemem - 1 != end; i ++) {
+        //     *onemem = byteBuf[i];
+        //     onemem ++;
+        // }
+        for (int i = 0; i < len; i ++) {
+            newv[i] = byteBuf[i];
         }
     } else {
-        uint8_t* onemem = end;
-        for (int i = 0; onemem + 1 != start; i ++) {
-            *onemem = byteBuf[i];
-            onemem --;
+        // uint8_t* onemem = end;
+        // for (int i = 0; onemem + 1 != start; i ++) {
+        //     *onemem = byteBuf[i];
+        //     onemem --;
+        // }
+        for (int i = 0; i < len; i ++) {
+            newv[len - i - 1] = byteBuf[i];
         }
     }
+
+    loop->memKV[clnt_channel->getName()]->put(name, newv);
+    
     clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);
@@ -294,13 +299,9 @@ void Server::handleFreeMemplace(Channel* clnt_channel) {
 
     auto* loop = subloops[clnt_channel->getFd() % subloops.size()];
 
-    mempool->deallocate(
-        loop->memKV[clnt_channel->getName()][name].first, 
-        loop->memKV[clnt_channel->getName()][name].second
-    );
     loop->opeMemKV(
         [&](){
-            loop->memKV[clnt_channel->getName()].erase(name);
+            loop->memKV[clnt_channel->getName()]->erase(name);
         }
     );
     clnt_channel->sWrite("OK");
