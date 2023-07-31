@@ -135,7 +135,6 @@ void Server::handleTaskChoose(Channel* clnt_channel) {
     std::string taskId = clnt_channel->nextOrder();
     std::function<void()> _cb;
 
-    std::cout << taskId << "\n";
     if (taskId == "NEW") {
         handleNewMemplace(clnt_channel);
     } else if (taskId == "GET") {
@@ -277,7 +276,7 @@ void Server::handleOutputValue(Channel* clnt_channel) {
     }
 
     loop->memKV[clnt_channel->getName()]->put(name, newv);
-    
+
     clnt_channel->sWrite("OK");
     std::function<void()> _cb = std::bind(&Server::handleTaskChoose, this, clnt_channel);
     clnt_channel->setCallback(_cb);

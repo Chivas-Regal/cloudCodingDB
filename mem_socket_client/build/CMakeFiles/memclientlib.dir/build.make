@@ -73,15 +73,15 @@ CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: CMakeFiles/memclientlib.
 CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: ../example/memclientlib.cpp
 CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o: CMakeFiles/memclientlib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -MF CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o.d -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -c /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -MF CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o.d -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.o -c /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp
 
 CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp > CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp > CMakeFiles/memclientlib.dir/example/memclientlib.cpp.i
 
 CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_client/example/memclientlib.cpp -o CMakeFiles/memclientlib.dir/example/memclientlib.cpp.s
 
 # Object files for target memclientlib
 memclientlib_OBJECTS = \

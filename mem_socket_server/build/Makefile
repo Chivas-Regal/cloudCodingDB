@@ -166,6 +166,19 @@ test_thread/fast:
 .PHONY : test_thread/fast
 
 #=============================================================================
+# Target rules for targets named test_sst_write_read
+
+# Build rule for target.
+test_sst_write_read: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_sst_write_read
+.PHONY : test_sst_write_read
+
+# fast build rule for target.
+test_sst_write_read/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/build
+.PHONY : test_sst_write_read/fast
+
+#=============================================================================
 # Target rules for targets named mem_socket_server
 
 # Build rule for target.
@@ -239,6 +252,30 @@ src/acceptor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/acceptor.cpp.s
 .PHONY : src/acceptor.cpp.s
 
+src/cache/lru.o: src/cache/lru.cpp.o
+.PHONY : src/cache/lru.o
+
+# target to build an object file
+src/cache/lru.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/cache/lru.cpp.o
+.PHONY : src/cache/lru.cpp.o
+
+src/cache/lru.i: src/cache/lru.cpp.i
+.PHONY : src/cache/lru.i
+
+# target to preprocess a source file
+src/cache/lru.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/cache/lru.cpp.i
+.PHONY : src/cache/lru.cpp.i
+
+src/cache/lru.s: src/cache/lru.cpp.s
+.PHONY : src/cache/lru.s
+
+# target to generate assembly for a file
+src/cache/lru.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/cache/lru.cpp.s
+.PHONY : src/cache/lru.cpp.s
+
 src/channel.o: src/channel.cpp.o
 .PHONY : src/channel.o
 
@@ -286,6 +323,54 @@ src/containers/trie.s: src/containers/trie.cpp.s
 src/containers/trie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/containers/trie.cpp.s
 .PHONY : src/containers/trie.cpp.s
+
+src/db/db.o: src/db/db.cpp.o
+.PHONY : src/db/db.o
+
+# target to build an object file
+src/db/db.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db.cpp.o
+.PHONY : src/db/db.cpp.o
+
+src/db/db.i: src/db/db.cpp.i
+.PHONY : src/db/db.i
+
+# target to preprocess a source file
+src/db/db.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db.cpp.i
+.PHONY : src/db/db.cpp.i
+
+src/db/db.s: src/db/db.cpp.s
+.PHONY : src/db/db.s
+
+# target to generate assembly for a file
+src/db/db.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db.cpp.s
+.PHONY : src/db/db.cpp.s
+
+src/db/db_impl.o: src/db/db_impl.cpp.o
+.PHONY : src/db/db_impl.o
+
+# target to build an object file
+src/db/db_impl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db_impl.cpp.o
+.PHONY : src/db/db_impl.cpp.o
+
+src/db/db_impl.i: src/db/db_impl.cpp.i
+.PHONY : src/db/db_impl.i
+
+# target to preprocess a source file
+src/db/db_impl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db_impl.cpp.i
+.PHONY : src/db/db_impl.cpp.i
+
+src/db/db_impl.s: src/db/db_impl.cpp.s
+.PHONY : src/db/db_impl.s
+
+# target to generate assembly for a file
+src/db/db_impl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/db/db_impl.cpp.s
+.PHONY : src/db/db_impl.cpp.s
 
 src/epoll.o: src/epoll.cpp.o
 .PHONY : src/epoll.o
@@ -358,6 +443,30 @@ src/inet_address.s: src/inet_address.cpp.s
 src/inet_address.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/inet_address.cpp.s
 .PHONY : src/inet_address.cpp.s
+
+src/lsmtree/manifest.o: src/lsmtree/manifest.cpp.o
+.PHONY : src/lsmtree/manifest.o
+
+# target to build an object file
+src/lsmtree/manifest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/lsmtree/manifest.cpp.o
+.PHONY : src/lsmtree/manifest.cpp.o
+
+src/lsmtree/manifest.i: src/lsmtree/manifest.cpp.i
+.PHONY : src/lsmtree/manifest.i
+
+# target to preprocess a source file
+src/lsmtree/manifest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/lsmtree/manifest.cpp.i
+.PHONY : src/lsmtree/manifest.cpp.i
+
+src/lsmtree/manifest.s: src/lsmtree/manifest.cpp.s
+.PHONY : src/lsmtree/manifest.s
+
+# target to generate assembly for a file
+src/lsmtree/manifest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/lsmtree/manifest.cpp.s
+.PHONY : src/lsmtree/manifest.cpp.s
 
 src/memtools/memlist.o: src/memtools/memlist.cpp.o
 .PHONY : src/memtools/memlist.o
@@ -551,6 +660,126 @@ src/socket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/socket.cpp.s
 .PHONY : src/socket.cpp.s
 
+src/sst/block.o: src/sst/block.cpp.o
+.PHONY : src/sst/block.o
+
+# target to build an object file
+src/sst/block.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/block.cpp.o
+.PHONY : src/sst/block.cpp.o
+
+src/sst/block.i: src/sst/block.cpp.i
+.PHONY : src/sst/block.i
+
+# target to preprocess a source file
+src/sst/block.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/block.cpp.i
+.PHONY : src/sst/block.cpp.i
+
+src/sst/block.s: src/sst/block.cpp.s
+.PHONY : src/sst/block.s
+
+# target to generate assembly for a file
+src/sst/block.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/block.cpp.s
+.PHONY : src/sst/block.cpp.s
+
+src/sst/entry.o: src/sst/entry.cpp.o
+.PHONY : src/sst/entry.o
+
+# target to build an object file
+src/sst/entry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/entry.cpp.o
+.PHONY : src/sst/entry.cpp.o
+
+src/sst/entry.i: src/sst/entry.cpp.i
+.PHONY : src/sst/entry.i
+
+# target to preprocess a source file
+src/sst/entry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/entry.cpp.i
+.PHONY : src/sst/entry.cpp.i
+
+src/sst/entry.s: src/sst/entry.cpp.s
+.PHONY : src/sst/entry.s
+
+# target to generate assembly for a file
+src/sst/entry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/entry.cpp.s
+.PHONY : src/sst/entry.cpp.s
+
+src/sst/footer.o: src/sst/footer.cpp.o
+.PHONY : src/sst/footer.o
+
+# target to build an object file
+src/sst/footer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/footer.cpp.o
+.PHONY : src/sst/footer.cpp.o
+
+src/sst/footer.i: src/sst/footer.cpp.i
+.PHONY : src/sst/footer.i
+
+# target to preprocess a source file
+src/sst/footer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/footer.cpp.i
+.PHONY : src/sst/footer.cpp.i
+
+src/sst/footer.s: src/sst/footer.cpp.s
+.PHONY : src/sst/footer.s
+
+# target to generate assembly for a file
+src/sst/footer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/footer.cpp.s
+.PHONY : src/sst/footer.cpp.s
+
+src/sst/slice.o: src/sst/slice.cpp.o
+.PHONY : src/sst/slice.o
+
+# target to build an object file
+src/sst/slice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/slice.cpp.o
+.PHONY : src/sst/slice.cpp.o
+
+src/sst/slice.i: src/sst/slice.cpp.i
+.PHONY : src/sst/slice.i
+
+# target to preprocess a source file
+src/sst/slice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/slice.cpp.i
+.PHONY : src/sst/slice.cpp.i
+
+src/sst/slice.s: src/sst/slice.cpp.s
+.PHONY : src/sst/slice.s
+
+# target to generate assembly for a file
+src/sst/slice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/slice.cpp.s
+.PHONY : src/sst/slice.cpp.s
+
+src/sst/table.o: src/sst/table.cpp.o
+.PHONY : src/sst/table.o
+
+# target to build an object file
+src/sst/table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/table.cpp.o
+.PHONY : src/sst/table.cpp.o
+
+src/sst/table.i: src/sst/table.cpp.i
+.PHONY : src/sst/table.i
+
+# target to preprocess a source file
+src/sst/table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/table.cpp.i
+.PHONY : src/sst/table.cpp.i
+
+src/sst/table.s: src/sst/table.cpp.s
+.PHONY : src/sst/table.s
+
+# target to generate assembly for a file
+src/sst/table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/sst/table.cpp.s
+.PHONY : src/sst/table.cpp.s
+
 src/threads/threadpool.o: src/threads/threadpool.cpp.o
 .PHONY : src/threads/threadpool.o
 
@@ -599,29 +828,101 @@ src/usrinfo/sqlmanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/usrinfo/sqlmanager.cpp.s
 .PHONY : src/usrinfo/sqlmanager.cpp.s
 
-src/util.o: src/util.cpp.o
-.PHONY : src/util.o
+src/utils/crc.o: src/utils/crc.cpp.o
+.PHONY : src/utils/crc.o
 
 # target to build an object file
-src/util.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/util.cpp.o
-.PHONY : src/util.cpp.o
+src/utils/crc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/crc.cpp.o
+.PHONY : src/utils/crc.cpp.o
 
-src/util.i: src/util.cpp.i
-.PHONY : src/util.i
+src/utils/crc.i: src/utils/crc.cpp.i
+.PHONY : src/utils/crc.i
 
 # target to preprocess a source file
-src/util.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/util.cpp.i
-.PHONY : src/util.cpp.i
+src/utils/crc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/crc.cpp.i
+.PHONY : src/utils/crc.cpp.i
 
-src/util.s: src/util.cpp.s
-.PHONY : src/util.s
+src/utils/crc.s: src/utils/crc.cpp.s
+.PHONY : src/utils/crc.s
 
 # target to generate assembly for a file
-src/util.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/util.cpp.s
-.PHONY : src/util.cpp.s
+src/utils/crc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/crc.cpp.s
+.PHONY : src/utils/crc.cpp.s
+
+src/utils/file.o: src/utils/file.cpp.o
+.PHONY : src/utils/file.o
+
+# target to build an object file
+src/utils/file.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/file.cpp.o
+.PHONY : src/utils/file.cpp.o
+
+src/utils/file.i: src/utils/file.cpp.i
+.PHONY : src/utils/file.i
+
+# target to preprocess a source file
+src/utils/file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/file.cpp.i
+.PHONY : src/utils/file.cpp.i
+
+src/utils/file.s: src/utils/file.cpp.s
+.PHONY : src/utils/file.s
+
+# target to generate assembly for a file
+src/utils/file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/file.cpp.s
+.PHONY : src/utils/file.cpp.s
+
+src/utils/utils.o: src/utils/utils.cpp.o
+.PHONY : src/utils/utils.o
+
+# target to build an object file
+src/utils/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/utils.cpp.o
+.PHONY : src/utils/utils.cpp.o
+
+src/utils/utils.i: src/utils/utils.cpp.i
+.PHONY : src/utils/utils.i
+
+# target to preprocess a source file
+src/utils/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/utils.cpp.i
+.PHONY : src/utils/utils.cpp.i
+
+src/utils/utils.s: src/utils/utils.cpp.s
+.PHONY : src/utils/utils.s
+
+# target to generate assembly for a file
+src/utils/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/utils/utils.cpp.s
+.PHONY : src/utils/utils.cpp.s
+
+src/wal/wal.o: src/wal/wal.cpp.o
+.PHONY : src/wal/wal.o
+
+# target to build an object file
+src/wal/wal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/wal/wal.cpp.o
+.PHONY : src/wal/wal.cpp.o
+
+src/wal/wal.i: src/wal/wal.cpp.i
+.PHONY : src/wal/wal.i
+
+# target to preprocess a source file
+src/wal/wal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/wal/wal.cpp.i
+.PHONY : src/wal/wal.cpp.i
+
+src/wal/wal.s: src/wal/wal.cpp.s
+.PHONY : src/wal/wal.s
+
+# target to generate assembly for a file
+src/wal/wal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/src/wal/wal.cpp.s
+.PHONY : src/wal/wal.cpp.s
 
 test/mempool.o: test/mempool.cpp.o
 .PHONY : test/mempool.o
@@ -671,6 +972,30 @@ test/sqlmanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlmanager.dir/build.make CMakeFiles/test_sqlmanager.dir/test/sqlmanager.cpp.s
 .PHONY : test/sqlmanager.cpp.s
 
+test/sst_write_read.o: test/sst_write_read.cpp.o
+.PHONY : test/sst_write_read.o
+
+# target to build an object file
+test/sst_write_read.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/test/sst_write_read.cpp.o
+.PHONY : test/sst_write_read.cpp.o
+
+test/sst_write_read.i: test/sst_write_read.cpp.i
+.PHONY : test/sst_write_read.i
+
+# target to preprocess a source file
+test/sst_write_read.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/test/sst_write_read.cpp.i
+.PHONY : test/sst_write_read.cpp.i
+
+test/sst_write_read.s: test/sst_write_read.cpp.s
+.PHONY : test/sst_write_read.s
+
+# target to generate assembly for a file
+test/sst_write_read.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/test/sst_write_read.cpp.s
+.PHONY : test/sst_write_read.cpp.s
+
 test/thread.o: test/thread.cpp.o
 .PHONY : test/thread.o
 
@@ -708,6 +1033,7 @@ help:
 	@echo "... memserverlib"
 	@echo "... test_mempool"
 	@echo "... test_sqlmanager"
+	@echo "... test_sst_write_read"
 	@echo "... test_thread"
 	@echo "... example/main.o"
 	@echo "... example/main.i"
@@ -715,12 +1041,21 @@ help:
 	@echo "... src/acceptor.o"
 	@echo "... src/acceptor.i"
 	@echo "... src/acceptor.s"
+	@echo "... src/cache/lru.o"
+	@echo "... src/cache/lru.i"
+	@echo "... src/cache/lru.s"
 	@echo "... src/channel.o"
 	@echo "... src/channel.i"
 	@echo "... src/channel.s"
 	@echo "... src/containers/trie.o"
 	@echo "... src/containers/trie.i"
 	@echo "... src/containers/trie.s"
+	@echo "... src/db/db.o"
+	@echo "... src/db/db.i"
+	@echo "... src/db/db.s"
+	@echo "... src/db/db_impl.o"
+	@echo "... src/db/db_impl.i"
+	@echo "... src/db/db_impl.s"
 	@echo "... src/epoll.o"
 	@echo "... src/epoll.i"
 	@echo "... src/epoll.s"
@@ -730,6 +1065,9 @@ help:
 	@echo "... src/inet_address.o"
 	@echo "... src/inet_address.i"
 	@echo "... src/inet_address.s"
+	@echo "... src/lsmtree/manifest.o"
+	@echo "... src/lsmtree/manifest.i"
+	@echo "... src/lsmtree/manifest.s"
 	@echo "... src/memtools/memlist.o"
 	@echo "... src/memtools/memlist.i"
 	@echo "... src/memtools/memlist.s"
@@ -754,21 +1092,48 @@ help:
 	@echo "... src/socket.o"
 	@echo "... src/socket.i"
 	@echo "... src/socket.s"
+	@echo "... src/sst/block.o"
+	@echo "... src/sst/block.i"
+	@echo "... src/sst/block.s"
+	@echo "... src/sst/entry.o"
+	@echo "... src/sst/entry.i"
+	@echo "... src/sst/entry.s"
+	@echo "... src/sst/footer.o"
+	@echo "... src/sst/footer.i"
+	@echo "... src/sst/footer.s"
+	@echo "... src/sst/slice.o"
+	@echo "... src/sst/slice.i"
+	@echo "... src/sst/slice.s"
+	@echo "... src/sst/table.o"
+	@echo "... src/sst/table.i"
+	@echo "... src/sst/table.s"
 	@echo "... src/threads/threadpool.o"
 	@echo "... src/threads/threadpool.i"
 	@echo "... src/threads/threadpool.s"
 	@echo "... src/usrinfo/sqlmanager.o"
 	@echo "... src/usrinfo/sqlmanager.i"
 	@echo "... src/usrinfo/sqlmanager.s"
-	@echo "... src/util.o"
-	@echo "... src/util.i"
-	@echo "... src/util.s"
+	@echo "... src/utils/crc.o"
+	@echo "... src/utils/crc.i"
+	@echo "... src/utils/crc.s"
+	@echo "... src/utils/file.o"
+	@echo "... src/utils/file.i"
+	@echo "... src/utils/file.s"
+	@echo "... src/utils/utils.o"
+	@echo "... src/utils/utils.i"
+	@echo "... src/utils/utils.s"
+	@echo "... src/wal/wal.o"
+	@echo "... src/wal/wal.i"
+	@echo "... src/wal/wal.s"
 	@echo "... test/mempool.o"
 	@echo "... test/mempool.i"
 	@echo "... test/mempool.s"
 	@echo "... test/sqlmanager.o"
 	@echo "... test/sqlmanager.i"
 	@echo "... test/sqlmanager.s"
+	@echo "... test/sst_write_read.o"
+	@echo "... test/sst_write_read.i"
+	@echo "... test/sst_write_read.s"
 	@echo "... test/thread.o"
 	@echo "... test/thread.i"
 	@echo "... test/thread.s"

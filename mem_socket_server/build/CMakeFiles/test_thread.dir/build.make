@@ -73,15 +73,15 @@ CMakeFiles/test_thread.dir/test/thread.cpp.o: CMakeFiles/test_thread.dir/flags.m
 CMakeFiles/test_thread.dir/test/thread.cpp.o: ../test/thread.cpp
 CMakeFiles/test_thread.dir/test/thread.cpp.o: CMakeFiles/test_thread.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_thread.dir/test/thread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_thread.dir/test/thread.cpp.o -MF CMakeFiles/test_thread.dir/test/thread.cpp.o.d -o CMakeFiles/test_thread.dir/test/thread.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_thread.dir/test/thread.cpp.o -MF CMakeFiles/test_thread.dir/test/thread.cpp.o.d -o CMakeFiles/test_thread.dir/test/thread.cpp.o -c /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp
 
 CMakeFiles/test_thread.dir/test/thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_thread.dir/test/thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp > CMakeFiles/test_thread.dir/test/thread.cpp.i
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp > CMakeFiles/test_thread.dir/test/thread.cpp.i
 
 CMakeFiles/test_thread.dir/test/thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_thread.dir/test/thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp -o CMakeFiles/test_thread.dir/test/thread.cpp.s
+	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_server/test/thread.cpp -o CMakeFiles/test_thread.dir/test/thread.cpp.s
 
 # Object files for target test_thread
 test_thread_OBJECTS = \

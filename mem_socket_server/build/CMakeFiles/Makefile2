@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/projects/cloudCodingDB/mem_socket_server/build
 all: CMakeFiles/test_mempool.dir/all
 all: CMakeFiles/test_sqlmanager.dir/all
 all: CMakeFiles/test_thread.dir/all
+all: CMakeFiles/test_sst_write_read.dir/all
 all: CMakeFiles/mem_socket_server.dir/all
 all: CMakeFiles/memserverlib.dir/all
 .PHONY : all
@@ -78,6 +79,7 @@ preinstall:
 clean: CMakeFiles/test_mempool.dir/clean
 clean: CMakeFiles/test_sqlmanager.dir/clean
 clean: CMakeFiles/test_thread.dir/clean
+clean: CMakeFiles/test_sst_write_read.dir/clean
 clean: CMakeFiles/mem_socket_server.dir/clean
 clean: CMakeFiles/memserverlib.dir/clean
 .PHONY : clean
@@ -89,12 +91,12 @@ clean: CMakeFiles/memserverlib.dir/clean
 CMakeFiles/test_mempool.dir/all: CMakeFiles/mem_socket_server.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mempool.dir/build.make CMakeFiles/test_mempool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_mempool.dir/build.make CMakeFiles/test_mempool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=21,22 "Built target test_mempool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=33,34 "Built target test_mempool"
 .PHONY : CMakeFiles/test_mempool.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_mempool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_mempool.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_mempool.dir/rule
@@ -115,12 +117,12 @@ CMakeFiles/test_mempool.dir/clean:
 CMakeFiles/test_sqlmanager.dir/all: CMakeFiles/mem_socket_server.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlmanager.dir/build.make CMakeFiles/test_sqlmanager.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlmanager.dir/build.make CMakeFiles/test_sqlmanager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=23,24 "Built target test_sqlmanager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=35,36 "Built target test_sqlmanager"
 .PHONY : CMakeFiles/test_sqlmanager.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_sqlmanager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_sqlmanager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_sqlmanager.dir/rule
@@ -141,12 +143,12 @@ CMakeFiles/test_sqlmanager.dir/clean:
 CMakeFiles/test_thread.dir/all: CMakeFiles/mem_socket_server.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_thread.dir/build.make CMakeFiles/test_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=25,26 "Built target test_thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=39,40 "Built target test_thread"
 .PHONY : CMakeFiles/test_thread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_thread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_thread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_thread.dir/rule
@@ -161,18 +163,44 @@ CMakeFiles/test_thread.dir/clean:
 .PHONY : CMakeFiles/test_thread.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/test_sst_write_read.dir
+
+# All Build rule for target.
+CMakeFiles/test_sst_write_read.dir/all: CMakeFiles/mem_socket_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=37,38 "Built target test_sst_write_read"
+.PHONY : CMakeFiles/test_sst_write_read.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_sst_write_read.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_sst_write_read.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
+.PHONY : CMakeFiles/test_sst_write_read.dir/rule
+
+# Convenience name for target.
+test_sst_write_read: CMakeFiles/test_sst_write_read.dir/rule
+.PHONY : test_sst_write_read
+
+# clean rule for target.
+CMakeFiles/test_sst_write_read.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sst_write_read.dir/build.make CMakeFiles/test_sst_write_read.dir/clean
+.PHONY : CMakeFiles/test_sst_write_read.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/mem_socket_server.dir
 
 # All Build rule for target.
 CMakeFiles/mem_socket_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mem_socket_server.dir/build.make CMakeFiles/mem_socket_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target mem_socket_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target mem_socket_server"
 .PHONY : CMakeFiles/mem_socket_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mem_socket_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mem_socket_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
 .PHONY : CMakeFiles/mem_socket_server.dir/rule
@@ -193,12 +221,12 @@ CMakeFiles/mem_socket_server.dir/clean:
 CMakeFiles/memserverlib.dir/all: CMakeFiles/mem_socket_server.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memserverlib.dir/build.make CMakeFiles/memserverlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/memserverlib.dir/build.make CMakeFiles/memserverlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=19,20 "Built target memserverlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles --progress-num=31,32 "Built target memserverlib"
 .PHONY : CMakeFiles/memserverlib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/memserverlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/memserverlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/cloudCodingDB/mem_socket_server/build/CMakeFiles 0
 .PHONY : CMakeFiles/memserverlib.dir/rule

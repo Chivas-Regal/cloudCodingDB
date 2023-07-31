@@ -73,15 +73,15 @@ CMakeFiles/localwork.dir/localwork.cpp.o: CMakeFiles/localwork.dir/flags.make
 CMakeFiles/localwork.dir/localwork.cpp.o: ../localwork.cpp
 CMakeFiles/localwork.dir/localwork.cpp.o: CMakeFiles/localwork.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/cloudCodingDB/mem_socket_client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/localwork.dir/localwork.cpp.o"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/localwork.dir/localwork.cpp.o -MF CMakeFiles/localwork.dir/localwork.cpp.o.d -o CMakeFiles/localwork.dir/localwork.cpp.o -c /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/localwork.dir/localwork.cpp.o -MF CMakeFiles/localwork.dir/localwork.cpp.o.d -o CMakeFiles/localwork.dir/localwork.cpp.o -c /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp
 
 CMakeFiles/localwork.dir/localwork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localwork.dir/localwork.cpp.i"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp > CMakeFiles/localwork.dir/localwork.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp > CMakeFiles/localwork.dir/localwork.cpp.i
 
 CMakeFiles/localwork.dir/localwork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localwork.dir/localwork.cpp.s"
-	/usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp -o CMakeFiles/localwork.dir/localwork.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/cloudCodingDB/mem_socket_client/localwork.cpp -o CMakeFiles/localwork.dir/localwork.cpp.s
 
 # Object files for target localwork
 localwork_OBJECTS = \

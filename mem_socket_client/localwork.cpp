@@ -77,9 +77,6 @@ int main (int argv, char* argc[]) {
 
         } else if (words[0] == "EXIT") {
 
-
-            for (auto s : new_var)
-                conn->memFree(s);
             conn->Exit();
             std::cout << "server> bye~\n";
             break;

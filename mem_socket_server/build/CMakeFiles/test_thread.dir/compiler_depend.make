@@ -194,7 +194,7 @@ CMakeFiles/test_thread.dir/test/thread.cpp.o: ../test/thread.cpp \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/bits/atomic_wait.h \
   /usr/include/c++/11/climits \
-  ../include/limits.h \
+  ../include/utils/limits.h \
   /usr/include/unistd.h \
   /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
   /usr/include/aarch64-linux-gnu/bits/environments.h \
@@ -345,8 +345,6 @@ CMakeFiles/test_thread.dir/test/thread.cpp.o: ../test/thread.cpp \
 /usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/wchar.h:
 
@@ -706,7 +704,9 @@ CMakeFiles/test_thread.dir/test/thread.cpp.o: ../test/thread.cpp \
 
 /usr/include/c++/11/bits/unique_lock.h:
 
-../include/limits.h:
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+../include/utils/limits.h:
 
 /usr/include/c++/11/bits/stl_algobase.h:
 

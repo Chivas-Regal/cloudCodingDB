@@ -16,11 +16,6 @@
 // server
 #include "option.h"
 
-struct t {
-    int x, y;
-    t (int _x, int _y) : x(_x), y(_y) {}
-};
-
 int main () {
     EventLoop *loop = new EventLoop();
     Server *serv = new Server(loop);
