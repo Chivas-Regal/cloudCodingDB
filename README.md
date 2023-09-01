@@ -61,6 +61,13 @@
 ### SST 文件结构
 
 ![cloudCodingDB-sst-file](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-sst-file.svg)
+<<<<<<< Updated upstream
+=======
+
+### LSM-tree ManiFest 记录结构
+
+![cloudCodingDB-lsmtree-manifest](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-lsmtree-manifest.svg)
+>>>>>>> Stashed changes
 
 
 <h1 align="center">服务端</h1>
