@@ -61,8 +61,6 @@
 ### SST 文件结构
 
 ![cloudCodingDB-sst-file](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-sst-file.svg)
-<<<<<<< Updated upstream
-=======
 
 ### LSM-tree ManiFest 记录结构
 
