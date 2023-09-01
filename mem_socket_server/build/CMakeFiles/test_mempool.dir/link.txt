@@ -1,1 +1,0 @@
-/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/test_mempool.dir/test/mempool.cpp.o -o test_mempool  -Wl,-rpath,/home/projects/cloudCodingDB/mem_socket_server/lib ../lib/libmem_socket_server.so -lmysqlclient -lpthread 
