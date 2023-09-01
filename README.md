@@ -56,11 +56,11 @@
 
 ### 整体框架
 
-![cloudCodingDB-all](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-all.svg)
+![](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-all.svg)
 
 ### SST 文件结构
 
-![cloudCodingDB.drawio](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB.drawio.svg)
+![cloudCodingDB-sst-file](https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/cloudCodingDB-sst-file.svg)
 
 
 <h1 align="center">服务端</h1>
